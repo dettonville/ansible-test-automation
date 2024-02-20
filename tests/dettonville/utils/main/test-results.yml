@@ -178,6 +178,23 @@ test_results:
           validate_results:
             failed: false
             msg: All assertions passed
+        '05':
+          test_collection_version: 2024.2.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: bf085e9
+          test_date: '2024-02-20T22:35:39Z'
+          test_description: list object - single key remove test
+          test_failed: false
+          test_job_link: ''
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
     sort_dict_list:
       test_date: '2024-02-20T22:35:39Z'
       test_failed: false
@@ -250,7 +267,7 @@ test_results:
           validate_results:
             failed: false
             msg: All assertions passed
-  test_count: '14'
+  test_count: '15'
   test_date: '2024-02-20T22:35:39Z'
   test_failed: false
   test_failed_count: 0
