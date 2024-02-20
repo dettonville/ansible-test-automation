@@ -5874,7 +5874,7 @@ test_results:
               __test_filter_result: []
             changed: false
             failed: false
-          test_date: '2024-02-20T22:30:37Z'
+          test_date: '2024-02-20T22:35:39Z'
           test_description: empty list sort test
           test_failed: false
           test_job_link: ''
@@ -5892,7 +5892,7 @@ test_results:
             ansible_python_interpreter: ''
             ansible_python_version: 3.12.2
             ansible_run_tags:
-            - sort_dict_list
+            - all
             ansible_user: ''
             ansible_version:
               full: 2.16.2
