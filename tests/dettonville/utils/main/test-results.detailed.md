@@ -1,3 +1,3 @@
  | test_case_count | test_collection | test_collection_version | test_component | test_job_link | test_component_git_branch | test_component_git_commit_hash | test_case_id | test_date | test_description | test_failed | test_details_link | 
  |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
- | 1 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 01 | 2024-02-20T22:13:34Z | single key sort test | False | [test details](./sort_dict_list/test.results/test_01/test-results.detailed.yml) | 
+ | 1 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 01 | 2024-02-20T22:30:37Z | single key sort test | False | [test details](./sort_dict_list/test.results/test_01/test-results.detailed.yml) | 
