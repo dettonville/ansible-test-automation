@@ -8,7 +8,6 @@ The scope of the test resources include (but is not limited) the following colle
 ```output
 dettonville
 └── utils
-    ├── plugins
-    └── roles
+    └── plugins
 
 ```
