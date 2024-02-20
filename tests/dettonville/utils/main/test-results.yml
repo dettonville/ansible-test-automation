@@ -1,5 +1,26 @@
 test_results:
   test_components:
+    git_pacp:
+      test_date: '2024-02-20T22:35:39Z'
+      test_failed: false
+      testcases:
+        '01':
+          test_collection_version: '*'
+          test_component_git_branch: main
+          test_component_git_commit_hash: bf085e9
+          test_date: '2024-02-20T22:35:39Z'
+          test_description: 'SSH - NO-OP - expect result with changed: false'
+          test_failed: false
+          test_job_link: ''
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
     sort_dict_list:
       test_date: '2024-02-20T22:30:37Z'
       test_failed: false
@@ -72,7 +93,7 @@ test_results:
           validate_results:
             failed: false
             msg: All assertions passed
-  test_count: '4'
-  test_date: '2024-02-20T22:30:37Z'
+  test_count: '5'
+  test_date: '2024-02-20T22:35:39Z'
   test_failed: false
   test_failed_count: 0
