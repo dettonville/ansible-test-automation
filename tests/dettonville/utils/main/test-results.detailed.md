@@ -6,7 +6,7 @@
  | 4 | dettonville.utils | * | git_pacp |  | main | bf085e9 | 04 | 2024-02-20T22:35:39Z | SSH - expect default `add` path work | False | [test details](./git_pacp/test.results/test_04/test-results.detailed.yml) | 
  | 5 | dettonville.utils | * | git_pacp |  | main | bf085e9 | 05 | 2024-02-20T22:35:39Z | SSH - add test file with remote alias defined | False | [test details](./git_pacp/test.results/test_05/test-results.detailed.yml) | 
  | 6 | dettonville.utils | * | git_pacp |  | main | bf085e9 | 06 | 2024-02-20T22:35:39Z | SSH - remove test file | False | [test details](./git_pacp/test.results/test_06/test-results.detailed.yml) | 
- | 7 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 01 | 2024-02-20T22:30:37Z | single key sort test | False | [test details](./sort_dict_list/test.results/test_01/test-results.detailed.yml) | 
+ | 7 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 01 | 2024-02-20T22:35:39Z | single key sort test | False | [test details](./sort_dict_list/test.results/test_01/test-results.detailed.yml) | 
  | 8 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 02 | 2024-02-20T22:30:37Z | single key sort test using list | False | [test details](./sort_dict_list/test.results/test_02/test-results.detailed.yml) | 
  | 9 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 03 | 2024-02-20T22:30:37Z | multi key sort test | False | [test details](./sort_dict_list/test.results/test_03/test-results.detailed.yml) | 
  | 10 | dettonville.utils | * | sort_dict_list |  | main | bf085e9 | 04 | 2024-02-20T22:30:37Z | empty list sort test | False | [test details](./sort_dict_list/test.results/test_04/test-results.detailed.yml) | 
