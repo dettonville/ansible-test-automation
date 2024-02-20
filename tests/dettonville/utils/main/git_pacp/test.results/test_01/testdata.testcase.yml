@@ -1,0 +1,14 @@
+test_data:
+  git_add:
+  - .
+  git_branch: main
+  git_comment: ' - SSH - NO-OP - expect result with changed: false'
+  git_path: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible.sv8azakl.test/test.dettonville.utils
+  git_ssh_params:
+    accept_hostkey: true
+    key_file: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible.sv8azakl.test/ansible_repo.key
+  git_url: git@github.com:dettonville/ansible-test-automation.git
+  test_description: 'SSH - NO-OP - expect result with changed: false'
+  test_expected:
+    changed: false
+    failed: false
