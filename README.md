@@ -9,5 +9,4 @@ The scope of the test resources include (but is not limited) the following colle
 dettonville
 └── utils
     └── plugins
-
 ```
