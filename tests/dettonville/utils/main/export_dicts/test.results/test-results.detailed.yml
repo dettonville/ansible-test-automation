@@ -1,14 +1,14 @@
 test_results:
   test_collection_version: '*'
-  test_component_git_commit_hash: c5914e1
+  test_component_git_commit_hash: 6bc59c6
   test_components:
     export_dicts:
       properties:
         test_case_id: '01'
         test_collection_version: '*'
         test_component_git_branch: main
-        test_component_git_commit_hash: c5914e1
-        test_date: '2025-07-02T12:45:53Z'
+        test_component_git_commit_hash: 6bc59c6
+        test_date: '2025-07-02T12:54:20Z'
         test_description: CSV test
         test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
@@ -47,18 +47,18 @@ test_results:
               key2: value42
               key3: value43
               key4: value44
-            file: /Users/ljohnson/.ansible/tmp/.test_jobs_76o7eqen/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
+            file: /Users/ljohnson/.ansible/tmp/.test_jobs_mz0ydl7m/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
             format: csv
           test_component_git_branch: main
-          test_component_git_commit_hash: c5914e157ebf6ed918b16de42c0104f14a002340
-          test_date: '2025-07-02T12:45:53Z'
+          test_component_git_commit_hash: 6bc59c6e881d573c4f77fe63a16fe58f7cda0a7e
+          test_date: '2025-07-02T12:54:20Z'
           test_description: CSV test
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
           test_result:
             changed: true
             failed: false
-            message: The csv file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_76o7eqen/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
+            message: The csv file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_mz0ydl7m/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
           test_runtime_info:
             ansible_connection: local
             ansible_controller_vars: {}
@@ -725,6 +725,6 @@ test_results:
               version: 3.20.2
             test_collection: dettonville.utils
             test_collection_version: '*'
-  test_date: '2025-07-02T12:45:53Z'
+  test_date: '2025-07-02T12:54:20Z'
   test_failed: false
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
