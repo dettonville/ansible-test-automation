@@ -14,19 +14,19 @@ test_suites:
         file:
         line:
         log:
-        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville.utils/tests/integration/targets
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
         stdout:
         stderr:
         is_enabled: true
         properties:
           test_case_id: '01'
-          test_collection_version: 2025.3.19
+          test_collection_version: '*'
           test_description: CSV test
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville.utils/tests/integration/targets
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: a41b20c
+          test_component_git_commit_hash: c5914e1
           test_failed: false
-          test_date: '2025-06-30T20:01:18Z'
+          test_date: '2025-07-02T12:45:53Z'
           assertions:
             validate_changed:
               failed: false

@@ -1,17 +1,17 @@
 test_results:
-  test_collection_version: 2025.3.19
-  test_component_git_commit_hash: a41b20c
+  test_collection_version: '*'
+  test_component_git_commit_hash: c5914e1
   test_components:
     export_dicts:
       properties:
         test_case_id: '01'
-        test_collection_version: 2025.3.19
+        test_collection_version: '*'
         test_component_git_branch: main
-        test_component_git_commit_hash: a41b20c
-        test_date: '2025-06-30T20:01:18Z'
+        test_component_git_commit_hash: c5914e1
+        test_date: '2025-07-02T12:45:53Z'
         test_description: CSV test
         test_failed: false
-        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville.utils/tests/integration/targets
+        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
       test_cases:
         '01':
           assertions:
@@ -28,7 +28,7 @@ test_results:
               failed: false
               msg: All assertions passed
           test_case_id: '01'
-          test_collection_version: 2025.3.19
+          test_collection_version: '*'
           test_component_args:
             export_list:
             - key1: value11
@@ -47,18 +47,18 @@ test_results:
               key2: value42
               key3: value43
               key4: value44
-            file: /Users/ljohnson/.ansible/tmp/.test_jobs_t_tsurox/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
+            file: /Users/ljohnson/.ansible/tmp/.test_jobs_76o7eqen/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
             format: csv
           test_component_git_branch: main
-          test_component_git_commit_hash: a41b20c2cca7f1695004d5653fbea49ceac1ee2d
-          test_date: '2025-06-30T20:01:18Z'
+          test_component_git_commit_hash: c5914e157ebf6ed918b16de42c0104f14a002340
+          test_date: '2025-07-02T12:45:53Z'
           test_description: CSV test
           test_failed: false
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville.utils/tests/integration/targets
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
           test_result:
             changed: true
             failed: false
-            message: The csv file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_t_tsurox/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
+            message: The csv file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_76o7eqen/test.dettonville.utils/tests/dettonville/utils/main/export_dicts/testrun/testdata.csv
           test_runtime_info:
             ansible_connection: local
             ansible_controller_vars: {}
@@ -66,10 +66,10 @@ test_results:
             ansible_distribution_release: 24.5.0
             ansible_distribution_version: '15.5'
             ansible_host: localhost
-            ansible_hostname: Lees-MBP
+            ansible_hostname: MacBookPro
             ansible_job_url: ''
             ansible_limit: []
-            ansible_nodename: Lees-MBP.johnson.int
+            ansible_nodename: MacBookPro.johnson.int
             ansible_os_family: Darwin
             ansible_python_interpreter: /Users/ljohnson/.pyenv/shims/python3
             ansible_python_version: 3.12.3
@@ -138,6 +138,12 @@ test_results:
             - name: attrs
               source: pip3
               version: 24.2.0
+            - name: autoflake
+              source: pip3
+              version: 2.3.1
+            - name: autopep8
+              source: pip3
+              version: 2.3.2
             - name: babel
               source: pip3
               version: 2.17.0
@@ -609,6 +615,9 @@ test_results:
             - name: ruamel.yaml.clib
               source: pip3
               version: 0.2.12
+            - name: ruff
+              source: pip3
+              version: 0.12.1
             - name: Send2Trash
               source: pip3
               version: 1.8.3
@@ -715,7 +724,7 @@ test_results:
               source: pip3
               version: 3.20.2
             test_collection: dettonville.utils
-            test_collection_version: 2025.3.19
-  test_date: '2025-06-30T20:01:18Z'
+            test_collection_version: '*'
+  test_date: '2025-07-02T12:45:53Z'
   test_failed: false
-  test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville.utils/tests/integration/targets
+  test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
