@@ -69,9 +69,9 @@ test_description: "SSH - add test file with explicit `add` path"
 - name: "Run test on dettonville.utils.test_results_logger"
   register: __test_component__test_result
   dettonville.utils.test_results_logger:
-    test_case_base_dir: /Users/ljohnson/.ansible/tmp/.test_jobs_0rd9dfqt/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/vars/tests
+    test_case_base_dir: /Users/ljohnson/.ansible/tmp/.test_jobs_xc6djsfq/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/vars/tests
     test_case_file_prefix: testdata_
-    test_results_dir: /Users/ljohnson/.ansible/tmp/.test_jobs_0rd9dfqt/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/test-results
+    test_results_dir: /Users/ljohnson/.ansible/tmp/.test_jobs_xc6djsfq/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/test-results
 
 
 - name: "Display __test_component__test_result"
@@ -92,7 +92,7 @@ TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: true
   failed: false
-  message: The test results file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_0rd9dfqt/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/test-results/junit-report.xml
+  message: The test results file has been created successfully at /Users/ljohnson/.ansible/tmp/.test_jobs_xc6djsfq/test.dettonville.utils/tests/dettonville/utils/main/test_results_logger/testrun/test-results/junit-report.xml
 
 
 ```
