@@ -1,6 +1,6 @@
 last_run_test_results:
   test_components:
-    test_results_logger:
+    export_dicts:
       test_cases:
         '01':
           assertions:
@@ -20,8 +20,248 @@ last_run_test_results:
           test_collection_version: 2025.3.19
           test_component_git_branch: main
           test_component_git_commit_hash: 99fb710
-          test_date: '2025-07-02T17:54:25Z'
-          test_description: init test
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: CSV test
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '02':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '02'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: CSV test - empty key value
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '03':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '03'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: CSV test - encoded string values
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '04':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '04'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: CSV test - export with specified columns
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '05':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '05'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: markdown test
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '06':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '06'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: markdown test - empty key value
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '07':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '07'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: markdown test - encoded string values
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        08:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: 08
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: markdown test - export with specified columns
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        09:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: 09
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: csv test - empty export list
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '10':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_msg:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '10'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: non-existing file directory test
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '11':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '11'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: markdown test - export with specified columns where rows
+            are missing values
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '12':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '12'
+          test_collection_version: 2025.3.19
+          test_component_git_branch: main
+          test_component_git_commit_hash: 99fb710
+          test_date: '2025-07-02T17:57:00Z'
+          test_description: implied file format
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
   test_failed: false

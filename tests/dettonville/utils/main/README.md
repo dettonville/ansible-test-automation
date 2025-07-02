@@ -16,6 +16,17 @@
 ### dettonville.utils.export_dicts Examples
 
 - [01: CSV test](export_dicts/test.results/test_01/test-use-case-example.md)
+- [02: CSV test - empty key value](export_dicts/test.results/test_02/test-use-case-example.md)
+- [03: CSV test - encoded string values](export_dicts/test.results/test_03/test-use-case-example.md)
+- [04: CSV test - export with specified columns](export_dicts/test.results/test_04/test-use-case-example.md)
+- [05: markdown test](export_dicts/test.results/test_05/test-use-case-example.md)
+- [06: markdown test - empty key value](export_dicts/test.results/test_06/test-use-case-example.md)
+- [07: markdown test - encoded string values](export_dicts/test.results/test_07/test-use-case-example.md)
+- [08: markdown test - export with specified columns](export_dicts/test.results/test_08/test-use-case-example.md)
+- [09: csv test - empty export list](export_dicts/test.results/test_09/test-use-case-example.md)
+- [10: non-existing file directory test](export_dicts/test.results/test_10/test-use-case-example.md)
+- [11: markdown test - export with specified columns where rows are missing values](export_dicts/test.results/test_11/test-use-case-example.md)
+- [12: implied file format](export_dicts/test.results/test_12/test-use-case-example.md)
 
 ### dettonville.utils.git_pacp Examples
 
