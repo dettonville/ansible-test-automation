@@ -1,3 +1,4 @@
 | test_case_count | test_collection | test_collection_version | test_component | test_job_link | test_component_git_branch | test_component_git_commit_hash | test_case_id | test_date | test_description | test_failed | test_details_link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | dettonville.utils | * | export_dicts | ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets | main | 6bc59c6 | 01 | 2025-07-02T12:54:20Z | CSV test | False | [test details](./export_dicts/test.results/test_01/test-results.detailed.yml) |
+| 2 | dettonville.utils | 2025.3.19 | test_results_logger | ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets | main | 99fb710 | 01 | 2025-07-02T17:54:25Z | init test | False | [test details](./test_results_logger/test.results/test_01/test-results.detailed.yml) |

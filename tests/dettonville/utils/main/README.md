@@ -25,3 +25,7 @@
 
 ### dettonville.utils.sort_dict_list Examples
 
+### dettonville.utils.test_results_logger Examples
+
+- [01: init test](test_results_logger/test.results/test_01/test-use-case-example.md)
+
