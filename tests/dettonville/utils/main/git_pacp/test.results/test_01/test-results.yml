@@ -1,0 +1,31 @@
+test_results:
+  git_pacp:
+    properties:
+      test_case_id: '01'
+      test_collection_version: 2025.7.2
+      test_component_git_branch: main
+      test_component_git_commit_hash: 97ff8d7
+      test_date: '2025-07-05T15:07:27Z'
+      test_description: 'SSH - NO-OP - expect result with changed: false'
+      test_failed: false
+      test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+    test_cases:
+      '01':
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
+        test_case_id: '01'
+        test_collection_version: 2025.7.2
+        test_component_git_branch: main
+        test_component_git_commit_hash: 97ff8d7
+        test_date: '2025-07-05T15:07:27Z'
+        test_description: 'SSH - NO-OP - expect result with changed: false'
+        test_failed: false
+        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
