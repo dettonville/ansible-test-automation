@@ -1102,12 +1102,12 @@ test_results:
             msg: All assertions passed
     test_results_logger:
       properties:
-        test_case_id: '01'
-        test_collection_version: 2025.3.19
+        test_case_id: '04'
+        test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 99fb710
-        test_date: '2025-07-02T17:54:25Z'
-        test_description: init test
+        test_component_git_commit_hash: 97ff8d7
+        test_date: '2025-07-05T18:37:20Z'
+        test_description: update nested test cases with junit report
         test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
       test_cases:
@@ -1126,14 +1126,80 @@ test_results:
               failed: false
               msg: All assertions passed
           test_case_id: '01'
-          test_collection_version: 2025.3.19
+          test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 99fb710
-          test_date: '2025-07-02T17:54:25Z'
+          test_component_git_commit_hash: 97ff8d7
+          test_date: '2025-07-05T18:37:20Z'
           test_description: init test
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
-  test_count: '19'
-  test_date: '2025-07-05T15:07:27Z'
+        '02':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '02'
+          test_collection_version: 2025.7.2
+          test_component_git_branch: main
+          test_component_git_commit_hash: 97ff8d7
+          test_date: '2025-07-05T18:37:20Z'
+          test_description: update test
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '03':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '03'
+          test_collection_version: 2025.7.2
+          test_component_git_branch: main
+          test_component_git_commit_hash: 97ff8d7
+          test_date: '2025-07-05T18:37:20Z'
+          test_description: update test cases with junit report
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        '04':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '04'
+          test_collection_version: 2025.7.2
+          test_component_git_branch: main
+          test_component_git_commit_hash: 97ff8d7
+          test_date: '2025-07-05T18:37:20Z'
+          test_description: update nested test cases with junit report
+          test_failed: false
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+  test_count: '22'
+  test_date: '2025-07-05T18:37:20Z'
   test_failed: false
   test_failed_count: 0
