@@ -1,0 +1,34 @@
+test_results:
+  test_results_logger:
+    properties:
+      test_case_id: '02'
+      test_collection_version: 2025.7.2
+      test_component_git_branch: main
+      test_component_git_commit_hash: 97ff8d7
+      test_date: '2025-07-05T18:37:20Z'
+      test_description: update test
+      test_failed: false
+      test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+    test_cases:
+      '02':
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_message:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
+        test_case_id: '02'
+        test_collection_version: 2025.7.2
+        test_component_git_branch: main
+        test_component_git_commit_hash: 97ff8d7
+        test_date: '2025-07-05T18:37:20Z'
+        test_description: update test
+        test_failed: false
+        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
