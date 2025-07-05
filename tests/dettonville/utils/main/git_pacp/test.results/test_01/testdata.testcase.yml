@@ -1,0 +1,14 @@
+test_data:
+  git_add:
+  - .
+  git_branch: main
+  git_comment: ' - SSH - NO-OP - expect result with changed: false'
+  git_path: /Users/ljohnson/.ansible/tmp/.test_jobs_4mz15b8v/test.dettonville.utils
+  git_ssh_params:
+    accept_hostkey: true
+    key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_4mz15b8v/ansible_repo.key
+  git_url: git@github.com:dettonville/ansible-test-automation.git
+  test_description: 'SSH - NO-OP - expect result with changed: false'
+  test_expected:
+    changed: false
+    failed: false
