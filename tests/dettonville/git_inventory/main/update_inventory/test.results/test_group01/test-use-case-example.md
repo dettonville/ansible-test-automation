@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_kp136fy3/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_e2jbtuep/ansible_repo.key
     use_vars_files: false
 
 
@@ -200,33 +200,35 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
+  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 842, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 39, in <module>\nImportError: cannot import name 'get_yaml_parser' from 'ansible_collections.dettonville.git_inventory.plugins.module_utils.git_inventory_parser'
-    (/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_parser.py).
-    Did you mean: 'git_yaml_parser'?\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 270, in __init__\nNameError: name 'yaml_config' is not defined. Did you mean:
+    'self.yaml_config'?\n"
   failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
+  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996249.6373272-87678-181716118709383/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1751996980.644477-95232-279697901725137/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 842, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 39, in <module>\nImportError: cannot import name 'get_yaml_parser' from 'ansible_collections.dettonville.git_inventory.plugins.module_utils.git_inventory_parser'
-    (/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_z_fydt31/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_parser.py).
-    Did you mean: 'git_yaml_parser'?\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_ljyot96i/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 270, in __init__\nNameError: name 'yaml_config' is not defined. Did you mean:
+    'self.yaml_config'?\n"
   module_stdout: ''
   msg: 'MODULE FAILURE: No start of json char found
 
