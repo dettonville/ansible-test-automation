@@ -925,9 +925,9 @@ test_suites:
           test_description: init test
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: a2b9676
-          test_failed: false
-          test_date: '2025-07-08T18:07:49Z'
+          test_component_git_commit_hash: 1bbdaff
+          test_failed: true
+          test_date: '2025-07-08T19:38:09Z'
           assertions:
             validate_changed:
               failed: false
@@ -939,15 +939,18 @@ test_suites:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
         skipped: []
         allow_multiple_subelements: false
       '02': !TestCase
         name: '02'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -956,16 +959,38 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: '02'
+          test_collection_version: 2025.7.2
+          test_component_git_branch: main
+          test_component_git_commit_hash: 1bbdaff
+          test_date: '2025-07-08T19:38:09Z'
+          test_description: update test
+          test_failed: true
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=test_results_logger:02 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       '03': !TestCase
         name: '03'
