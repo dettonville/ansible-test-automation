@@ -4,13 +4,13 @@ test_results:
   test_components:
     test_results_logger:
       properties:
-        test_case_id: '01'
+        test_case_id: '02'
         test_collection_version: 2025.7.2
         test_component_git_branch: main
         test_component_git_commit_hash: d55f00d
         test_date: '2025-07-08T20:11:10Z'
-        test_description: init test
-        test_failed: true
+        test_description: update test
+        test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
       test_cases:
         '01':
@@ -47,15 +47,15 @@ test_results:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
           test_case_id: '02'
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 1bbdaff
-          test_date: '2025-07-08T19:38:09Z'
+          test_component_git_commit_hash: d55f00d
+          test_date: '2025-07-08T20:11:10Z'
           test_description: update test
-          test_failed: true
+          test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
         '03':
           assertions:
@@ -102,5 +102,5 @@ test_results:
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
   test_date: '2025-07-08T20:11:10Z'
-  test_failed: true
+  test_failed: false
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
