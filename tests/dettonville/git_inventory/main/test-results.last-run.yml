@@ -19,8 +19,8 @@ last_run_test_results:
           test_case_id: group01
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 4f53b46
-          test_date: '2025-07-08T22:25:54Z'
+          test_component_git_commit_hash: 87595cd
+          test_date: '2025-07-08T22:29:06Z'
           test_description: Add groups
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets

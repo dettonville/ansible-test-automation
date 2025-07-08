@@ -1502,9 +1502,9 @@ test_suites:
           test_description: Add groups
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: 4f53b46
+          test_component_git_commit_hash: 87595cd
           test_failed: true
-          test_date: '2025-07-08T22:25:54Z'
+          test_date: '2025-07-08T22:29:06Z'
           assertions:
             validate_changed:
               failed: true
