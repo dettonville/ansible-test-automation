@@ -1,14 +1,14 @@
 test_results:
   test_collection_version: 2025.7.2
-  test_component_git_commit_hash: 4606bcb
+  test_component_git_commit_hash: 1bbdaff
   test_components:
     test_results_logger:
       properties:
         test_case_id: '01'
         test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 4606bcb
-        test_date: '2025-07-08T18:34:03Z'
+        test_component_git_commit_hash: 1bbdaff
+        test_date: '2025-07-08T19:38:09Z'
         test_description: init test
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
@@ -30,8 +30,8 @@ test_results:
           test_case_id: '01'
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 4606bcb
-          test_date: '2025-07-08T18:34:03Z'
+          test_component_git_commit_hash: 1bbdaff
+          test_date: '2025-07-08T19:38:09Z'
           test_description: init test
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
@@ -101,6 +101,6 @@ test_results:
           test_description: update nested test cases with junit report
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
-  test_date: '2025-07-08T18:34:03Z'
+  test_date: '2025-07-08T19:38:09Z'
   test_failed: true
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
