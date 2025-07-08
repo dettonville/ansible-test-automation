@@ -7,8 +7,8 @@
 				<property name="test_case_id" value="01"/>
 				<property name="test_collection_version" value="2025.7.2"/>
 				<property name="test_component_git_branch" value="main"/>
-				<property name="test_component_git_commit_hash" value="2b0f26f"/>
-				<property name="test_date" value="2025-07-06T14:02:19Z"/>
+				<property name="test_component_git_commit_hash" value="a2b9676"/>
+				<property name="test_date" value="2025-07-08T15:40:55Z"/>
 				<property name="test_description" value="CSV test"/>
 				<property name="test_failed" value="False"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets"/>

@@ -24,9 +24,9 @@ test_suites:
           test_description: CSV test
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: 2b0f26f
+          test_component_git_commit_hash: a2b9676
           test_failed: false
-          test_date: '2025-07-06T14:02:19Z'
+          test_date: '2025-07-08T15:40:55Z'
           assertions:
             validate_changed:
               failed: false
