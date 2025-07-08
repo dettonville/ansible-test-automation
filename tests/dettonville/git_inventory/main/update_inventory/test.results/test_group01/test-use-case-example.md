@@ -179,9 +179,10 @@ all:
     inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
     inventory_repo_branch: main
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
+    logging_level: DEBUG
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_j2xcjy2c/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_rsbrmi7z/ansible_repo.key
     use_vars_files: false
 
 
@@ -200,36 +201,66 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
+  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 475, in __init__\nTypeError: string indices must be integers, not 'str'\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 476, in __init__\nTypeError: string indices must be integers, not 'str'\n"
   failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
+  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752010562.3126311-89713-61011539158382/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752011526.085011-94623-256963176396790/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_r5r3muvt/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 475, in __init__\nTypeError: string indices must be integers, not 'str'\n"
-  module_stdout: 'INFO:root:GitInventoryUpdater.init(): inventory_repo_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryre5team9
-
-    '
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1035, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1031, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 992, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9kk3wvry/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 476, in __init__\nTypeError: string indices must be integers, not 'str'\n"
+  module_stdout: "DEBUG:root:GitInventoryUpdater.init(): loglevel=DEBUG\nDEBUG:root:GitInventoryUpdater.init():
+    module_name => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init():
+    module_fqcn => dettonville.git_inventory\nDEBUG:root:GitInventoryUpdater.init():
+    collection_version=None\nINFO:root:GitInventoryUpdater.init(): inventory_repo_dir
+    => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec\nDEBUG:root:GitInventoryUpdater.init():
+    inventory_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX\nDEBUG:root:GitInventoryUpdater.init():
+    inventory_file_path => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:GitInventoryUpdater.init():
+    git_comment_module_stamp => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init():
+    git_comment_prefix => AIM-2648\nDEBUG:root:GitInventoryUpdater.init(): git_comment_body
+    => None\nDEBUG:root:GitInventoryUpdater.init(): git_commit_message => AIM-2648 -
+    dettonville.git_inventory.update_inventory: updated inventory file tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:GitInventoryUpdater.init():
+    vars_state => merge\nDEBUG:root:GitInventoryUpdater.init(): vars_overwrite_depth
+    => 2\nDEBUG:root:GitInventoryUpdater.init(): use_vars_files => False\nDEBUG:root:GitInventoryUpdater.init():
+    global_groups_file => xenv_groups.yml\nDEBUG:root:GitInventoryUpdater.init(): create_empty_groupvars_files
+    => True\nDEBUG:root:GitInventoryUpdater.init(): create_empty_hostvars_files => False\nDEBUG:root:GitInventoryUpdater.init():
+    create_parent_groupvar_files => True\nDEBUG:root:GitInventoryUpdater.init(): always_add_child_group_to_root
+    => True\nDEBUG:root:GitInventoryUpdater.init(): always_add_host_to_root_hosts =>
+    False\nDEBUG:root:GitInventoryUpdater.init(): enable_groupvar_symlinks_for_child_inventories
+    => True\nDEBUG:root:GitInventoryUpdater.init(): enforce_global_groups_must_already_exist
+    => False\nDEBUG:root:GitInventoryUpdater.init(): symlink_subdirs => ['DEV', 'QA',
+    'PROD', 'SANDBOX']\nDEBUG:root:GitInventoryUpdater.init(): backup => False\nDEBUG:root:GitInventoryUpdater.init():
+    validate_inventory => True\nDEBUG:root:GitInventoryUpdater.init(): remove_repo_dir
+    => True\nDEBUG:root:GitInventoryUpdater.init(): test_mode => False\nDEBUG:root:GitInventoryUpdater.init():
+    git_repo_config => {'remote': 'origin',\n 'repo_branch': 'main',\n 'repo_dir': '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec',\n
+    'repo_url': 'git@github.com:dettonville/ansible-test-automation.git',\n 'ssh_params':
+    {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_rsbrmi7z/ansible_repo.key'},\n
+    'user_email': 'ansible@example.org',\n 'user_name': 'ansible'}\nDEBUG:root:GitInventoryUpdater.init():
+    cloning repo\nDEBUG:root:self.repo_url=git@github.com:dettonville/ansible-test-automation.git\nDEBUG:root:Git.clone():
+    started\nDEBUG:root:Git.clone(): command=['/usr/local/bin/git', 'clone', '--single-branch',
+    '--branch', 'main', '--depth=1', '--origin', 'origin', 'git@github.com:dettonville/ansible-test-automation.git',
+    '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec']\nDEBUG:root:Git.clone():
+    result => {}\nDEBUG:root:GitInventoryUpdater.init(): loading repo inventory file
+    from /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryibq5ogec/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\n"
   msg: 'MODULE FAILURE: No start of json char found
 
     See stdout/stderr for the exact error'
