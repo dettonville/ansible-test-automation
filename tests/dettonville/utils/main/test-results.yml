@@ -1102,12 +1102,12 @@ test_results:
             msg: All assertions passed
     test_results_logger:
       properties:
-        test_case_id: '04'
+        test_case_id: '01'
         test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 97ff8d7
-        test_date: '2025-07-05T18:37:20Z'
-        test_description: update nested test cases with junit report
+        test_component_git_commit_hash: a2b9676
+        test_date: '2025-07-08T18:07:49Z'
+        test_description: init test
         test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
       test_cases:
@@ -1128,8 +1128,8 @@ test_results:
           test_case_id: '01'
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 97ff8d7
-          test_date: '2025-07-05T18:37:20Z'
+          test_component_git_commit_hash: a2b9676
+          test_date: '2025-07-08T18:07:49Z'
           test_description: init test
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
@@ -1200,6 +1200,6 @@ test_results:
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
   test_count: '22'
-  test_date: '2025-07-08T15:40:55Z'
+  test_date: '2025-07-08T18:07:49Z'
   test_failed: false
   test_failed_count: 0

@@ -1,6 +1,6 @@
 last_run_test_results:
   test_components:
-    export_dicts:
+    test_results_logger:
       test_cases:
         '01':
           assertions:
@@ -20,8 +20,8 @@ last_run_test_results:
           test_collection_version: 2025.7.2
           test_component_git_branch: main
           test_component_git_commit_hash: a2b9676
-          test_date: '2025-07-08T15:40:55Z'
-          test_description: CSV test
+          test_date: '2025-07-08T18:07:49Z'
+          test_description: init test
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
   test_failed: false

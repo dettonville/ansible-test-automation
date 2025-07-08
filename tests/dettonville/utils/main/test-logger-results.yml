@@ -5,7 +5,7 @@ test_suites:
     test_cases:
       '01': !TestCase
         name: '01'
-        assertions: 4
+        assertions:
         elapsed_sec:
         timestamp:
         classname: export_dicts
@@ -14,35 +14,16 @@ test_suites:
         file:
         line:
         log:
-        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          test_case_id: '01'
-          test_collection_version: 2025.7.2
-          test_description: CSV test
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
-          test_component_git_branch: main
-          test_component_git_commit_hash: a2b9676
-          test_failed: false
-          test_date: '2025-07-08T15:40:55Z'
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:01 skipped
         allow_multiple_subelements: false
       '02': !TestCase
         name: '02'
@@ -925,7 +906,7 @@ test_suites:
     test_cases:
       '01': !TestCase
         name: '01'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -934,16 +915,35 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: '01'
+          test_collection_version: 2025.7.2
+          test_description: init test
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+          test_component_git_branch: main
+          test_component_git_commit_hash: a2b9676
+          test_failed: false
+          test_date: '2025-07-08T18:07:49Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
         failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=test_results_logger:01 skipped
+        skipped: []
         allow_multiple_subelements: false
       '02': !TestCase
         name: '02'
