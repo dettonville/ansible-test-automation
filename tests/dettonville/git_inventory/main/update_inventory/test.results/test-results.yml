@@ -1,40 +1,40 @@
 test_results:
   test_collection_version: 2025.7.2
-  test_component_git_commit_hash: 87595cd
+  test_component_git_commit_hash: 266968d
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 87595cd
-        test_date: '2025-07-08T22:29:06Z'
+        test_component_git_commit_hash: 266968d
+        test_date: '2025-07-08T22:33:15Z'
         test_description: Add groups
-        test_failed: true
+        test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
         group01:
           assertions:
             validate_changed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_failed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_message:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
           test_case_id: group01
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 87595cd
-          test_date: '2025-07-08T22:29:06Z'
+          test_component_git_commit_hash: 266968d
+          test_date: '2025-07-08T22:33:15Z'
           test_description: Add groups
-          test_failed: true
+          test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_date: '2025-07-08T22:29:06Z'
-  test_failed: true
+  test_date: '2025-07-08T22:33:15Z'
+  test_failed: false
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
