@@ -1,8 +1,12 @@
 
 # Ansible Test Automation
 
-The purpose of this repository is to store test automation artifacts including starting fixtures and/or test results 
-for the following dettonville ansible collections:
+The purpose of this repository is to store ansible integration test automation artifacts including:
+
+1) starting fixtures
+2) test results
+
+For the following dettonville ansible collections:
 
 - [dettonville.utils](https://github.com/dettonville/ansible-utils)
 - [dettonville.git_inventory](https://github.com/dettonville/ansible-git-inventory)
