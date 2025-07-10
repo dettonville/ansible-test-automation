@@ -184,7 +184,7 @@ all:
     logging_level: DEBUG
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ddahjfg7/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_29o0ue1_/ansible_repo.key
     use_vars_files: false
 
 
@@ -203,43 +203,45 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
+  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 305, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
-    no attribute 'test_mode'\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 308, in update_inventory\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 319, in update_git_repo\nAttributeError: 'GitInventoryUpdater' object has no
+    attribute 'inventory_file'. Did you mean: 'inventory_parser'?\n"
   failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
+  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172630.62538-39577-194890467958091/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172877.849063-43812-149260400656784/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_36hsvdx5/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 305, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
-    no attribute 'test_mode'\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 308, in update_inventory\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_9g8hgn8l/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 319, in update_git_repo\nAttributeError: 'GitInventoryUpdater' object has no
+    attribute 'inventory_file'. Did you mean: 'inventory_parser'?\n"
   module_stdout: "DEBUG:root:GitInventoryUpdater.init(): loglevel=DEBUG\nDEBUG:root:GitInventoryUpdater.init():
     module_name => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init():
     module_fqcn => dettonville.git_inventory\nDEBUG:root:GitInventoryUpdater.init():
     collection_version=None\nDEBUG:root:GitInventoryUpdater.init(): inventory_repo_dir
-    => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc\nDEBUG:root:GitInventoryUpdater.load_git_repo():
-    git_repo_config => {'remote': 'origin',\n 'repo_branch': 'main',\n 'repo_dir': '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc',\n
+    => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5\nDEBUG:root:GitInventoryUpdater.load_git_repo():
+    git_repo_config => {'remote': 'origin',\n 'repo_branch': 'main',\n 'repo_dir': '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5',\n
     'repo_url': 'git@github.com:dettonville/ansible-test-automation.git',\n 'ssh_params':
-    {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_ddahjfg7/ansible_repo.key'},\n
+    {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_29o0ue1_/ansible_repo.key'},\n
     'user_email': 'ansible@dettonville.org',\n 'user_name': 'ansible'}\nDEBUG:root:GitInventoryUpdater.load_git_repo():
     git_comment_module_stamp => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.load_git_repo():
     git_comment_prefix => PR-2648\nDEBUG:root:GitInventoryUpdater.load_git_repo(): git_comment_body
@@ -248,11 +250,11 @@ ok: [localhost] =>
     cloning repo\nDEBUG:root:self.repo_url=git@github.com:dettonville/ansible-test-automation.git\nDEBUG:root:Git.clone():
     started\nDEBUG:root:Git.clone(): command=['/usr/local/bin/git', 'clone', '--single-branch',
     '--branch', 'main', '--depth=1', '--origin', 'origin', 'git@github.com:dettonville/ansible-test-automation.git',
-    '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc']\nDEBUG:root:Git.clone():
+    '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5']\nDEBUG:root:Git.clone():
     result => {}\nDEBUG:root:InventoryParser.init(): loglevel=INFO\nINFO:root:InventoryParser.init():
-    inventory_repo_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc\nDEBUG:root:InventoryParser.init():
-    inventory_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX\nDEBUG:root:InventoryParser.init():
-    inventory_file_path => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
+    inventory_repo_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5\nDEBUG:root:InventoryParser.init():
+    inventory_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX\nDEBUG:root:InventoryParser.init():
+    inventory_file_path => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
     inventory_root_yaml_key=all\nDEBUG:root:InventoryParser.init(): vars_state => merge\nDEBUG:root:InventoryParser.init():
     vars_overwrite_depth => 2\nDEBUG:root:InventoryParser.init(): use_vars_files =>
     False\nDEBUG:root:InventoryParser.init(): global_groups_file => xenv_groups.yml\nDEBUG:root:InventoryParser.init():
@@ -265,7 +267,7 @@ ok: [localhost] =>
     'SANDBOX']\nDEBUG:root:InventoryParser.init(): backup => False\nDEBUG:root:InventoryParser.init():
     validate_inventory => True\nDEBUG:root:InventoryParser.init(): remove_repo_dir =>
     True\nDEBUG:root:InventoryParser.init(): test_mode => False\nDEBUG:root:InventoryParser.init():
-    loading repo inventory file from /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
+    loading repo inventory file from /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
     self.inventory_yaml={'all': {'children': {'environment_test': {'hosts': {'app01.qa.site1.example.int':
     {}, 'app02.qa.site1.example.int': {}, 'web01.qa.site1.example.int': {}, 'web02.qa.site1.example.int':
     {}, 'admin01.qa.site1.example.int': {}, 'admin02.qa.site1.example.int': {}}, 'vars':
@@ -408,8 +410,8 @@ ok: [localhost] =>
     group => {'group_name': 'ocp_prod_s4',\n 'group_vars': {'ocp_environment': 'prod',
     'ocp_site': 's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_prod_s4):
     group_children => None\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
-    tmpfile=/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/tmpttx7c3_8\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
-    yamllint => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryig2bpqtc/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
+    tmpfile=/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/tmpjmaz028g\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
+    yamllint => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_0bbb0k5/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
     yaml_lint_errors => []\n"
   msg: 'MODULE FAILURE: No start of json char found
 
