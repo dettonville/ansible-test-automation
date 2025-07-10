@@ -184,7 +184,7 @@ all:
     logging_level: DEBUG
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ee9extpq/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_cdv8xjvr/ansible_repo.key
     use_vars_files: false
 
 
@@ -203,43 +203,43 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
+  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1038, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1034, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1022, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 289, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
-    no attribute 'state'\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 302, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
+    no attribute 'test_mode'\n"
   failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
+  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
     line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752171899.419774-31224-205764382132697/AnsiballZ_update_inventory.py\",
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1752172429.833778-35451-279512855217701/AnsiballZ_update_inventory.py\",
     line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1038, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1034, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1022, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_pevhu2ck/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 289, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
-    no attribute 'state'\n"
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1037, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1033, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1021, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_m4y0hsk0/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 302, in update_inventory\nAttributeError: 'GitInventoryUpdater' object has
+    no attribute 'test_mode'\n"
   module_stdout: "DEBUG:root:GitInventoryUpdater.init(): loglevel=DEBUG\nDEBUG:root:GitInventoryUpdater.init():
     module_name => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init():
     module_fqcn => dettonville.git_inventory\nDEBUG:root:GitInventoryUpdater.init():
     collection_version=None\nDEBUG:root:GitInventoryUpdater.init(): inventory_repo_dir
-    => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j\nDEBUG:root:GitInventoryUpdater.load_git_repo():
-    git_repo_config => {'remote': 'origin',\n 'repo_branch': 'main',\n 'repo_dir': '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j',\n
+    => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22\nDEBUG:root:GitInventoryUpdater.load_git_repo():
+    git_repo_config => {'remote': 'origin',\n 'repo_branch': 'main',\n 'repo_dir': '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22',\n
     'repo_url': 'git@github.com:dettonville/ansible-test-automation.git',\n 'ssh_params':
-    {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_ee9extpq/ansible_repo.key'},\n
+    {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_cdv8xjvr/ansible_repo.key'},\n
     'user_email': 'ansible@dettonville.org',\n 'user_name': 'ansible'}\nDEBUG:root:GitInventoryUpdater.load_git_repo():
     git_comment_module_stamp => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.load_git_repo():
     git_comment_prefix => PR-2648\nDEBUG:root:GitInventoryUpdater.load_git_repo(): git_comment_body
@@ -248,11 +248,11 @@ ok: [localhost] =>
     cloning repo\nDEBUG:root:self.repo_url=git@github.com:dettonville/ansible-test-automation.git\nDEBUG:root:Git.clone():
     started\nDEBUG:root:Git.clone(): command=['/usr/local/bin/git', 'clone', '--single-branch',
     '--branch', 'main', '--depth=1', '--origin', 'origin', 'git@github.com:dettonville/ansible-test-automation.git',
-    '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j']\nDEBUG:root:Git.clone():
+    '/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22']\nDEBUG:root:Git.clone():
     result => {}\nDEBUG:root:InventoryParser.init(): loglevel=INFO\nINFO:root:InventoryParser.init():
-    inventory_repo_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j\nDEBUG:root:InventoryParser.init():
-    inventory_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX\nDEBUG:root:InventoryParser.init():
-    inventory_file_path => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
+    inventory_repo_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22\nDEBUG:root:InventoryParser.init():
+    inventory_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX\nDEBUG:root:InventoryParser.init():
+    inventory_file_path => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
     inventory_root_yaml_key=all\nDEBUG:root:InventoryParser.init(): vars_state => merge\nDEBUG:root:InventoryParser.init():
     vars_overwrite_depth => 2\nDEBUG:root:InventoryParser.init(): use_vars_files =>
     False\nDEBUG:root:InventoryParser.init(): global_groups_file => xenv_groups.yml\nDEBUG:root:InventoryParser.init():
@@ -265,7 +265,7 @@ ok: [localhost] =>
     'SANDBOX']\nDEBUG:root:InventoryParser.init(): backup => False\nDEBUG:root:InventoryParser.init():
     validate_inventory => True\nDEBUG:root:InventoryParser.init(): remove_repo_dir =>
     True\nDEBUG:root:InventoryParser.init(): test_mode => False\nDEBUG:root:InventoryParser.init():
-    loading repo inventory file from /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory73aw9j3j/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
+    loading repo inventory file from /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.init():
     self.inventory_yaml={'all': {'children': {'environment_test': {'hosts': {'app01.qa.site1.example.int':
     {}, 'app02.qa.site1.example.int': {}, 'web01.qa.site1.example.int': {}, 'web02.qa.site1.example.int':
     {}, 'admin01.qa.site1.example.int': {}, 'admin02.qa.site1.example.int': {}}, 'vars':
@@ -288,7 +288,129 @@ ok: [localhost] =>
     {'jira_id': 'PR-1101'}, 'trace_var': 'host_vars/web01.qa.site1.example.int'}, 'web02.qa.site1.example.int':
     {'provisioning_data': {'infra_group': 'DCC', 'jira_id': 'PR-1102'}, 'trace_var':
     'host_vars/web02.qa.site1.example.int'}}}}\nDEBUG:root:InventoryParser.init(): finished\nDEBUG:root:GitInventoryUpdater.init():
-    finished\n"
+    finished\nDEBUG:root:InventoryParser.update_group(admin_qa_site1): group => {'group_name':
+    'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n 'parent_groups': ['vmware_flavor_large',\n
+    \                  'ntp_server',\n                   'nfs_server',\n                   'ldap_server']}\nDEBUG:root:InventoryParser.update_group_vars(admin_qa_site1):
+    group => {'group_name': 'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n
+    'parent_groups': ['vmware_flavor_large',\n                   'ntp_server',\n                   'nfs_server',\n
+    \                  'ldap_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group => {'group_name': 'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n
+    'parent_groups': ['vmware_flavor_large',\n                   'ntp_server',\n                   'nfs_server',\n
+    \                  'ldap_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group => {'group_name': 'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n
+    'parent_groups': ['vmware_flavor_large',\n                   'ntp_server',\n                   'nfs_server',\n
+    \                  'ldap_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group => {'group_name': 'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n
+    'parent_groups': ['vmware_flavor_large',\n                   'ntp_server',\n                   'nfs_server',\n
+    \                  'ldap_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group => {'group_name': 'admin_qa_site1',\n 'group_vars': {'infra_group': 'DCC'},\n
+    'parent_groups': ['vmware_flavor_large',\n                   'ntp_server',\n                   'nfs_server',\n
+    \                  'ldap_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(admin_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.update_group_vars(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group => {'group_name': 'webapp01_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp01_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.update_group_vars(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group => {'group_name': 'webapp02_qa_site1',\n 'group_vars': {'app_version': 2023086},\n
+    'parent_groups': ['vmware_flavor_small',\n                   'ntp_client',\n                   'nfs_client',\n
+    \                  'ldap_client',\n                   'web_server']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(webapp02_qa_site1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_common): group
+    => {'group_name': 'ocp_common',\n 'group_vars': {'ocp_namespace_configuration':
+    ['name1', 'name2']}}\nDEBUG:root:InventoryParser.update_group_vars(ocp_common):
+    group => {'group_name': 'ocp_common',\n 'group_vars': {'ocp_namespace_configuration':
+    ['name1', 'name2']}}\nDEBUG:root:InventoryParser.update_group(ocp_dev_s1): group
+    => {'group_name': 'ocp_dev_s1',\n 'group_vars': {'ocp_environment': 'dev', 'ocp_site':
+    's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_dev_s1):
+    group => {'group_name': 'ocp_dev_s1',\n 'group_vars': {'ocp_environment': 'dev',
+    'ocp_site': 's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_dev_s1):
+    group => {'group_name': 'ocp_dev_s1',\n 'group_vars': {'ocp_environment': 'dev',
+    'ocp_site': 's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_dev_s1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_qa_s1): group
+    => {'group_name': 'ocp_qa_s1',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_qa_s1):
+    group => {'group_name': 'ocp_qa_s1',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_qa_s1):
+    group => {'group_name': 'ocp_qa_s1',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_qa_s1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_prod_s1): group
+    => {'group_name': 'ocp_prod_s1',\n 'group_vars': {'ocp_environment': 'prod', 'ocp_site':
+    's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_prod_s1):
+    group => {'group_name': 'ocp_prod_s1',\n 'group_vars': {'ocp_environment': 'prod',
+    'ocp_site': 's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_prod_s1):
+    group => {'group_name': 'ocp_prod_s1',\n 'group_vars': {'ocp_environment': 'prod',
+    'ocp_site': 's1'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_prod_s1):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_dev_s4): group
+    => {'group_name': 'ocp_dev_s4',\n 'group_vars': {'ocp_environment': 'dev', 'ocp_site':
+    's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_dev_s4):
+    group => {'group_name': 'ocp_dev_s4',\n 'group_vars': {'ocp_environment': 'dev',
+    'ocp_site': 's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_dev_s4):
+    group => {'group_name': 'ocp_dev_s4',\n 'group_vars': {'ocp_environment': 'dev',
+    'ocp_site': 's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_dev_s4):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_qa_s4): group
+    => {'group_name': 'ocp_qa_s4',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_qa_s4):
+    group => {'group_name': 'ocp_qa_s4',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_qa_s4):
+    group => {'group_name': 'ocp_qa_s4',\n 'group_vars': {'ocp_environment': 'qa', 'ocp_site':
+    's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_qa_s4):
+    group_children => None\nDEBUG:root:InventoryParser.update_group(ocp_prod_s4): group
+    => {'group_name': 'ocp_prod_s4',\n 'group_vars': {'ocp_environment': 'prod', 'ocp_site':
+    's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.update_group_vars(ocp_prod_s4):
+    group => {'group_name': 'ocp_prod_s4',\n 'group_vars': {'ocp_environment': 'prod',
+    'ocp_site': 's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_prod_s4):
+    group => {'group_name': 'ocp_prod_s4',\n 'group_vars': {'ocp_environment': 'prod',
+    'ocp_site': 's4'},\n 'parent_groups': ['ocp_common']}\nDEBUG:root:InventoryParser.add_group_to_parent_group(ocp_prod_s4):
+    group_children => None\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
+    tmpfile=/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/tmpcz67h7ar\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
+    yamllint => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorytxgm0l22/tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml\nDEBUG:root:InventoryParser.update_yaml_file(hosts.yml):
+    yaml_lint_errors => []\n"
   msg: 'MODULE FAILURE: No start of json char found
 
     See stdout/stderr for the exact error'
