@@ -7,36 +7,36 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 266968d
-        test_date: '2025-07-08T22:33:15Z'
+        test_component_git_commit_hash: c1e2b09
+        test_date: '2025-07-10T16:32:19Z'
         test_description: Add groups
-        test_failed: false
+        test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
         group01:
           assertions:
             validate_changed:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_failed:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_message:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_results:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Difference found between test_results and test_expected!
           test_case_id: group01
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 266968d
-          test_date: '2025-07-08T22:33:15Z'
+          test_component_git_commit_hash: c1e2b09
+          test_date: '2025-07-10T16:32:19Z'
           test_description: Add groups
-          test_failed: false
+          test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
   test_count: '1'
-  test_date: '2025-07-08T22:33:15Z'
-  test_failed: false
-  test_failed_count: 0
+  test_date: '2025-07-10T16:32:19Z'
+  test_failed: true
+  test_failed_count: '1'
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
