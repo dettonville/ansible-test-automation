@@ -14,7 +14,13 @@ For the following dettonville ansible collections:
 The scope of the test resources include (but is not limited) the following collection plugins and/or roles:
 
 ```output
-dettonville
-└── utils
-    └── plugins
+tree -A -d -L 3 tests
+tests
+└── dettonville
+    ├── git_inventory
+    │   └── main
+    └── utils
+        └── main
+
+6 directories
 ```
