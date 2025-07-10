@@ -29,7 +29,7 @@ test_results:
         test_component_args:
           always_add_child_group_to_root: true
           enforce_global_groups_must_already_exist: false
-          git_comment_prefix: AIM-2648
+          git_comment_prefix: PR-2648
           git_user_email: ansible@dettonville.org
           git_user_name: ansible
           group_list:
@@ -157,9 +157,9 @@ test_results:
             'ssh_params': {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_qhg_dmhp/ansible_repo.key'},\n
             'user_email': 'ansible@dettonville.org',\n 'user_name': 'ansible'}\nDEBUG:root:GitInventoryUpdater.init_git_vars():
             git_comment_module_stamp => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init_git_vars():
-            git_comment_prefix => AIM-2648\nDEBUG:root:GitInventoryUpdater.init_git_vars():
+            git_comment_prefix => PR-2648\nDEBUG:root:GitInventoryUpdater.init_git_vars():
             git_comment_body => None\nDEBUG:root:GitInventoryUpdater.init_git_vars():
-            git_commit_message => AIM-2648 - dettonville.git_inventory.update_inventory:
+            git_commit_message => PR-2648 - dettonville.git_inventory.update_inventory:
             updated inventory\nDEBUG:root:GitInventoryUpdater.init_git_vars(): cloning
             repo\nDEBUG:root:self.repo_url=git@github.com:dettonville/ansible-test-automation.git\nDEBUG:root:Git.clone():
             started\nDEBUG:root:Git.clone(): command=['/usr/local/bin/git', 'clone',

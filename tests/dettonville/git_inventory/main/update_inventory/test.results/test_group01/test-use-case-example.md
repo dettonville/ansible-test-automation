@@ -87,12 +87,12 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        jira_id: AIM-1101
+        jira_id: PR-1101
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
         infra_group: DCC
-        jira_id: AIM-1102
+        jira_id: PR-1102
       trace_var: host_vars/web02.qa.site1.example.int
 ```
 
@@ -107,7 +107,7 @@ all:
   dettonville.git_inventory.update_inventory:
     always_add_child_group_to_root: true
     enforce_global_groups_must_already_exist: false
-    git_comment_prefix: AIM-2648
+    git_comment_prefix: PR-2648
     git_user_email: ansible@dettonville.org
     git_user_name: ansible
     group_list:
@@ -243,9 +243,9 @@ ok: [localhost] =>
     {'accept_hostkey': True,\n                'key_file': '/Users/ljohnson/.ansible/tmp/.test_jobs_qhg_dmhp/ansible_repo.key'},\n
     'user_email': 'ansible@dettonville.org',\n 'user_name': 'ansible'}\nDEBUG:root:GitInventoryUpdater.init_git_vars():
     git_comment_module_stamp => dettonville.git_inventory.update_inventory\nDEBUG:root:GitInventoryUpdater.init_git_vars():
-    git_comment_prefix => AIM-2648\nDEBUG:root:GitInventoryUpdater.init_git_vars():
+    git_comment_prefix => PR-2648\nDEBUG:root:GitInventoryUpdater.init_git_vars():
     git_comment_body => None\nDEBUG:root:GitInventoryUpdater.init_git_vars(): git_commit_message
-    => AIM-2648 - dettonville.git_inventory.update_inventory: updated inventory\nDEBUG:root:GitInventoryUpdater.init_git_vars():
+    => PR-2648 - dettonville.git_inventory.update_inventory: updated inventory\nDEBUG:root:GitInventoryUpdater.init_git_vars():
     cloning repo\nDEBUG:root:self.repo_url=git@github.com:dettonville/ansible-test-automation.git\nDEBUG:root:Git.clone():
     started\nDEBUG:root:Git.clone(): command=['/usr/local/bin/git', 'clone', '--single-branch',
     '--branch', 'main', '--depth=1', '--origin', 'origin', 'git@github.com:dettonville/ansible-test-automation.git',
@@ -417,12 +417,12 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        jira_id: AIM-1101
+        jira_id: PR-1101
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
         infra_group: DCC
-        jira_id: AIM-1102
+        jira_id: PR-1102
       trace_var: host_vars/web02.qa.site1.example.int
 
 ```
