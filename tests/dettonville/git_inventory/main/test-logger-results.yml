@@ -1502,9 +1502,9 @@ test_suites:
           test_description: Add groups
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: acc97fd
+          test_component_git_commit_hash: 80a17c9
           test_failed: true
-          test_date: '2025-07-10T18:40:44Z'
+          test_date: '2025-07-10T18:54:39Z'
           assertions:
             validate_changed:
               failed: true
@@ -1516,12 +1516,12 @@ test_suites:
               failed: true
               msg: Assertion failed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
         errors: []
         failures:
         - message:
-          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          output: "validate_message: {'failed': True, 'msg': 'Assertion failed'}"
           type:
         skipped: []
         allow_multiple_subelements: false
