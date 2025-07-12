@@ -1,14 +1,14 @@
 test_results:
   test_collection_version: 2025.7.2
-  test_component_git_commit_hash: 6301e35
+  test_component_git_commit_hash: f47f2bb
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.7.2
         test_component_git_branch: main
-        test_component_git_commit_hash: 6301e35
-        test_date: '2025-07-10T18:59:58Z'
+        test_component_git_commit_hash: f47f2bb
+        test_date: '2025-07-12T13:15:49Z'
         test_description: Add groups
         test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -30,11 +30,11 @@ test_results:
           test_case_id: group01
           test_collection_version: 2025.7.2
           test_component_git_branch: main
-          test_component_git_commit_hash: 6301e35
-          test_date: '2025-07-10T18:59:58Z'
+          test_component_git_commit_hash: f47f2bb
+          test_date: '2025-07-12T13:15:49Z'
           test_description: Add groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_date: '2025-07-10T18:59:58Z'
+  test_date: '2025-07-12T13:15:49Z'
   test_failed: false
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
