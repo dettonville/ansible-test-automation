@@ -204,14 +204,14 @@
 			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined05 skipped</skipped>
 		</testcase>
 		<testcase name="group01" assertions="4" classname="update_inventory" url="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets">
-			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<failure type="failure">validate_message: {'failed': True, 'msg': 'Assertion failed'}</failure>
 			<properties>
-				<property name="assertions" value="{'validate_changed': {'failed': True, 'msg': 'Assertion failed'}, 'validate_failed': {'failed': True, 'msg': 'Assertion failed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
 				<property name="test_case_id" value="group01"/>
 				<property name="test_collection_version" value="2025.7.2"/>
 				<property name="test_component_git_branch" value="main"/>
-				<property name="test_component_git_commit_hash" value="48bd324"/>
-				<property name="test_date" value="2025-07-24T17:03:45Z"/>
+				<property name="test_component_git_commit_hash" value="4cc6517"/>
+				<property name="test_date" value="2025-07-24T17:30:19Z"/>
 				<property name="test_description" value="Add groups"/>
 				<property name="test_failed" value="True"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>
