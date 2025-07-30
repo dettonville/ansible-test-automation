@@ -5,10 +5,10 @@
 			<properties>
 				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
 				<property name="test_case_id" value="01"/>
-				<property name="test_collection_version" value="2025.7.2"/>
+				<property name="test_collection_version" value="2025.7.30"/>
 				<property name="test_component_git_branch" value="main"/>
-				<property name="test_component_git_commit_hash" value="c84bdf4"/>
-				<property name="test_date" value="2025-07-25T17:50:04Z"/>
+				<property name="test_component_git_commit_hash" value="f83d682"/>
+				<property name="test_date" value="2025-07-30T20:24:18Z"/>
 				<property name="test_description" value="CSV test"/>
 				<property name="test_failed" value="False"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets"/>
