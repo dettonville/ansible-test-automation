@@ -4,3 +4,4 @@
 | 6 | dettonville.utils | 2025.7.30 | git_pacp | 2025-08-02T02:54:33Z | False | [test details](./git_pacp/test.results/test-results.md) |
 | 10 | dettonville.utils | 2025.7.30 | remove_dict_keys | 2025-08-02T02:54:33Z | False | [test details](./remove_dict_keys/test.results/test-results.md) |
 | 6 | dettonville.utils | 2025.7.30 | remove_sensitive_keys | 2025-08-02T02:54:33Z | False | [test details](./remove_sensitive_keys/test.results/test-results.md) |
+| 4 | dettonville.utils | 2025.7.30 | sort_dict_list | 2025-08-02T02:54:33Z | False | [test details](./sort_dict_list/test.results/test-results.md) |
