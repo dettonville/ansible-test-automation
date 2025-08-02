@@ -1,0 +1,23 @@
+test_data:
+  git_branch: main
+  git_comment: ' - SSH - remove test file'
+  git_path: /home/jenkins/agent/workspace/ible-utils_run-module-tests_main/test-results
+  git_ssh_params:
+    accept_hostkey: true
+    key_file: /home/jenkins/agent/workspace/ible-utils_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_sae3xm11/ansible_repo.key
+    ssh_opts: -o UserKnownHostsFile=/dev/null
+  git_url: git@github.com:dettonville/ansible-test-automation.git
+  test_description: SSH - remove test file
+  test_expected:
+    changed: true
+    failed: false
+  test_files:
+  - file_path: host_vars/testhost124.yml
+    state: absent
+  test_start_data:
+  - content:
+      appname: app123
+    file_path: group_vars/app123.yml
+  - content:
+      linux_firewalld__enabled: true
+    file_path: host_vars/testhost124.yml
