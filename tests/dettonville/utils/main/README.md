@@ -28,3 +28,12 @@
 - [11: markdown test - export with specified columns where rows are missing values](export_dicts/test.results/test_11/test-use-case-example.md)
 - [12: implied file format](export_dicts/test.results/test_12/test-use-case-example.md)
 
+### dettonville.utils.git_pacp Examples
+
+- [01: SSH - NO-OP - expect result with changed: false](git_pacp/test.results/test_01/test-use-case-example.md)
+- [02: SSH - add test file](git_pacp/test.results/test_02/test-use-case-example.md)
+- [03: SSH - add test file with explicit `add` path](git_pacp/test.results/test_03/test-use-case-example.md)
+- [04: SSH - expect default `add` path work](git_pacp/test.results/test_04/test-use-case-example.md)
+- [05: SSH - add test file with remote alias defined](git_pacp/test.results/test_05/test-use-case-example.md)
+- [06: SSH - remove test file](git_pacp/test.results/test_06/test-use-case-example.md)
+
