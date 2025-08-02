@@ -50,3 +50,12 @@
 - [09: dict object - deep key remove test using ansible_facts](remove_dict_keys/test.results/test_09/test-use-case-example.md)
 - [10: dict object - deep key remove test using ansible_facts](remove_dict_keys/test.results/test_10/test-use-case-example.md)
 
+### dettonville.utils.remove_sensitive_keys Examples
+
+- [01: dict object - remove sensitive keys](remove_sensitive_keys/test.results/test_01/test-use-case-example.md)
+- [02: dict object - remove additional sensitive keys with additional_key_patterns defined](remove_sensitive_keys/test.results/test_02/test-use-case-example.md)
+- [03: dict object - remove sensitive keys with key_patterns explicitly defined](remove_sensitive_keys/test.results/test_03/test-use-case-example.md)
+- [04: dict object - remove sensitive keys with both key_patterns and additional_key_patterns defined](remove_sensitive_keys/test.results/test_04/test-use-case-example.md)
+- [05: list object - remove sensitive keys](remove_sensitive_keys/test.results/test_05/test-use-case-example.md)
+- [06: dict object - remove sensitive keys](remove_sensitive_keys/test.results/test_06/test-use-case-example.md)
+
