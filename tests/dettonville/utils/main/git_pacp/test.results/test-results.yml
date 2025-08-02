@@ -4,12 +4,12 @@ test_results:
   test_components:
     git_pacp:
       properties:
-        test_case_id: '03'
+        test_case_id: '04'
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: fead686
         test_date: '2025-08-02T02:54:33Z'
-        test_description: SSH - add test file with explicit `add` path
+        test_description: SSH - expect default `add` path work
         test_failed: false
         test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/107/)'
       test_cases:
@@ -68,6 +68,25 @@ test_results:
           test_component_git_commit_hash: fead686
           test_date: '2025-08-02T02:54:33Z'
           test_description: SSH - add test file with explicit `add` path
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/107/)'
+        '04':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '04'
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: fead686
+          test_date: '2025-08-02T02:54:33Z'
+          test_description: SSH - expect default `add` path work
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/107/)'
   test_date: '2025-08-02T02:54:33Z'
