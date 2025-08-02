@@ -1,2 +1,0 @@
-test_case_count,test_collection,test_collection_version,test_component,test_job_link,test_component_git_branch,test_component_git_commit_hash,test_case_id,test_date,test_description,test_failed,test_details_link
-1,dettonville.git_inventory,2025.7.30,update_inventory,ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets,main,6c90a24,group01,2025-08-02T14:21:23Z,Add groups,False,[test details](./update_inventory/test.results/test_group01/test-results.detailed.yml)
