@@ -19,6 +19,2933 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group01
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group02: !TestCase
+        name: group02
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group02
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group03: !TestCase
+        name: group03
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group03
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Overwrite groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group04: !TestCase
+        name: group04
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group04
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group05: !TestCase
+        name: group05
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group05
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: No change - update group with exact same info as current config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group06: !TestCase
+        name: group06
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group06
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove group that does not exist
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group07: !TestCase
+        name: group07
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group07
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update group with children groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group08: !TestCase
+        name: group08
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group08
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with children groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group09: !TestCase
+        name: group09
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group09
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with complex dict vars (e.g., dict of list of dicts)
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group10: !TestCase
+        name: group10
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group10
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with variable name references using raw/unsafe directive
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group11: !TestCase
+        name: group11
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group11
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add group with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group12: !TestCase
+        name: group12
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group12
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add and update groups with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group13: !TestCase
+        name: group13
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group13
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group14: !TestCase
+        name: group14
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group14
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Overwrite vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group15: !TestCase
+        name: group15
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group15
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove groups with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group16: !TestCase
+        name: group16
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group16
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups to hierarchical groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group17: !TestCase
+        name: group17
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group17
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add nested dict group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group18: !TestCase
+        name: group18
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group18
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update nested dict group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group19: !TestCase
+        name: group19
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group19
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite nested dict group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group20: !TestCase
+        name: group20
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group20
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update (append/extend) list group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group21: !TestCase
+        name: group21
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group21
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite list dict group var using vars_overwrite_depth=1
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group22: !TestCase
+        name: group22
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group22
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group23: !TestCase
+        name: group23
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group23
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=3
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group24: !TestCase
+        name: group24
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group24
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=4
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group25: !TestCase
+        name: group25
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group25
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with parent inventory_dir specified
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group26: !TestCase
+        name: group26
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group26
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add group with empty vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group27: !TestCase
+        name: group27
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group27
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with system_name and system_env
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group28: !TestCase
+        name: group28
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group28
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with system_name and system_env using groups list format
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group29: !TestCase
+        name: group29
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group29
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups with parent inventory_dir specified
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group30: !TestCase
+        name: group30
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group30
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups to global groups file
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group31: !TestCase
+        name: group31
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group31
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add groups to xenv_groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group32: !TestCase
+        name: group32
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group32
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Set git comment body
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
+  update_hosts: !TestSuite
+    name: update_hosts
+    test_cases:
+      host01: !TestCase
+        name: host01
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host01
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host02: !TestCase
+        name: host02
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host02
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update hosts
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host03: !TestCase
+        name: host03
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host03
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Overwrite hosts
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host04: !TestCase
+        name: host04
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host04
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove Hosts
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host05: !TestCase
+        name: host05
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host05
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: No change - update host with exact same info as current config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_message: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host06: !TestCase
+        name: host06
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host06
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove Host that does not exist
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_message: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host07: !TestCase
+        name: host07
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host07
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with complex dict vars (e.g., dict of list of dicts)
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host08: !TestCase
+        name: host08
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host08
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with variable name references using raw/unsafe directive
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host09: !TestCase
+        name: host09
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host09
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add host with vars in host_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host10: !TestCase
+        name: host10
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host10
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add and update hosts with vars in host_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host11: !TestCase
+        name: host11
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host11
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update vars in host_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host12: !TestCase
+        name: host12
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host12
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Overwrite vars in host_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host13: !TestCase
+        name: host13
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host13
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Remove hosts with vars in host_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host14: !TestCase
+        name: host14
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host14
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts to hierarchical groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host15: !TestCase
+        name: host15
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host15
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add nested dict host var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host16: !TestCase
+        name: host16
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host16
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update nested dict host var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host17: !TestCase
+        name: host17
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host17
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite nested dict group var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host18: !TestCase
+        name: host18
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host18
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update (append/extend) list host var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host19: !TestCase
+        name: host19
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host19
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite list dict host var using vars_overwrite_depth=1
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host20: !TestCase
+        name: host20
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host20
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict host var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host21: !TestCase
+        name: host21
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host21
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=3
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host22: !TestCase
+        name: host22
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host22
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=4
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host23: !TestCase
+        name: host23
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host23
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Update existing host variable
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host24: !TestCase
+        name: host24
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host24
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with empty vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host25: !TestCase
+        name: host25
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host25
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with empty vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host26: !TestCase
+        name: host26
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host26
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add host with empty group
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host27: !TestCase
+        name: host27
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host27
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts - validate hosts are inserted in sort order
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host28: !TestCase
+        name: host28
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host28
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with global groups enforcement
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      host29: !TestCase
+        name: host29
+        assertions: 3
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_msg:
+              failed: true
+              msg: Assertion failed
+          test_case_id: host29
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_date: '2025-08-02T14:53:32Z'
+          test_description: Add hosts with global groups enforcement that should fail due to missing global group
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        errors: []
+        failures:
+        - message:
+          output: "validate_msg: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
+  update_inventory: !TestSuite
+    name: update_inventory
+    test_cases:
+      combined01: !TestCase
+        name: combined01
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: combined01
+          test_collection_version: 2025.7.30
+          test_description: Add groups and hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      combined02: !TestCase
+        name: combined02
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: combined02
+          test_collection_version: 2025.7.30
+          test_description: Update groups and hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      combined03: !TestCase
+        name: combined03
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: combined03
+          test_collection_version: 2025.7.30
+          test_description: Overwrite groups and hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      combined04: !TestCase
+        name: combined04
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: combined04
+          test_collection_version: 2025.7.30
+          test_description: Remove groups and hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      combined05: !TestCase
+        name: combined05
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: combined05
+          test_collection_version: 2025.7.30
+          test_description: Add groups and hosts using var files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
+        allow_multiple_subelements: false
+      group01: !TestCase
+        name: group01
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
           test_case_id: group01
           test_collection_version: 2025.7.30
           test_description: Add groups
@@ -52,7 +2979,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -96,7 +3023,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -140,7 +3067,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -184,7 +3111,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -228,7 +3155,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -272,7 +3199,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -316,7 +3243,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -360,7 +3287,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -404,7 +3331,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -448,7 +3375,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -492,7 +3419,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -536,7 +3463,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -580,7 +3507,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -624,7 +3551,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -668,7 +3595,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -712,7 +3639,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -756,7 +3683,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -800,7 +3727,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -844,7 +3771,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -888,7 +3815,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -932,7 +3859,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -976,7 +3903,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1020,7 +3947,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1064,7 +3991,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1108,7 +4035,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1152,7 +4079,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1196,7 +4123,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1240,7 +4167,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1284,7 +4211,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1328,7 +4255,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1372,7 +4299,7 @@ test_suites:
         assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_groups
+        classname: update_inventory
         status:
         category:
         file:
@@ -1411,673 +4338,1241 @@ test_suites:
           type:
         skipped: []
         allow_multiple_subelements: false
-    timestamp:
-    hostname:
-    id:
-    package:
-    file:
-    log:
-    url:
-    stdout:
-    stderr:
-    properties:
-  update_hosts: !TestSuite
-    name: update_hosts
-    test_cases:
       host01: !TestCase
         name: host01
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host01
+          test_collection_version: 2025.7.30
+          test_description: Add hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host01 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host02: !TestCase
         name: host02
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host02
+          test_collection_version: 2025.7.30
+          test_description: Update hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host02 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host03: !TestCase
         name: host03
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host03
+          test_collection_version: 2025.7.30
+          test_description: Overwrite hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host03 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host04: !TestCase
         name: host04
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host04
+          test_collection_version: 2025.7.30
+          test_description: Remove Hosts
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host04 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host05: !TestCase
         name: host05
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host05
+          test_collection_version: 2025.7.30
+          test_description: No change - update host with exact same info as current config
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host05 skipped
+          output: "validate_message: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host06: !TestCase
         name: host06
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host06
+          test_collection_version: 2025.7.30
+          test_description: Remove Host that does not exist
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host06 skipped
+          output: "validate_message: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host07: !TestCase
         name: host07
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host07
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with complex dict vars (e.g., dict of list of dicts)
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host07 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host08: !TestCase
         name: host08
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host08
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with variable name references using raw/unsafe directive
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host08 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host09: !TestCase
         name: host09
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host09
+          test_collection_version: 2025.7.30
+          test_description: Add host with vars in host_vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host09 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host10: !TestCase
         name: host10
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host10
+          test_collection_version: 2025.7.30
+          test_description: Add and update hosts with vars in host_vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host10 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host11: !TestCase
         name: host11
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host11
+          test_collection_version: 2025.7.30
+          test_description: Update vars in host_vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host11 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host12: !TestCase
         name: host12
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host12
+          test_collection_version: 2025.7.30
+          test_description: Overwrite vars in host_vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host12 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host13: !TestCase
         name: host13
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host13
+          test_collection_version: 2025.7.30
+          test_description: Remove hosts with vars in host_vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host13 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host14: !TestCase
         name: host14
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host14
+          test_collection_version: 2025.7.30
+          test_description: Add hosts to hierarchical groups
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host14 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host15: !TestCase
         name: host15
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host15
+          test_collection_version: 2025.7.30
+          test_description: Add nested dict host var
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host15 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host16: !TestCase
         name: host16
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host16
+          test_collection_version: 2025.7.30
+          test_description: Update nested dict host var
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host16 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host17: !TestCase
         name: host17
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host17
+          test_collection_version: 2025.7.30
+          test_description: Vars overwrite nested dict group var
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host17 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host18: !TestCase
         name: host18
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host18
+          test_collection_version: 2025.7.30
+          test_description: Update (append/extend) list host var
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host18 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host19: !TestCase
         name: host19
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host19
+          test_collection_version: 2025.7.30
+          test_description: Vars overwrite list dict host var using vars_overwrite_depth=1
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host19 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host20: !TestCase
         name: host20
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host20
+          test_collection_version: 2025.7.30
+          test_description: Vars overwrite for deep nested dict host var
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host20 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host21: !TestCase
         name: host21
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host21
+          test_collection_version: 2025.7.30
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=3
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host21 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host22: !TestCase
         name: host22
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host22
+          test_collection_version: 2025.7.30
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=4
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host22 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host23: !TestCase
         name: host23
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host23
+          test_collection_version: 2025.7.30
+          test_description: Update existing host variable
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host23 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host24: !TestCase
         name: host24
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host24
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with empty vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host24 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host25: !TestCase
         name: host25
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host25
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with empty vars files
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host25 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host26: !TestCase
         name: host26
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host26
+          test_collection_version: 2025.7.30
+          test_description: Add host with empty group
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host26 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host27: !TestCase
         name: host27
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host27
+          test_collection_version: 2025.7.30
+          test_description: Add hosts - validate hosts are inserted in sort order
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host27 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host28: !TestCase
         name: host28
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
-        classname: update_hosts
+        classname: update_inventory
         status:
         category:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host28
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with global groups enforcement
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_hosts:host28 skipped
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
       host29: !TestCase
         name: host29
-        assertions:
-        elapsed_sec:
-        timestamp:
-        classname: update_hosts
-        status:
-        category:
-        file:
-        line:
-        log:
-        url:
-        stdout:
-        stderr:
-        is_enabled: true
-        properties: {}
-        errors: []
-        failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=update_hosts:host29 skipped
-        allow_multiple_subelements: false
-    timestamp:
-    hostname:
-    id:
-    package:
-    file:
-    log:
-    url:
-    stdout:
-    stderr:
-    properties:
-  update_inventory: !TestSuite
-    name: update_inventory
-    test_cases:
-      combined01: !TestCase
-        name: combined01
-        assertions:
+        assertions: 3
         elapsed_sec:
         timestamp:
         classname: update_inventory
@@ -2086,104 +5581,35 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: host29
+          test_collection_version: 2025.7.30
+          test_description: Add hosts with global groups enforcement that should fail due to missing global group
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9f7c157
+          test_failed: true
+          test_date: '2025-08-02T14:53:32Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_msg:
+              failed: true
+              msg: Assertion failed
         errors: []
-        failures: []
-        skipped:
+        failures:
         - message:
-          output: test_suite_id:test_case_id=update_inventory:combined01 skipped
-        allow_multiple_subelements: false
-      combined02: !TestCase
-        name: combined02
-        assertions:
-        elapsed_sec:
-        timestamp:
-        classname: update_inventory
-        status:
-        category:
-        file:
-        line:
-        log:
-        url:
-        stdout:
-        stderr:
-        is_enabled: true
-        properties: {}
-        errors: []
-        failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=update_inventory:combined02 skipped
-        allow_multiple_subelements: false
-      combined03: !TestCase
-        name: combined03
-        assertions:
-        elapsed_sec:
-        timestamp:
-        classname: update_inventory
-        status:
-        category:
-        file:
-        line:
-        log:
-        url:
-        stdout:
-        stderr:
-        is_enabled: true
-        properties: {}
-        errors: []
-        failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=update_inventory:combined03 skipped
-        allow_multiple_subelements: false
-      combined04: !TestCase
-        name: combined04
-        assertions:
-        elapsed_sec:
-        timestamp:
-        classname: update_inventory
-        status:
-        category:
-        file:
-        line:
-        log:
-        url:
-        stdout:
-        stderr:
-        is_enabled: true
-        properties: {}
-        errors: []
-        failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=update_inventory:combined04 skipped
-        allow_multiple_subelements: false
-      combined05: !TestCase
-        name: combined05
-        assertions:
-        elapsed_sec:
-        timestamp:
-        classname: update_inventory
-        status:
-        category:
-        file:
-        line:
-        log:
-        url:
-        stdout:
-        stderr:
-        is_enabled: true
-        properties: {}
-        errors: []
-        failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=update_inventory:combined05 skipped
+          output: "validate_msg: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
     timestamp:
     hostname:
