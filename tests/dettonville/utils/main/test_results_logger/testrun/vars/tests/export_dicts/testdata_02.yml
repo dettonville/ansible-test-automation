@@ -1,3 +1,0 @@
----
-test_description: "CSV test - empty key value"
-test_file_format: "csv"
