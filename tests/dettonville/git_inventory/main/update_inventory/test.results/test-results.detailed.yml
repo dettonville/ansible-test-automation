@@ -1,14 +1,14 @@
 test_results:
-  test_collection_version: 2025.7.2
-  test_component_git_commit_hash: '2038842'
+  test_collection_version: 2025.7.30
+  test_component_git_commit_hash: 6c90a24
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
-        test_collection_version: 2025.7.2
+        test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: '2038842'
-        test_date: '2025-07-24T17:40:41Z'
+        test_component_git_commit_hash: 6c90a24
+        test_date: '2025-08-02T14:21:23Z'
         test_description: Add groups
         test_failed: false
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -28,7 +28,7 @@ test_results:
               failed: false
               msg: All assertions passed
           test_case_id: group01
-          test_collection_version: 2025.7.2
+          test_collection_version: 2025.7.30
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
@@ -108,11 +108,11 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_aekby1f6/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_8urn_p_y/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 2038842ca917c395178f58347ea47ac4fca8ceb2
-          test_date: '2025-07-24T17:40:41Z'
+          test_component_git_commit_hash: 6c90a245a28c9bae08eb81fe4074794f428efa9d
+          test_date: '2025-08-02T14:21:23Z'
           test_description: Add groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -121,14 +121,14 @@ test_results:
             changed: true
             check_mode: false
             failed: false
-            git.commit: "[main 7977fe3] PR-2648 - dettonville.git_inventory.update_inventory:
+            git.commit: "[main 96505f1] PR-2648 - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: 'Already up to date.
 
               '
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   d5fb8cf..7977fe3
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   2a237a3..96505f1
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorydgrhaxg1
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryh5yk2fwc
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -137,12 +137,12 @@ test_results:
             ansible_distribution_release: 24.5.0
             ansible_distribution_version: '15.5'
             ansible_host: localhost
-            ansible_hostname: lees-mbp
+            ansible_hostname: Lees-MacBook-Pro
             ansible_job_url: ''
             ansible_limit: []
-            ansible_nodename: lees-mbp.johnson.int
+            ansible_nodename: Lees-MacBook-Pro.local
             ansible_os_family: Darwin
-            ansible_python_interpreter: /Users/ljohnson/.pyenv/shims/python3
+            ansible_python_interpreter: python3
             ansible_python_version: 3.12.3
             ansible_run_tags:
             - update_inventory
@@ -819,7 +819,7 @@ test_results:
               source: pip3
               version: 3.20.2
             test_collection: dettonville.git_inventory
-            test_collection_version: 2025.7.2
-  test_date: '2025-07-24T17:40:41Z'
+            test_collection_version: 2025.7.30
+  test_date: '2025-08-02T14:21:23Z'
   test_failed: false
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets

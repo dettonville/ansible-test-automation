@@ -17,10 +17,10 @@ last_run_test_results:
               failed: false
               msg: All assertions passed
           test_case_id: group01
-          test_collection_version: 2025.7.2
+          test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: '2038842'
-          test_date: '2025-07-24T17:40:41Z'
+          test_component_git_commit_hash: 6c90a24
+          test_date: '2025-08-02T14:21:23Z'
           test_description: Add groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
