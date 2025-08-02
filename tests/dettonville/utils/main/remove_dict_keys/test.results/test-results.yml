@@ -4,7 +4,7 @@ test_results:
   test_components:
     remove_dict_keys:
       properties:
-        test_case_id: 09
+        test_case_id: '10'
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 8bff52f
@@ -177,6 +177,25 @@ test_results:
               failed: false
               msg: All assertions passed
           test_case_id: 09
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_date: '2025-08-02T00:19:35Z'
+          test_description: dict object - deep key remove test using ansible_facts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        '10':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '10'
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 8bff52f
