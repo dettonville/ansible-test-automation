@@ -1,0 +1,31 @@
+test_results:
+  remove_dict_keys:
+    properties:
+      test_case_id: '06'
+      test_collection_version: 2025.7.30
+      test_component_git_branch: main
+      test_component_git_commit_hash: fead686
+      test_date: '2025-08-02T02:54:33Z'
+      test_description: list object - multi key remove test
+      test_failed: false
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/107/)'
+    test_cases:
+      '06':
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
+        test_case_id: '06'
+        test_collection_version: 2025.7.30
+        test_component_git_branch: main
+        test_component_git_commit_hash: fead686
+        test_date: '2025-08-02T02:54:33Z'
+        test_description: list object - multi key remove test
+        test_failed: false
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/107/)'
