@@ -1,0 +1,182 @@
+!TestSuites
+test_suites:
+  export_dicts: !TestSuite
+    name: export_dicts
+    test_cases:
+      '01': !TestCase
+        name: '01'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: export_dicts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:01 skipped
+        allow_multiple_subelements: false
+      '02': !TestCase
+        name: '02'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: export_dicts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:02 skipped
+        allow_multiple_subelements: false
+      '03': !TestCase
+        name: '03'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: export_dicts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:03 skipped
+        allow_multiple_subelements: false
+      '04': !TestCase
+        name: '04'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: export_dicts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:04 skipped
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
+  git_acp: !TestSuite
+    name: git_acp
+    test_cases:
+      '01': !TestCase
+        name: '01'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: git_acp
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=git_acp:01 skipped
+        allow_multiple_subelements: false
+      '02': !TestCase
+        name: '02'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: git_acp
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=git_acp:02 skipped
+        allow_multiple_subelements: false
+      '03': !TestCase
+        name: '03'
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: git_acp
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=git_acp:03 skipped
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:

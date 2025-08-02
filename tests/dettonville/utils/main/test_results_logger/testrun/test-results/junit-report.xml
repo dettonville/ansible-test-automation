@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites assertions="0" disabled="0" errors="0" failures="0" skipped="7" tests="7" time="0.0">
+	<testsuite disabled="0" errors="0" failures="0" name="export_dicts" skipped="4" tests="4" time="0">
+		<testcase name="01" classname="export_dicts">
+			<skipped type="skipped">test_suite_id:test_case_id=export_dicts:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="export_dicts">
+			<skipped type="skipped">test_suite_id:test_case_id=export_dicts:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="export_dicts">
+			<skipped type="skipped">test_suite_id:test_case_id=export_dicts:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="export_dicts">
+			<skipped type="skipped">test_suite_id:test_case_id=export_dicts:04 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="git_acp" skipped="3" tests="3" time="0">
+		<testcase name="01" classname="git_acp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_acp:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="git_acp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_acp:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="git_acp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_acp:03 skipped</skipped>
+		</testcase>
+	</testsuite>
+</testsuites>
