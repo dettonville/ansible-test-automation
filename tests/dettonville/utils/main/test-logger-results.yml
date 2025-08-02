@@ -169,7 +169,7 @@ test_suites:
         allow_multiple_subelements: false
       '05': !TestCase
         name: '05'
-        assertions: 4
+        assertions:
         elapsed_sec:
         timestamp:
         classname: export_dicts
@@ -178,35 +178,16 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '05'
-          test_collection_version: 2025.7.30
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_date: '2025-08-02T00:19:35Z'
-          test_description: markdown test
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=export_dicts:05 skipped
         allow_multiple_subelements: false
       '06': !TestCase
         name: '06'
@@ -529,7 +510,7 @@ test_suites:
         allow_multiple_subelements: false
       '05': !TestCase
         name: '05'
-        assertions: 3
+        assertions:
         elapsed_sec:
         timestamp:
         classname: git_pacp
@@ -538,32 +519,16 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '05'
-          test_collection_version: 2025.7.30
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_date: '2025-08-02T00:19:35Z'
-          test_description: SSH - add test file with remote alias defined
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=git_pacp:05 skipped
         allow_multiple_subelements: false
       '06': !TestCase
         name: '06'
@@ -754,7 +719,7 @@ test_suites:
         allow_multiple_subelements: false
       '05': !TestCase
         name: '05'
-        assertions: 3
+        assertions:
         elapsed_sec:
         timestamp:
         classname: remove_dict_keys
@@ -763,32 +728,16 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '05'
-          test_collection_version: 2025.7.30
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_date: '2025-08-02T00:19:35Z'
-          test_description: list object - single key remove test
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=remove_dict_keys:05 skipped
         allow_multiple_subelements: false
       '06': !TestCase
         name: '06'
@@ -1067,7 +1016,7 @@ test_suites:
         allow_multiple_subelements: false
       '05': !TestCase
         name: '05'
-        assertions: 3
+        assertions:
         elapsed_sec:
         timestamp:
         classname: remove_sensitive_keys
@@ -1076,32 +1025,16 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '05'
-          test_collection_version: 2025.7.30
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_date: '2025-08-02T00:19:35Z'
-          test_description: list object - remove sensitive keys
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=remove_sensitive_keys:05 skipped
         allow_multiple_subelements: false
       '06': !TestCase
         name: '06'
@@ -1305,7 +1238,7 @@ test_suites:
     test_cases:
       '01': !TestCase
         name: '01'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -1314,20 +1247,39 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: '01'
+          test_collection_version: 2025.7.30
+          test_description: init test
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_failed: false
+          test_date: '2025-08-02T00:19:35Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
         failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=test_results_logger:01 skipped
+        skipped: []
         allow_multiple_subelements: false
       '02': !TestCase
         name: '02'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -1336,20 +1288,39 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: '02'
+          test_collection_version: 2025.7.30
+          test_description: update test
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_failed: false
+          test_date: '2025-08-02T00:19:35Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
         failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=test_results_logger:02 skipped
+        skipped: []
         allow_multiple_subelements: false
       '03': !TestCase
         name: '03'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -1358,20 +1329,39 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: '03'
+          test_collection_version: 2025.7.30
+          test_description: update test cases with junit report
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_failed: false
+          test_date: '2025-08-02T00:19:35Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
         failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=test_results_logger:03 skipped
+        skipped: []
         allow_multiple_subelements: false
       '04': !TestCase
         name: '04'
-        assertions:
+        assertions: 4
         elapsed_sec:
         timestamp:
         classname: test_results_logger
@@ -1380,16 +1370,35 @@ test_suites:
         file:
         line:
         log:
-        url:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         stdout:
         stderr:
         is_enabled: true
-        properties: {}
+        properties:
+          test_case_id: '04'
+          test_collection_version: 2025.7.30
+          test_description: update nested test cases with junit report
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_failed: false
+          test_date: '2025-08-02T00:19:35Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
         errors: []
         failures: []
-        skipped:
-        - message:
-          output: test_suite_id:test_case_id=test_results_logger:04 skipped
+        skipped: []
         allow_multiple_subelements: false
     timestamp:
     hostname:
@@ -1420,14 +1429,6 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: '01'
-          test_collection_version: 2025.7.30
-          test_description: markdown test
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_failed: false
-          test_date: '2025-08-02T00:19:35Z'
           assertions:
             validate_changed:
               failed: false
@@ -1438,6 +1439,14 @@ test_suites:
             validate_results:
               failed: false
               msg: All assertions passed
+          test_case_id: '01'
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_date: '2025-08-02T00:19:35Z'
+          test_description: markdown test
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         errors: []
         failures: []
         skipped: []
@@ -1458,14 +1467,6 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: '02'
-          test_collection_version: 2025.7.30
-          test_description: markdown test - empty key value
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_failed: false
-          test_date: '2025-08-02T00:19:35Z'
           assertions:
             validate_changed:
               failed: false
@@ -1476,6 +1477,14 @@ test_suites:
             validate_results:
               failed: false
               msg: All assertions passed
+          test_case_id: '02'
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_date: '2025-08-02T00:19:35Z'
+          test_description: markdown test - empty key value
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         errors: []
         failures: []
         skipped: []
@@ -1496,14 +1505,6 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: '03'
-          test_collection_version: 2025.7.30
-          test_description: markdown test - encoded string values
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_failed: false
-          test_date: '2025-08-02T00:19:35Z'
           assertions:
             validate_changed:
               failed: false
@@ -1514,6 +1515,14 @@ test_suites:
             validate_results:
               failed: false
               msg: All assertions passed
+          test_case_id: '03'
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_date: '2025-08-02T00:19:35Z'
+          test_description: markdown test - encoded string values
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         errors: []
         failures: []
         skipped: []
@@ -1534,14 +1543,6 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: '04'
-          test_collection_version: 2025.7.30
-          test_description: markdown test - export with specified columns
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_failed: false
-          test_date: '2025-08-02T00:19:35Z'
           assertions:
             validate_changed:
               failed: false
@@ -1552,13 +1553,21 @@ test_suites:
             validate_results:
               failed: false
               msg: All assertions passed
+          test_case_id: '04'
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8bff52f
+          test_date: '2025-08-02T00:19:35Z'
+          test_description: markdown test - export with specified columns
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
         errors: []
         failures: []
         skipped: []
         allow_multiple_subelements: false
       '05': !TestCase
         name: '05'
-        assertions: 3
+        assertions:
         elapsed_sec:
         timestamp:
         classname: to_markdown
@@ -1567,32 +1576,16 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          test_case_id: '05'
-          test_collection_version: 2025.7.30
-          test_description: markdown test - export with specified columns where rows are missing values
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/105/)'
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8bff52f
-          test_failed: false
-          test_date: '2025-08-02T00:19:35Z'
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=to_markdown:05 skipped
         allow_multiple_subelements: false
     timestamp:
     hostname:
