@@ -1,3 +1,0 @@
-files:
-  group_vars/app123.yml: |
-    appname: app123
