@@ -1,0 +1,298 @@
+test_results:
+  update_hosts:
+    properties:
+      test_case_id: host02
+      test_collection_version: 2025.7.30
+      test_component_git_branch: main
+      test_component_git_commit_hash: 4e5f021
+      test_date: '2025-08-06T14:12:09Z'
+      test_description: Update hosts
+      test_failed: true
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
+    test_cases:
+      host02:
+        assertions:
+          validate_changed:
+            failed: true
+            msg: Assertion failed
+          validate_failed:
+            failed: true
+            msg: Assertion failed
+          validate_message:
+            failed: true
+            msg: Assertion failed
+          validate_results:
+            failed: true
+            msg: Difference found between test_results and test_expected!
+        test_case_id: host02
+        test_collection_version: 2025.7.30
+        test_component_args:
+          enforce_global_groups_must_already_exist: false
+          host_list:
+          - host_name: admin01.qa.site1.example.int
+            host_vars:
+              provisioning_data:
+                infra_group: DCC
+                service_domains:
+                - admin.qa.example.int
+            parent_groups:
+            - vmware_flavor_large
+            - ntp_server
+            - nfs_server
+            - ldap_server
+          - host_name: web01.qa.site1.example.int
+            host_vars:
+              provisioning_data:
+                infra_group: INFRA
+                service_domains:
+                - webapp101.qa.example.int
+                - webapp101.qa.site1.example.int
+            parent_groups:
+            - vmware_flavor_small
+            - ntp_client
+            - nfs_client
+            - ldap_client
+            - web_server
+          - host_name: web02.qa.site1.example.int
+            host_vars:
+              provisioning_data:
+                infra_group: INFRA
+                service_domains:
+                - webapp102.qa.example.int
+            parent_groups:
+            - vmware_flavor_small
+            - ntp_client
+            - nfs_client
+            - ldap_client
+            - web_server
+          inventory_file: tests/dettonville/git_inventory/main/update_hosts/testrun/_test_inventory/SANDBOX/hosts.yml
+          inventory_repo_branch: main
+          inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
+          jira_id: PR-2648
+          ssh_params:
+            accept_hostkey: true
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_xbzsdaw0/ansible_repo.key
+          use_vars_files: false
+        test_component_git_branch: main
+        test_component_git_commit_hash: 4e5f02128c7129ad7699364f4e11c8dc83035373
+        test_date: '2025-08-06T14:12:09Z'
+        test_description: Update hosts
+        test_failed: true
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
+        test_result:
+          changed: false
+          cmd: /usr/bin/git config --local user.name
+          failed: true
+          msg: ''
+          rc: 1
+          stderr: ''
+          stderr_lines: []
+          stdout: ''
+          stdout_lines: []
+        test_runtime_info:
+          ansible_connection: local
+          ansible_controller_vars: {}
+          ansible_distribution: Debian
+          ansible_distribution_release: bullseye
+          ansible_distribution_version: '11.11'
+          ansible_host: 127.0.0.1
+          ansible_hostname: 3b797d7ec9bf
+          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/
+          ansible_limit: []
+          ansible_nodename: 3b797d7ec9bf
+          ansible_os_family: Debian
+          ansible_python_interpreter: python3
+          ansible_python_version: 3.12.11
+          ansible_run_tags:
+          - all
+          ansible_user: ansible
+          ansible_version:
+            full: 2.16.14.post0
+            major: 2
+            minor: 16
+            revision: 14
+            string: 2.16.14.post0
+          discovered_interpreter_python: ''
+          pip3_package_info:
+          - name: ansible-compat
+            source: pip3
+            version: 25.6.0
+          - name: ansible-core
+            source: pip3
+            version: 2.16.14.post0
+          - name: ansible-lint
+            source: pip3
+            version: 25.7.0
+          - name: ansible-lint-junit
+            source: pip3
+            version: 0.17.8
+          - name: attrs
+            source: pip3
+            version: 25.3.0
+          - name: black
+            source: pip3
+            version: 25.1.0
+          - name: bracex
+            source: pip3
+            version: '2.6'
+          - name: certifi
+            source: pip3
+            version: 2025.8.3
+          - name: cffi
+            source: pip3
+            version: 1.17.1
+          - name: charset-normalizer
+            source: pip3
+            version: 3.4.2
+          - name: click
+            source: pip3
+            version: 8.2.1
+          - name: cryptography
+            source: pip3
+            version: 45.0.5
+          - name: defusedxml
+            source: pip3
+            version: 0.7.1
+          - name: distro
+            source: pip3
+            version: 1.9.0
+          - name: filelock
+            source: pip3
+            version: 3.18.0
+          - name: flake8
+            source: pip3
+            version: 7.3.0
+          - name: idna
+            source: pip3
+            version: '3.10'
+          - name: importlib_metadata
+            source: pip3
+            version: 8.7.0
+          - name: iniconfig
+            source: pip3
+            version: 2.1.0
+          - name: Jinja2
+            source: pip3
+            version: 3.1.6
+          - name: jmespath
+            source: pip3
+            version: 1.0.1
+          - name: jsonschema
+            source: pip3
+            version: 4.25.0
+          - name: jsonschema-specifications
+            source: pip3
+            version: 2025.4.1
+          - name: MarkupSafe
+            source: pip3
+            version: 3.0.2
+          - name: mccabe
+            source: pip3
+            version: 0.7.0
+          - name: mypy_extensions
+            source: pip3
+            version: 1.1.0
+          - name: netaddr
+            source: pip3
+            version: 1.3.0
+          - name: packaging
+            source: pip3
+            version: '25.0'
+          - name: passlib
+            source: pip3
+            version: 1.7.4
+          - name: pathspec
+            source: pip3
+            version: 0.12.1
+          - name: pip
+            source: pip3
+            version: '25.2'
+          - name: platformdirs
+            source: pip3
+            version: 4.3.8
+          - name: pluggy
+            source: pip3
+            version: 1.6.0
+          - name: psutil
+            source: pip3
+            version: 7.0.0
+          - name: pycodestyle
+            source: pip3
+            version: 2.14.0
+          - name: pycparser
+            source: pip3
+            version: '2.22'
+          - name: pyflakes
+            source: pip3
+            version: 3.4.0
+          - name: Pygments
+            source: pip3
+            version: 2.19.2
+          - name: pytest
+            source: pip3
+            version: 8.4.1
+          - name: pytest-helpers-namespace
+            source: pip3
+            version: 2021.12.29
+          - name: pytest-parallel
+            source: pip3
+            version: 0.1.1
+          - name: pytest-shell-utilities
+            source: pip3
+            version: 1.9.7
+          - name: pytest-skip-markers
+            source: pip3
+            version: 1.5.2
+          - name: python-dateutil
+            source: pip3
+            version: 2.9.0.post0
+          - name: PyYAML
+            source: pip3
+            version: 6.0.2
+          - name: referencing
+            source: pip3
+            version: 0.36.2
+          - name: requests
+            source: pip3
+            version: 2.32.4
+          - name: resolvelib
+            source: pip3
+            version: 1.0.1
+          - name: rpds-py
+            source: pip3
+            version: 0.26.0
+          - name: ruamel.yaml
+            source: pip3
+            version: 0.18.14
+          - name: ruamel.yaml.clib
+            source: pip3
+            version: 0.2.12
+          - name: six
+            source: pip3
+            version: 1.17.0
+          - name: subprocess-tee
+            source: pip3
+            version: 0.4.2
+          - name: tblib
+            source: pip3
+            version: 3.1.0
+          - name: typing_extensions
+            source: pip3
+            version: 4.14.1
+          - name: urllib3
+            source: pip3
+            version: 2.5.0
+          - name: wcmatch
+            source: pip3
+            version: '10.1'
+          - name: yaml-lint-to-junit-xml
+            source: pip3
+            version: 0.1.1
+          - name: yamllint
+            source: pip3
+            version: 1.37.1
+          - name: zipp
+            source: pip3
+            version: 3.23.0
+          test_collection: dettonville.git_inventory
+          test_collection_version: 2025.7.30
