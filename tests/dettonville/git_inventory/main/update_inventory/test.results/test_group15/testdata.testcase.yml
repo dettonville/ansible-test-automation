@@ -1,0 +1,16 @@
+test_data:
+  git_comment_prefix: PR-2648
+  group_list:
+  - group_name: location_site1
+  state: absent
+  test_description: Remove groups with vars in group_vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      env: prod
+      site: site1
+    file_path: group_vars/location_site1.yml
+  use_vars_files: true
