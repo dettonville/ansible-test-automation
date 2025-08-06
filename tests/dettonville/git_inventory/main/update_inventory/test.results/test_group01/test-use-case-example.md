@@ -183,7 +183,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_07ny1_rm/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_7pkqjhgi/ansible_repo.key
     use_vars_files: false
 
 
@@ -202,7 +202,7 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  cmd: /usr/bin/git config --local user.name
+  cmd: /usr/local/bin/git config --local user.name
   failed: true
   msg: ''
   rc: 1
