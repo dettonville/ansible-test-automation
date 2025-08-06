@@ -4,12 +4,12 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: host16
+        test_case_id: host17
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 09bb9bd
         test_date: '2025-08-06T21:14:56Z'
-        test_description: Update nested dict host var
+        test_description: Vars overwrite nested dict group var
         test_failed: true
         test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
       test_cases:
@@ -1074,6 +1074,28 @@ test_results:
           test_component_git_commit_hash: 09bb9bd
           test_date: '2025-08-06T21:14:56Z'
           test_description: Update nested dict host var
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        host17:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host17
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T21:14:56Z'
+          test_description: Vars overwrite nested dict group var
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
   test_date: '2025-08-06T21:14:56Z'
