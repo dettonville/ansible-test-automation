@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<testsuites assertions="4" disabled="0" errors="0" failures="0" skipped="66" tests="67" time="0.0">
+<testsuites assertions="263" disabled="0" errors="0" failures="44" skipped="61" tests="127" time="0.0">
 	<testsuite disabled="0" errors="0" failures="0" name="update_groups" skipped="32" tests="32" time="0">
 		<testcase name="group01" classname="update_groups">
 			<skipped type="skipped">test_suite_id:test_case_id=update_groups:group01 skipped</skipped>
@@ -187,33 +187,907 @@
 			<skipped type="skipped">test_suite_id:test_case_id=update_hosts:host29 skipped</skipped>
 		</testcase>
 	</testsuite>
-	<testsuite assertions="4" disabled="0" errors="0" failures="0" name="update_inventory" skipped="5" tests="6" time="0">
-		<testcase name="combined01" classname="update_inventory">
-			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined01 skipped</skipped>
+	<testsuite assertions="263" disabled="0" errors="0" failures="44" name="update_inventory" skipped="0" tests="66" time="0">
+		<testcase name="combined01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="combined01"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups and hosts"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
 		</testcase>
-		<testcase name="combined02" classname="update_inventory">
-			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined02 skipped</skipped>
+		<testcase name="combined02" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="combined02"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update groups and hosts"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
 		</testcase>
-		<testcase name="combined03" classname="update_inventory">
-			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined03 skipped</skipped>
+		<testcase name="combined03" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="combined03"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Overwrite groups and hosts"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
 		</testcase>
-		<testcase name="combined04" classname="update_inventory">
-			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined04 skipped</skipped>
+		<testcase name="combined04" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="combined04"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove groups and hosts"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
 		</testcase>
-		<testcase name="combined05" classname="update_inventory">
-			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined05 skipped</skipped>
+		<testcase name="combined05" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="combined05"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups and hosts using var files"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
 		</testcase>
-		<testcase name="group01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/26/)">
+		<testcase name="group01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
 			<properties>
 				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
 				<property name="test_case_id" value="group01"/>
 				<property name="test_collection_version" value="2025.7.30"/>
 				<property name="test_component_git_branch" value="main"/>
 				<property name="test_component_git_commit_hash" value="09bb9bd"/>
-				<property name="test_date" value="2025-08-06T21:07:07Z"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
 				<property name="test_description" value="Add groups"/>
 				<property name="test_failed" value="False"/>
-				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/26/)"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group02" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group02"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group03" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group03"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Overwrite groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group04" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group04"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove groups"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group05" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group05"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="No change - update group with exact same info as current config"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group06" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group06"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove group that does not exist"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group07" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group07"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update group with children groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group08" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group08"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with children groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group09" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group09"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with complex dict vars (e.g., dict of list of dicts)"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group10" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group10"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with variable name references using raw/unsafe directive"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group11" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group11"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add group with vars in group_vars files"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group12" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group12"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add and update groups with vars in group_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group13" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group13"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update vars in group_vars files"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group14" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group14"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Overwrite vars in group_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group15" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group15"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove groups with vars in group_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group16" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group16"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups to hierarchical groups"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group17" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group17"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add nested dict group var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group18" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group18"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update nested dict group var"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group19" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group19"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite nested dict group var"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group20" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group20"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update (append/extend) list group var"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group21" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group21"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite list dict group var using vars_overwrite_depth=1"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group22" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group22"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict group var"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group23" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group23"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict group var using vars_overwrite_depth=3"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group24" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group24"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict group var using vars_overwrite_depth=4"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group25" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group25"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with parent inventory_dir specified"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group26" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group26"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add group with empty vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group27" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group27"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with system_name and system_env"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group28" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group28"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with system_name and system_env using groups list format"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group29" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group29"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups with parent inventory_dir specified"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group30" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group30"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups to global groups file"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group31" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="group31"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add groups to xenv_groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="group32" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="group32"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Set git comment body"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host01"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host02" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host02"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update hosts"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host03" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host03"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Overwrite hosts"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host04" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="host04"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove Hosts"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host05" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_message: {'failed': True, 'msg': 'Assertion failed'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="host05"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="No change - update host with exact same info as current config"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host06" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_message: {'failed': True, 'msg': 'Assertion failed'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="host06"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove Host that does not exist"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host07" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host07"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with complex dict vars (e.g., dict of list of dicts)"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host08" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="host08"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with variable name references using raw/unsafe directive"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host09" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host09"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add host with vars in host_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host10" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host10"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add and update hosts with vars in host_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host11" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host11"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update vars in host_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host12" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host12"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Overwrite vars in host_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host13" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host13"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Remove hosts with vars in host_vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host14" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host14"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts to hierarchical groups"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host15" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host15"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add nested dict host var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host16" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host16"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update nested dict host var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host17" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host17"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite nested dict group var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host18" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host18"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update (append/extend) list host var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host19" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host19"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite list dict host var using vars_overwrite_depth=1"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host20" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host20"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict host var"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host21" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host21"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict host var using vars_overwrite_depth=3"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host22" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host22"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Vars overwrite for deep nested dict host var using vars_overwrite_depth=4"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host23" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host23"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Update existing host variable"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host24" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host24"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with empty vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host25" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host25"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with empty vars files"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host26" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host26"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add host with empty group"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host27" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host27"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts - validate hosts are inserted in sort order"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host28" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
+				<property name="test_case_id" value="host28"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with global groups enforcement"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
+			</properties>
+		</testcase>
+		<testcase name="host29" assertions="3" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)">
+			<failure type="failure">validate_msg: {'failed': True, 'msg': 'Assertion failed'}</failure>
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_msg': {'failed': True, 'msg': 'Assertion failed'}}"/>
+				<property name="test_case_id" value="host29"/>
+				<property name="test_collection_version" value="2025.7.30"/>
+				<property name="test_component_git_branch" value="main"/>
+				<property name="test_component_git_commit_hash" value="09bb9bd"/>
+				<property name="test_date" value="2025-08-06T21:14:56Z"/>
+				<property name="test_description" value="Add hosts with global groups enforcement that should fail due to missing global group"/>
+				<property name="test_failed" value="True"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)"/>
 			</properties>
 		</testcase>
 	</testsuite>
