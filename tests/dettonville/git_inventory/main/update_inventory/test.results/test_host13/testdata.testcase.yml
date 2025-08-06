@@ -1,0 +1,23 @@
+test_data:
+  git_comment_prefix: PR-2648
+  host_list:
+  - host_name: test123.qa.site1.example.int
+  - host_name: test123.dev.site1.example.int
+  state: absent
+  test_description: Remove hosts with vars in host_vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      appname: test123
+      env: qa
+      site: site1
+    file_path: host_vars/test123.qa.site1.example.int.yml
+  - content:
+      appname: test123
+      env: dev
+      site: site1
+    file_path: host_vars/test123.dev.site1.example.int.yml
+  use_vars_files: true
