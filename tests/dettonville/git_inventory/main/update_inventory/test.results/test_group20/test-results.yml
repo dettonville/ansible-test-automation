@@ -1,0 +1,34 @@
+test_results:
+  update_inventory:
+    properties:
+      test_case_id: group20
+      test_collection_version: 2025.7.30
+      test_component_git_branch: main
+      test_component_git_commit_hash: 09bb9bd
+      test_date: '2025-08-06T21:14:56Z'
+      test_description: Update (append/extend) list group var
+      test_failed: false
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+    test_cases:
+      group20:
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_message:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
+        test_case_id: group20
+        test_collection_version: 2025.7.30
+        test_component_git_branch: main
+        test_component_git_commit_hash: 09bb9bd
+        test_date: '2025-08-06T21:14:56Z'
+        test_description: Update (append/extend) list group var
+        test_failed: false
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
