@@ -1,24 +1,17 @@
----
 ocp_namespaces:
-  - admin_group: OCP123-ADMIN-SG
-    build_name: '30230118'
-    dev_group: OCP123-DEV-SG
-    environmentx: dev123
-    project_description: Project 123 XYZ [DEV] - blah blah blah
-    project_name: Project 123 [Dev]
-    project_size: '10'
-    requester: Joe Foobar
-  - admin_group: OCP123-ADMIN-SG
-    build_name: '30230118'
-    dev_group: OCP123-DEV-SG
-    environmentx: qa123
-    project_description: Project 123 XYZ [QA] - blah blah blah
-    project_name: Project 123 [QA]
-    project_size: '10'
-    requester: Mary Baroof
-  - admin_group: OCP124-ADMIN-SG
-    environmentx: qa124
-    project_description: Project 124 XYZ [QA] - blah blah blah
-    project_size: '16'
-    qa_group: OCP124-QA-SG
-    requester: Another Name
+- admin_group: OCP123-ADMIN-SG
+  build_name: '30230118'
+  dev_group: OCP123-DEV-SG
+  environmentx: dev123
+  project_description: Project 123 XYZ [DEV] - blah blah blah
+  project_name: Project 123 [Dev]
+  project_size: '10'
+  requester: Joe Foobar
+- admin_group: OCP123-ADMIN-SG
+  build_name: '30230118'
+  dev_group: OCP123-DEV-SG
+  environmentx: qa123
+  project_description: Project 123 XYZ [QA] - blah blah blah
+  project_name: Project 123 [QA]
+  project_size: '10'
+  requester: Mary Baroof
