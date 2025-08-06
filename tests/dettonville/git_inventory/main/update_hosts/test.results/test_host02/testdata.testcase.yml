@@ -1,0 +1,45 @@
+test_data:
+  host_list:
+  - host_name: admin01.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: DCC
+        service_domains:
+        - admin.qa.example.int
+    parent_groups:
+    - vmware_flavor_large
+    - ntp_server
+    - nfs_server
+    - ldap_server
+  - host_name: web01.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: INFRA
+        service_domains:
+        - webapp101.qa.example.int
+        - webapp101.qa.site1.example.int
+    parent_groups:
+    - vmware_flavor_small
+    - ntp_client
+    - nfs_client
+    - ldap_client
+    - web_server
+  - host_name: web02.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: INFRA
+        service_domains:
+        - webapp102.qa.example.int
+    parent_groups:
+    - vmware_flavor_small
+    - ntp_client
+    - nfs_client
+    - ldap_client
+    - web_server
+  jira_id: PR-2648
+  test_description: Update hosts
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: false
