@@ -1,0 +1,18 @@
+test_data:
+  always_add_child_group_to_root: true
+  git_comment_prefix: PR-2648
+  group_list:
+  - group_name: location_site1
+    group_vars:
+      env: qa
+  test_description: Update vars in group_vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      env: prod
+      site: site1
+    file_path: group_vars/location_site1.yml
+  use_vars_files: true
