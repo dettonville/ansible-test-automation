@@ -4,13 +4,12 @@ test_results:
   test_components:
     update_groups:
       properties:
-        test_case_id: group05
+        test_case_id: group06
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 4e5f021
         test_date: '2025-08-06T14:12:09Z'
-        test_description: No change - update group with exact same info as current
-          config
+        test_description: Remove group that does not exist
         test_failed: true
         test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
       test_cases:
@@ -123,6 +122,28 @@ test_results:
           test_date: '2025-08-06T14:12:09Z'
           test_description: No change - update group with exact same info as current
             config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
+        group06:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group06
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 4e5f021
+          test_date: '2025-08-06T14:12:09Z'
+          test_description: Remove group that does not exist
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
   test_date: '2025-08-06T14:12:09Z'
