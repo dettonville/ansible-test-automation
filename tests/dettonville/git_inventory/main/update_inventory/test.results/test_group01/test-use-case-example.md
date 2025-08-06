@@ -183,7 +183,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_g573rn1m/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_k4ng0kv7/ansible_repo.key
     use_vars_files: false
 
 

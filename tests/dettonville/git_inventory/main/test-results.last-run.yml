@@ -20,8 +20,8 @@ last_run_test_results:
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 09bb9bd
-          test_date: '2025-08-06T19:16:18Z'
+          test_date: '2025-08-06T19:45:30Z'
           test_description: Add groups
           test_failed: true
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
   test_failed: true

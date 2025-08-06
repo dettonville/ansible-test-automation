@@ -203,7 +203,7 @@
 		<testcase name="combined05" classname="update_inventory">
 			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined05 skipped</skipped>
 		</testcase>
-		<testcase name="group01" assertions="4" classname="update_inventory" url="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets">
+		<testcase name="group01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)">
 			<failure type="failure">validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}</failure>
 			<properties>
 				<property name="assertions" value="{'validate_changed': {'failed': True, 'msg': 'Assertion failed'}, 'validate_failed': {'failed': True, 'msg': 'Assertion failed'}, 'validate_message': {'failed': True, 'msg': 'Assertion failed'}, 'validate_results': {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}}"/>
@@ -211,10 +211,10 @@
 				<property name="test_collection_version" value="2025.7.30"/>
 				<property name="test_component_git_branch" value="main"/>
 				<property name="test_component_git_commit_hash" value="09bb9bd"/>
-				<property name="test_date" value="2025-08-06T19:16:18Z"/>
+				<property name="test_date" value="2025-08-06T19:45:30Z"/>
 				<property name="test_description" value="Add groups"/>
 				<property name="test_failed" value="True"/>
-				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)"/>
 			</properties>
 		</testcase>
 	</testsuite>

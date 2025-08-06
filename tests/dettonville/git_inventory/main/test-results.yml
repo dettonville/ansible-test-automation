@@ -8,10 +8,10 @@ test_results:
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 09bb9bd
-        test_date: '2025-08-06T19:16:18Z'
+        test_date: '2025-08-06T19:45:30Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
       test_cases:
         group01:
           assertions:
@@ -31,12 +31,345 @@ test_results:
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 09bb9bd
-          test_date: '2025-08-06T19:16:18Z'
+          test_date: '2025-08-06T19:45:30Z'
           test_description: Add groups
           test_failed: true
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_count: '1'
-  test_date: '2025-08-06T19:16:18Z'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
+        group02:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group02
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Update groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group03:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group03
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Overwrite groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group04:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group04
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Remove groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group05:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group05
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: No change - update group with exact same info as current
+            config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group06:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group06
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Remove group that does not exist
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group07:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group07
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Update group with children groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group08:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group08
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add groups with children groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group09:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group09
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add groups with complex dict vars (e.g., dict of list
+            of dicts)
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group10:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group10
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add groups with variable name references using raw/unsafe
+            directive
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group11:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group11
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add group with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group12:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group12
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add and update groups with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group13:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group13
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Update vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group14:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group14
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Overwrite vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group15:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group15
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Remove groups with vars in group_vars files
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        group16:
+          assertions:
+            validate_changed:
+              failed: true
+              msg: Assertion failed
+            validate_failed:
+              failed: true
+              msg: Assertion failed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group16
+          test_collection_version: 2025.7.30
+          test_component_git_branch: main
+          test_component_git_commit_hash: 09bb9bd
+          test_date: '2025-08-06T19:23:38Z'
+          test_description: Add groups to hierarchical groups
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+  test_count: '16'
+  test_date: '2025-08-06T19:45:30Z'
   test_failed: true
-  test_failed_count: '1'
+  test_failed_count: '16'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'

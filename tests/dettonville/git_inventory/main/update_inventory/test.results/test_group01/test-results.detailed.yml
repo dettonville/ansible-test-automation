@@ -5,10 +5,10 @@ test_results:
       test_collection_version: 2025.7.30
       test_component_git_branch: main
       test_component_git_commit_hash: 09bb9bd
-      test_date: '2025-08-06T19:23:38Z'
+      test_date: '2025-08-06T19:45:30Z'
       test_description: Add groups
       test_failed: true
-      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
     test_cases:
       group01:
         assertions:
@@ -105,14 +105,14 @@ test_results:
           inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
           ssh_params:
             accept_hostkey: true
-            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_g573rn1m/ansible_repo.key
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_k4ng0kv7/ansible_repo.key
           use_vars_files: false
         test_component_git_branch: main
         test_component_git_commit_hash: 09bb9bd2d0d4f9a7e54a259f731a55ac08c7448a
-        test_date: '2025-08-06T19:23:38Z'
+        test_date: '2025-08-06T19:45:30Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
         test_result:
           changed: false
           cmd: /usr/bin/git config --local user.name
@@ -130,10 +130,10 @@ test_results:
           ansible_distribution_release: bullseye
           ansible_distribution_version: '11.11'
           ansible_host: 127.0.0.1
-          ansible_hostname: ec6ad0fc0ac1
-          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/
+          ansible_hostname: d4c5cc47b373
+          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/
           ansible_limit: []
-          ansible_nodename: ec6ad0fc0ac1
+          ansible_nodename: d4c5cc47b373
           ansible_os_family: Debian
           ansible_python_interpreter: python3
           ansible_python_version: 3.12.11

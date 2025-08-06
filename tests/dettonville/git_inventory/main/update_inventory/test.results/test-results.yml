@@ -4,14 +4,14 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: group16
+        test_case_id: group01
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 09bb9bd
-        test_date: '2025-08-06T19:23:38Z'
-        test_description: Add groups to hierarchical groups
+        test_date: '2025-08-06T19:45:30Z'
+        test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
       test_cases:
         group01:
           assertions:
@@ -31,10 +31,10 @@ test_results:
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 09bb9bd
-          test_date: '2025-08-06T19:23:38Z'
+          test_date: '2025-08-06T19:45:30Z'
           test_description: Add groups
           test_failed: true
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
         group02:
           assertions:
             validate_changed:
@@ -368,6 +368,6 @@ test_results:
           test_description: Add groups to hierarchical groups
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
-  test_date: '2025-08-06T19:23:38Z'
+  test_date: '2025-08-06T19:45:30Z'
   test_failed: true
-  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/24/)'
+  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/25/)'
