@@ -1382,7 +1382,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1390,11 +1390,11 @@ test_suites:
           test_case_id: combined01
           test_collection_version: 2025.7.30
           test_description: Add groups and hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1423,7 +1423,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1431,11 +1431,11 @@ test_suites:
           test_case_id: combined02
           test_collection_version: 2025.7.30
           test_description: Update groups and hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1464,7 +1464,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1472,11 +1472,11 @@ test_suites:
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_description: Overwrite groups and hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1508,7 +1508,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1516,11 +1516,11 @@ test_suites:
           test_case_id: combined04
           test_collection_version: 2025.7.30
           test_description: Remove groups and hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1549,7 +1549,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1557,11 +1557,11 @@ test_suites:
           test_case_id: combined05
           test_collection_version: 2025.7.30
           test_description: Add groups and hosts using var files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1590,7 +1590,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1598,11 +1598,11 @@ test_suites:
           test_case_id: group01
           test_collection_version: 2025.7.30
           test_description: Add groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1631,7 +1631,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1639,11 +1639,11 @@ test_suites:
           test_case_id: group02
           test_collection_version: 2025.7.30
           test_description: Update groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1675,7 +1675,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1683,11 +1683,11 @@ test_suites:
           test_case_id: group03
           test_collection_version: 2025.7.30
           test_description: Overwrite groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1719,7 +1719,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1727,11 +1727,11 @@ test_suites:
           test_case_id: group04
           test_collection_version: 2025.7.30
           test_description: Remove groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1760,7 +1760,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1768,11 +1768,11 @@ test_suites:
           test_case_id: group05
           test_collection_version: 2025.7.30
           test_description: No change - update group with exact same info as current config
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1804,7 +1804,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1812,11 +1812,11 @@ test_suites:
           test_case_id: group06
           test_collection_version: 2025.7.30
           test_description: Remove group that does not exist
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1848,7 +1848,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1856,11 +1856,11 @@ test_suites:
           test_case_id: group07
           test_collection_version: 2025.7.30
           test_description: Update group with children groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1892,7 +1892,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1900,11 +1900,11 @@ test_suites:
           test_case_id: group08
           test_collection_version: 2025.7.30
           test_description: Add groups with children groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1936,7 +1936,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1944,11 +1944,11 @@ test_suites:
           test_case_id: group09
           test_collection_version: 2025.7.30
           test_description: Add groups with complex dict vars (e.g., dict of list of dicts)
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -1977,7 +1977,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1985,11 +1985,11 @@ test_suites:
           test_case_id: group10
           test_collection_version: 2025.7.30
           test_description: Add groups with variable name references using raw/unsafe directive
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2018,7 +2018,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2026,11 +2026,11 @@ test_suites:
           test_case_id: group11
           test_collection_version: 2025.7.30
           test_description: Add group with vars in group_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2059,7 +2059,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2067,11 +2067,11 @@ test_suites:
           test_case_id: group12
           test_collection_version: 2025.7.30
           test_description: Add and update groups with vars in group_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2103,7 +2103,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2111,11 +2111,11 @@ test_suites:
           test_case_id: group13
           test_collection_version: 2025.7.30
           test_description: Update vars in group_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2144,7 +2144,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2152,11 +2152,11 @@ test_suites:
           test_case_id: group14
           test_collection_version: 2025.7.30
           test_description: Overwrite vars in group_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2188,7 +2188,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2196,11 +2196,11 @@ test_suites:
           test_case_id: group15
           test_collection_version: 2025.7.30
           test_description: Remove groups with vars in group_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2232,7 +2232,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2240,11 +2240,11 @@ test_suites:
           test_case_id: group16
           test_collection_version: 2025.7.30
           test_description: Add groups to hierarchical groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2273,7 +2273,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2281,11 +2281,11 @@ test_suites:
           test_case_id: group17
           test_collection_version: 2025.7.30
           test_description: Add nested dict group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2317,7 +2317,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2325,11 +2325,11 @@ test_suites:
           test_case_id: group18
           test_collection_version: 2025.7.30
           test_description: Update nested dict group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2358,7 +2358,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2366,11 +2366,11 @@ test_suites:
           test_case_id: group19
           test_collection_version: 2025.7.30
           test_description: Vars overwrite nested dict group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2399,7 +2399,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2407,11 +2407,11 @@ test_suites:
           test_case_id: group20
           test_collection_version: 2025.7.30
           test_description: Update (append/extend) list group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2440,7 +2440,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2448,11 +2448,11 @@ test_suites:
           test_case_id: group21
           test_collection_version: 2025.7.30
           test_description: Vars overwrite list dict group var using vars_overwrite_depth=1
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2484,7 +2484,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2492,11 +2492,11 @@ test_suites:
           test_case_id: group22
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2525,7 +2525,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2533,11 +2533,11 @@ test_suites:
           test_case_id: group23
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=3
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2569,7 +2569,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2577,11 +2577,11 @@ test_suites:
           test_case_id: group24
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=4
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2610,7 +2610,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2618,11 +2618,11 @@ test_suites:
           test_case_id: group25
           test_collection_version: 2025.7.30
           test_description: Add groups with parent inventory_dir specified
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2651,7 +2651,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2659,11 +2659,11 @@ test_suites:
           test_case_id: group26
           test_collection_version: 2025.7.30
           test_description: Add group with empty vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2695,7 +2695,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2703,11 +2703,11 @@ test_suites:
           test_case_id: group27
           test_collection_version: 2025.7.30
           test_description: Add groups with system_name and system_env
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2736,7 +2736,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2744,11 +2744,11 @@ test_suites:
           test_case_id: group28
           test_collection_version: 2025.7.30
           test_description: Add groups with system_name and system_env using groups list format
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2780,7 +2780,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2788,11 +2788,11 @@ test_suites:
           test_case_id: group29
           test_collection_version: 2025.7.30
           test_description: Add groups with parent inventory_dir specified
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2821,7 +2821,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2829,11 +2829,11 @@ test_suites:
           test_case_id: group30
           test_collection_version: 2025.7.30
           test_description: Add groups to global groups file
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2865,7 +2865,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2873,11 +2873,11 @@ test_suites:
           test_case_id: group31
           test_collection_version: 2025.7.30
           test_description: Add groups to xenv_groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2909,7 +2909,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2917,11 +2917,11 @@ test_suites:
           test_case_id: group32
           test_collection_version: 2025.7.30
           test_description: Set git comment body
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2950,7 +2950,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -2958,11 +2958,11 @@ test_suites:
           test_case_id: host01
           test_collection_version: 2025.7.30
           test_description: Add hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -2994,7 +2994,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3002,11 +3002,11 @@ test_suites:
           test_case_id: host02
           test_collection_version: 2025.7.30
           test_description: Update hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3038,7 +3038,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3046,11 +3046,11 @@ test_suites:
           test_case_id: host03
           test_collection_version: 2025.7.30
           test_description: Overwrite hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3082,7 +3082,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3090,11 +3090,11 @@ test_suites:
           test_case_id: host04
           test_collection_version: 2025.7.30
           test_description: Remove Hosts
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3123,7 +3123,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3131,11 +3131,11 @@ test_suites:
           test_case_id: host05
           test_collection_version: 2025.7.30
           test_description: No change - update host with exact same info as current config
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3167,7 +3167,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3175,11 +3175,11 @@ test_suites:
           test_case_id: host06
           test_collection_version: 2025.7.30
           test_description: Remove Host that does not exist
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3211,7 +3211,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3219,11 +3219,11 @@ test_suites:
           test_case_id: host07
           test_collection_version: 2025.7.30
           test_description: Add hosts with complex dict vars (e.g., dict of list of dicts)
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3255,7 +3255,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3263,11 +3263,11 @@ test_suites:
           test_case_id: host08
           test_collection_version: 2025.7.30
           test_description: Add hosts with variable name references using raw/unsafe directive
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: false
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3296,7 +3296,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3304,11 +3304,11 @@ test_suites:
           test_case_id: host09
           test_collection_version: 2025.7.30
           test_description: Add host with vars in host_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3340,7 +3340,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3348,11 +3348,11 @@ test_suites:
           test_case_id: host10
           test_collection_version: 2025.7.30
           test_description: Add and update hosts with vars in host_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3384,7 +3384,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3392,11 +3392,11 @@ test_suites:
           test_case_id: host11
           test_collection_version: 2025.7.30
           test_description: Update vars in host_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3428,7 +3428,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3436,11 +3436,11 @@ test_suites:
           test_case_id: host12
           test_collection_version: 2025.7.30
           test_description: Overwrite vars in host_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3472,7 +3472,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3480,11 +3480,11 @@ test_suites:
           test_case_id: host13
           test_collection_version: 2025.7.30
           test_description: Remove hosts with vars in host_vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3516,7 +3516,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3524,11 +3524,11 @@ test_suites:
           test_case_id: host14
           test_collection_version: 2025.7.30
           test_description: Add hosts to hierarchical groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3560,7 +3560,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3568,11 +3568,11 @@ test_suites:
           test_case_id: host15
           test_collection_version: 2025.7.30
           test_description: Add nested dict host var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3604,7 +3604,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3612,11 +3612,11 @@ test_suites:
           test_case_id: host16
           test_collection_version: 2025.7.30
           test_description: Update nested dict host var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3648,7 +3648,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3656,11 +3656,11 @@ test_suites:
           test_case_id: host17
           test_collection_version: 2025.7.30
           test_description: Vars overwrite nested dict group var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3692,7 +3692,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3700,11 +3700,11 @@ test_suites:
           test_case_id: host18
           test_collection_version: 2025.7.30
           test_description: Update (append/extend) list host var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3736,7 +3736,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3744,11 +3744,11 @@ test_suites:
           test_case_id: host19
           test_collection_version: 2025.7.30
           test_description: Vars overwrite list dict host var using vars_overwrite_depth=1
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3780,7 +3780,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3788,11 +3788,11 @@ test_suites:
           test_case_id: host20
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict host var
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3824,7 +3824,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3832,11 +3832,11 @@ test_suites:
           test_case_id: host21
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=3
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3868,7 +3868,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3876,11 +3876,11 @@ test_suites:
           test_case_id: host22
           test_collection_version: 2025.7.30
           test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=4
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3912,7 +3912,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3920,11 +3920,11 @@ test_suites:
           test_case_id: host23
           test_collection_version: 2025.7.30
           test_description: Update existing host variable
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -3956,7 +3956,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -3964,11 +3964,11 @@ test_suites:
           test_case_id: host24
           test_collection_version: 2025.7.30
           test_description: Add hosts with empty vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -4000,7 +4000,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -4008,11 +4008,11 @@ test_suites:
           test_case_id: host25
           test_collection_version: 2025.7.30
           test_description: Add hosts with empty vars files
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -4044,7 +4044,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -4052,11 +4052,11 @@ test_suites:
           test_case_id: host26
           test_collection_version: 2025.7.30
           test_description: Add host with empty group
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -4088,7 +4088,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -4096,11 +4096,11 @@ test_suites:
           test_case_id: host27
           test_collection_version: 2025.7.30
           test_description: Add hosts - validate hosts are inserted in sort order
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -4132,7 +4132,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -4140,11 +4140,11 @@ test_suites:
           test_case_id: host28
           test_collection_version: 2025.7.30
           test_description: Add hosts with global groups enforcement
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
@@ -4176,7 +4176,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
         stdout:
         stderr:
         is_enabled: true
@@ -4184,11 +4184,11 @@ test_suites:
           test_case_id: host29
           test_collection_version: 2025.7.30
           test_description: Add hosts with global groups enforcement that should fail due to missing global group
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/27/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 09bb9bd
+          test_component_git_commit_hash: 4fe26eb
           test_failed: true
-          test_date: '2025-08-06T21:14:56Z'
+          test_date: '2025-08-06T22:53:39Z'
           assertions:
             validate_changed:
               failed: false
