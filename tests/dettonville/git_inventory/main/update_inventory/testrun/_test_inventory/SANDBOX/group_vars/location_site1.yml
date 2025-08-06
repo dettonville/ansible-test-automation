@@ -1,3 +1,2 @@
----
-env: qa
+env: prod
 site: site1
