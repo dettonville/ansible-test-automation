@@ -1,0 +1,44 @@
+test_data:
+  git_comment_prefix: PR-2648
+  host_list:
+  - host_name: test123.qa.site1.example.int
+    host_vars:
+      appname: foobar123
+      service_domains:
+      - foobar.qa.example.int
+    parent_groups:
+    - vmware_flavor_large
+    - ntp_server
+    - nfs_server
+    - ldap_server
+  - host_name: test123.dev.site1.example.int
+    host_vars:
+      appname: foobar123
+      infra_group: INFRA
+      service_domains:
+      - foobar.dev.example.int
+      - foobar.dev.site1.example.int
+    parent_groups:
+    - vmware_flavor_small
+    - ntp_client
+    - nfs_client
+    - ldap_client
+    - web_server
+  state: overwrite
+  test_description: Overwrite vars in host_vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      appname: test123
+      env: qa
+      site: site1
+    file_path: host_vars/test123.qa.site1.example.int.yml
+  - content:
+      appname: test123
+      env: dev
+      site: site1
+    file_path: host_vars/test123.dev.site1.example.int.yml
+  use_vars_files: true
