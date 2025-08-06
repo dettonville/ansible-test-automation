@@ -1,3 +1,4 @@
+---
 full_dict:
   outer1_dict:
     inner11_dict:
@@ -17,18 +18,19 @@ full_dict:
     inner12_dict:
       outer121_dict:
         inner121_dict:
-          action: change me
-          foo: bar121
-        inner121_key: inner121 key value
-      outer121_key: outer121 key value
+          action: inner121_dict had a complete change
+          foo: we overwrote inner121_dict
+          mynewkey: a shiny brand new key
+        inner121_key: NEW inner121 key value
+      outer121_key: NEW outer121 key value
       outer122_dict:
         inner122_dict:
           action: dont change me!
           foo: bar122
         inner122_key: inner122 key value
       outer122_key: outer122 key value
-    inner12_key: inner12 key value2
-  outer1_key: outer1 key value
+    inner12_key: NEW inner12 key value
+  outer1_key: NEW outer1 key value
   outer2_dict:
     inner21_dict:
       outer211_dict:
