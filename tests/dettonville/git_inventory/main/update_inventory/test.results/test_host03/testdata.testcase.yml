@@ -1,0 +1,42 @@
+test_data:
+  git_comment_prefix: PR-2648
+  host_list:
+  - host_name: admin01.qa.site1.example.int
+    host_vars:
+      provisioning_data: {}
+  - host_name: web01.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: INFRA
+        service_domains:
+        - webapp101.qa.example.int
+    parent_groups:
+    - vmware_flavor_medium
+    - rhel7
+    - network_internal
+    - location_site1
+    - ntp_client
+    - web_server
+  - host_name: web02.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: INFRA
+        service_domains:
+        - webapp102.qa.example.int
+    parent_groups:
+    - vmware_flavor_small
+    - rhel7
+    - network_dmz
+    - location_site1
+    - ntp_client
+    - nfs_client
+    - ldap_client
+    - web_server
+    - unica_proxy
+  state: overwrite
+  test_description: Overwrite hosts
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: false
