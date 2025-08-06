@@ -1,0 +1,35 @@
+test_results:
+  update_inventory:
+    properties:
+      test_case_id: host07
+      test_collection_version: 2025.7.30
+      test_component_git_branch: main
+      test_component_git_commit_hash: 4fe26eb
+      test_date: '2025-08-06T22:53:39Z'
+      test_description: Add hosts with complex dict vars (e.g., dict of list of dicts)
+      test_failed: true
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
+    test_cases:
+      host07:
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_message:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: true
+            msg: Difference found between test_results and test_expected!
+        test_case_id: host07
+        test_collection_version: 2025.7.30
+        test_component_git_branch: main
+        test_component_git_commit_hash: 4fe26eb
+        test_date: '2025-08-06T22:53:39Z'
+        test_description: Add hosts with complex dict vars (e.g., dict of list of
+          dicts)
+        test_failed: true
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
