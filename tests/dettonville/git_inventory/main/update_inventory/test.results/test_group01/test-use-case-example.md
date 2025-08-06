@@ -183,7 +183,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_388ggioi/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_barzzqb4/ansible_repo.key
     use_vars_files: false
 
 
@@ -201,15 +201,19 @@ The run Result
 TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
-  changed: false
-  cmd: /usr/local/bin/git config --local user.name
-  failed: true
-  msg: ''
-  rc: 1
-  stderr: ''
-  stderr_lines: []
-  stdout: ''
-  stdout_lines: []
+  backup_files: null
+  changed: true
+  check_mode: false
+  failed: false
+  git.commit: "[main 99674a2] PR-2648 - dettonville.git_inventory.update_inventory:
+    updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
+  git.pull: 'Already up to date.
+
+    '
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   eb5b525..99674a2
+    \ main -> main\n"
+  inventory_base_dir: /tmp/update_inventorypffni_te
+  message: Inventory updated successfully
 
 
 ```
