@@ -1,0 +1,12 @@
+all:
+  children:
+    ansible_localhost:
+      children:
+        ansible_controller_iam: {}
+        ansible_localhost_iam: {}
+    app_abc123:
+      children:
+        app_abc123_dev: {}
+        app_abc123_prod: {}
+        app_abc123_qa: {}
+        app_abc123_sandbox: {}
