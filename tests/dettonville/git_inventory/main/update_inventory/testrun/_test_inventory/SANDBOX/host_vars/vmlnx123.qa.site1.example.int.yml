@@ -1,4 +1,0 @@
----
-os_node: bronze
-service_domains:
-  - app123.qa.example.int
