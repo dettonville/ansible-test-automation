@@ -1,0 +1,19 @@
+test_data:
+  git_comment_prefix: PR-2648
+  group_list:
+  - group_name: app_systest1_sandbox
+    group_vars:
+      app_var: something here
+    parent_groups:
+    - app_systest1
+  - group_name: app_systest2_sandbox
+    group_vars:
+      app_var: something here
+    parent_groups:
+    - app_systest2
+  test_description: Add groups with system_name and system_env using groups list format
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: true
