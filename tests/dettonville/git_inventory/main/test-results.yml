@@ -653,6 +653,8 @@ test_results:
             due to missing global group
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
+  test_count: '29'
   test_date: '2025-08-06T14:12:09Z'
   test_failed: true
+  test_failed_count: '29'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/18/)'
