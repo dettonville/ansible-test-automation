@@ -1,3 +1,4 @@
+---
 ocp_namespaces:
   ocp_dev123:
     admin_group: OCP123-ADMIN-SG
@@ -17,3 +18,12 @@ ocp_namespaces:
     project_name: Project 123 [QA]
     project_size: '10'
     requester: Mary Baroof
+  ocp_qa124:
+    admin_group: OCP124-ADMIN-SG
+    build_name: '30230118'
+    dev_group: OCP124-DEV-SG
+    environmentx: qa124
+    project_description: Project 124 XYZ [QA] - blah blah blah
+    project_name: Project 124 [QA]
+    project_size: '10'
+    requester: Blythe DoodleDoo
