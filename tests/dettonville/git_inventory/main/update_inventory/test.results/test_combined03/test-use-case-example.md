@@ -108,8 +108,6 @@ all:
     always_add_child_group_to_root: true
     enforce_global_groups_must_already_exist: false
     git_comment_prefix: PR-2648
-    git_user_email: ansible@dettonville.org
-    git_user_name: ansible
     group_list:
     - group_name: location_site1
       group_vars:
@@ -178,7 +176,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_qz07r9dx/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_m08gdy2d/ansible_repo.key
     state: overwrite
     use_vars_files: false
 
@@ -201,14 +199,14 @@ ok: [localhost] =>
   changed: true
   check_mode: false
   failed: false
-  git.commit: "[main 289b676] PR-2648 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main 5fa87c7] PR-2648 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 88 insertions(+), 20 deletions(-)\n"
   git.pull: 'Already up to date.
 
     '
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   1ce0f6c..289b676
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   fb5153c..5fa87c7
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventoryy28xaifk
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory0p03e1ak
   message: Inventory updated successfully
 
 
