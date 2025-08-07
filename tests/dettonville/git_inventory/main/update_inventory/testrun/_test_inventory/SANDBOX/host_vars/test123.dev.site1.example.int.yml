@@ -1,3 +1,8 @@
-appname: test123
+---
+appname: foobar123
 env: dev
+infra_group: INFRA
+service_domains:
+  - foobar.dev.example.int
+  - foobar.dev.site1.example.int
 site: site1

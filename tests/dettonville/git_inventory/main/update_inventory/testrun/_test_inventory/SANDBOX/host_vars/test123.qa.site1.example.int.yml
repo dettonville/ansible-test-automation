@@ -1,3 +1,6 @@
-appname: test123
+---
+appname: foobar123
 env: qa
+service_domains:
+  - foobar.qa.example.int
 site: site1
