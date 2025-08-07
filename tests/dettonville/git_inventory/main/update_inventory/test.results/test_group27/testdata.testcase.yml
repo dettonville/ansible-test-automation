@@ -1,0 +1,20 @@
+test_data:
+  always_add_child_group_to_root: true
+  git_comment_prefix: PR-2648
+  group_list:
+  - children:
+      app_systest1_sandbox: {}
+    group_name: app_systest1
+    group_vars:
+      app_var: something here
+  - children:
+      app_systest2_sandbox: {}
+    group_name: app_systest2
+    group_vars:
+      app_var: something for app systest2 here
+  test_description: Add groups with system_name and system_env
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: true
