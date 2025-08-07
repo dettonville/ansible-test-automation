@@ -1,8 +1,0 @@
----
-ocp_namespaces:
-  - admin_group: OCP124-ADMIN-SG
-    environmentx: qa124
-    project_description: Project 124 XYZ [QA] - bloo blu boo
-    project_size: '16'
-    qa_group: OCP124-QA-SG
-    requester: Another Name
