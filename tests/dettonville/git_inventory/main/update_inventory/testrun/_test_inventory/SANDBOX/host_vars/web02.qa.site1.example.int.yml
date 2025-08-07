@@ -1,5 +1,0 @@
----
-provisioning_data:
-  infra_group: INFRA
-  service_domains:
-    - webapp102.qa.example.int
