@@ -1,6 +1,0 @@
----
-is_veeam_backup_server: true
-os_node: silver
-service_domains:
-  - app124.qa.example.int
-  - backups.qa.example.int
