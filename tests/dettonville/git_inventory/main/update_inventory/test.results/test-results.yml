@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.7.30
-  test_component_git_commit_hash: 4fe26eb
+  test_component_git_commit_hash: '9083731'
   test_components:
     update_inventory:
       properties:
-        test_case_id: combined05
+        test_case_id: combined03
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: 4fe26eb
-        test_date: '2025-08-06T22:53:39Z'
-        test_description: Add groups and hosts using var files
+        test_component_git_commit_hash: '9083731'
+        test_date: '2025-08-07T15:29:37Z'
+        test_description: Overwrite groups and hosts
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
+        test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
         combined01:
           assertions:
@@ -74,11 +74,11 @@ test_results:
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: 4fe26eb
-          test_date: '2025-08-06T22:53:39Z'
+          test_component_git_commit_hash: '9083731'
+          test_date: '2025-08-07T15:29:37Z'
           test_description: Overwrite groups and hosts
           test_failed: true
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
         combined04:
           assertions:
             validate_changed:
@@ -1470,6 +1470,6 @@ test_results:
             due to missing global group
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
-  test_date: '2025-08-06T22:53:39Z'
+  test_date: '2025-08-07T15:29:37Z'
   test_failed: true
-  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/28/)'
+  test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
