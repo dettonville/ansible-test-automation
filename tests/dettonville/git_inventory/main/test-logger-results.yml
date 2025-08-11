@@ -1492,7 +1492,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
         stdout:
         stderr:
         is_enabled: true
@@ -1500,29 +1500,26 @@ test_suites:
           test_case_id: group01
           test_collection_version: 2025.7.30
           test_description: Add groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
           test_component_git_commit_hash: 123ccaa
-          test_failed: true
-          test_date: '2025-08-11T16:25:13Z'
+          test_failed: false
+          test_date: '2025-08-11T16:33:10Z'
           assertions:
             validate_changed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_failed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_message:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
         errors: []
-        failures:
-        - message:
-          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
-          type:
+        failures: []
         skipped: []
         allow_multiple_subelements: false
     timestamp:
