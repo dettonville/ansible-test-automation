@@ -17,11 +17,11 @@ last_run_test_results:
               failed: false
               msg: All assertions passed
           test_case_id: group01
-          test_collection_version: 2025.7.30
+          test_collection_version: 2025.8.1
           test_component_git_branch: main
-          test_component_git_commit_hash: 6cab073
-          test_date: '2025-08-11T16:57:27Z'
+          test_component_git_commit_hash: c59fc91
+          test_date: '2025-08-11T17:39:24Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/42/)'
   test_failed: false
