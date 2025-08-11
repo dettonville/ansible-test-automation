@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_7j8gijrr/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_1p1s6upb/ansible_repo.key
     use_vars_files: false
 
 
@@ -199,27 +199,15 @@ The run Result
 TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
-  backup_files: null
-  changed: true
-  check_mode: false
-  failed: false
-  git.add: ''
-  git.commit: "[main ac35a8c] PR-2648 - dettonville.git_inventory.update_inventory:
-    updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
-  git.pull: "Already up to date.\nhint: Pulling without specifying how to reconcile
-    divergent branches is\nhint: discouraged. You can squelch this message by running
-    one of the following\nhint: commands sometime before your next pull:\nhint: \nhint:
-    \  git config pull.rebase false  # merge (the default strategy)\nhint:   git config
-    pull.rebase true   # rebase\nhint:   git config pull.ff only       # fast-forward
-    only\nhint: \nhint: You can replace \"git config\" with \"git config --global\"
-    to set a default\nhint: preference for all repositories. You can also pass --rebase,
-    --no-rebase,\nhint: or --ff-only on the command line to override the configured
-    default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
-    * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   dc95808..ac35a8c
-    \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventory4us5xy8k
-  message: Inventory updated successfully
+  changed: false
+  command: /usr/bin/git config --local user.name
+  failed: true
+  msg: Error in running '/usr/bin/git config --local user.name' command
+  rc: 1
+  stderr: ''
+  stderr_lines: []
+  stdout: ''
+  stdout_lines: []
 
 
 ```

@@ -7,25 +7,25 @@ test_results:
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 123ccaa
-        test_date: '2025-08-11T16:03:42Z'
+        test_date: '2025-08-11T16:25:13Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
       test_cases:
         group01:
           assertions:
             validate_changed:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_failed:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_message:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Assertion failed
             validate_results:
-              failed: false
-              msg: All assertions passed
+              failed: true
+              msg: Difference found between test_results and test_expected!
           test_case_id: group01
           test_collection_version: 2025.7.30
           test_component_args:
@@ -105,37 +105,24 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_7j8gijrr/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_1p1s6upb/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
           test_component_git_commit_hash: 123ccaab293f7350efacae884b89cff3566499e1
-          test_date: '2025-08-11T16:03:42Z'
+          test_date: '2025-08-11T16:25:13Z'
           test_description: Add groups
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
           test_result:
-            backup_files: null
-            changed: true
-            check_mode: false
-            failed: false
-            git.add: ''
-            git.commit: "[main ac35a8c] PR-2648 - dettonville.git_inventory.update_inventory:
-              updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
-            git.pull: "Already up to date.\nhint: Pulling without specifying how to
-              reconcile divergent branches is\nhint: discouraged. You can squelch
-              this message by running one of the following\nhint: commands sometime
-              before your next pull:\nhint: \nhint:   git config pull.rebase false
-              \ # merge (the default strategy)\nhint:   git config pull.rebase true
-              \  # rebase\nhint:   git config pull.ff only       # fast-forward only\nhint:
-              \nhint: You can replace \"git config\" with \"git config --global\"
-              to set a default\nhint: preference for all repositories. You can also
-              pass --rebase, --no-rebase,\nhint: or --ff-only on the command line
-              to override the configured default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
-              * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   dc95808..ac35a8c
-              \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventory4us5xy8k
-            message: Inventory updated successfully
+            changed: false
+            command: /usr/bin/git config --local user.name
+            failed: true
+            msg: Error in running '/usr/bin/git config --local user.name' command
+            rc: 1
+            stderr: ''
+            stderr_lines: []
+            stdout: ''
+            stdout_lines: []
           test_runtime_info:
             ansible_connection: local
             ansible_controller_vars: {}
@@ -143,10 +130,10 @@ test_results:
             ansible_distribution_release: bullseye
             ansible_distribution_version: '11.11'
             ansible_host: 127.0.0.1
-            ansible_hostname: e17c7c22a7ef
-            ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/
+            ansible_hostname: fd263e273ccb
+            ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/
             ansible_limit: []
-            ansible_nodename: e17c7c22a7ef
+            ansible_nodename: fd263e273ccb
             ansible_os_family: Debian
             ansible_python_interpreter: python3
             ansible_python_version: 3.12.11
@@ -344,6 +331,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
   test_count: '8'
-  test_date: '2025-08-11T16:03:42Z'
+  test_date: '2025-08-11T16:25:13Z'
   test_failed: true
-  test_failed_count: '5'
+  test_failed_count: '6'
