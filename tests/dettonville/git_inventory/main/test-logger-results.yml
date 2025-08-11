@@ -1417,7 +1417,7 @@ test_suites:
         allow_multiple_subelements: false
       combined03: !TestCase
         name: combined03
-        assertions: 4
+        assertions:
         elapsed_sec:
         timestamp:
         classname: update_inventory
@@ -1426,35 +1426,16 @@ test_suites:
         file:
         line:
         log:
-        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+        url:
         stdout:
         stderr:
         is_enabled: true
-        properties:
-          test_case_id: combined03
-          test_collection_version: 2025.7.30
-          test_description: Overwrite groups and hosts
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-          test_component_git_branch: main
-          test_component_git_commit_hash: 0b2ee22
-          test_failed: false
-          test_date: '2025-08-11T14:23:16Z'
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
+        properties: {}
         errors: []
         failures: []
-        skipped: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined03 skipped
         allow_multiple_subelements: false
       combined04: !TestCase
         name: combined04
@@ -1499,6 +1480,50 @@ test_suites:
         skipped:
         - message:
           output: test_suite_id:test_case_id=update_inventory:combined05 skipped
+        allow_multiple_subelements: false
+      group02: !TestCase
+        name: group02
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: group02
+          test_collection_version: 2025.7.30
+          test_description: Update groups
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_component_git_branch: main
+          test_component_git_commit_hash: '0978117'
+          test_failed: true
+          test_date: '2025-08-11T15:38:02Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+        errors: []
+        failures:
+        - message:
+          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
+          type:
+        skipped: []
         allow_multiple_subelements: false
     timestamp:
     hostname:

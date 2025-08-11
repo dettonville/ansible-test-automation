@@ -2,7 +2,7 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
-        combined03:
+        group02:
           assertions:
             validate_changed:
               failed: false
@@ -14,14 +14,14 @@ last_run_test_results:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: combined03
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group02
           test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: 0b2ee22
-          test_date: '2025-08-11T14:23:16Z'
-          test_description: Overwrite groups and hosts
-          test_failed: false
+          test_component_git_commit_hash: 0978117
+          test_date: '2025-08-11T15:38:02Z'
+          test_description: Update groups
+          test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_failed: false
+  test_failed: true

@@ -3,16 +3,16 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: combined03
+        test_case_id: group02
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: 0b2ee22
-        test_date: '2025-08-11T14:23:16Z'
-        test_description: Overwrite groups and hosts
+        test_component_git_commit_hash: 0978117
+        test_date: '2025-08-11T15:38:02Z'
+        test_description: Update groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
-        combined03:
+        group02:
           assertions:
             validate_changed:
               failed: false
@@ -24,104 +24,47 @@ test_results:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: combined03
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: group02
           test_collection_version: 2025.7.30
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: PR-2648
             group_list:
             - group_name: location_site1
               group_vars:
                 site: site1
-            - group_name: admin_qa_site1
-              group_vars:
-                provisioning_data: {}
-            - group_name: webapp01_qa_site1
-              group_vars:
-                app_version: 2023086
-              parent_groups:
-              - vmware_flavor_medium
-              - rhel7
-              - network_internal
-              - location_site1
-              - ntp_client
-              - web_server
-            - group_name: webapp02_qa_site1
-              group_vars:
-                app_version: 2023086
-              parent_groups:
-              - vmware_flavor_small
-              - rhel7
-              - network_dmz
-              - location_site1
-              - ntp_client
-              - nfs_client
-              - ldap_client
-              - web_server
-              - unica_proxy
-            host_list:
-            - host_name: admin01.qa.site1.example.int
-              host_vars:
-                provisioning_data: {}
-            - host_name: web01.qa.site1.example.int
-              host_vars:
-                provisioning_data:
-                  infra_group: AIM
-                  service_domains:
-                  - webapp101.qa.example.int
-              parent_groups:
-              - vmware_flavor_medium
-              - rhel7
-              - network_internal
-              - location_site1
-              - ntp_client
-              - web_server
-            - host_name: web02.qa.site1.example.int
-              host_vars:
-                provisioning_data:
-                  infra_group: AIM
-                  service_domains:
-                  - webapp102.qa.example.int
-              parent_groups:
-              - vmware_flavor_small
-              - rhel7
-              - network_dmz
-              - location_site1
-              - ntp_client
-              - nfs_client
-              - ldap_client
-              - web_server
-              - unica_proxy
+              network_internal:
+                vars:
+                  trace_var: group_vars/network_internal
             inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
             inventory_repo_branch: main
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
+            jira_id: PR-2648
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_h930qkjv/ansible_repo.key
-            state: overwrite
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ykn9x6gb/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 0b2ee2221f1a29285aedeb2ee9a298fa5b103470
-          test_date: '2025-08-11T14:23:16Z'
-          test_description: Overwrite groups and hosts
-          test_failed: false
+          test_component_git_commit_hash: 097811779bd937b4609dc4a7cdc52a7af67cbb3c
+          test_date: '2025-08-11T15:38:02Z'
+          test_description: Update groups
+          test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
-            git.commit: "[main a8af14b] PR-2648 - dettonville.git_inventory.update_inventory:
-              updated inventory\n 1 file changed, 87 insertions(+), 36 deletions(-)\n"
+            git.commit: "[main 1cf6bc1] PR-2648 - dettonville.git_inventory.update_inventory:
+              updated inventory\n 1 file changed, 21 insertions(+), 20 deletions(-)\n"
             git.pull: 'Already up to date.
 
               '
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   d098add..a8af14b
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   3964a95..1cf6bc1
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryy6x0sqm6
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorywj37_a9d
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -825,7 +768,7 @@ test_results:
               version: 3.20.2
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
-  test_count: '4'
-  test_date: '2025-08-11T14:23:16Z'
+  test_count: '8'
+  test_date: '2025-08-11T15:38:02Z'
   test_failed: true
-  test_failed_count: '3'
+  test_failed_count: '6'
