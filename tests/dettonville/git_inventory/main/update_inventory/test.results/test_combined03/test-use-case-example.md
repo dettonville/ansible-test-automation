@@ -176,7 +176,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_7l208og0/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_4pgvbn4x/ansible_repo.key
     state: overwrite
     use_vars_files: false
 
@@ -195,44 +195,19 @@ The run Result
 TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
-  changed: false
-  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
-    init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
-    _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
-    \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1013, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1009, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 991, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 200, in __init__\nNameError: name 'state' is not defined\n"
-  failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754921446.559146-99771-248598973314338/AnsiballZ_update_inventory.py\",
-    line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
-    init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
-    _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
-    \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1013, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1009, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 991, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_v44w7b7r/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
-    line 200, in __init__\nNameError: name 'state' is not defined\n"
-  module_stdout: 'INFO:root:GitInventoryUpdater.get_internal_collection_version(): module_parts=[''dettonville.git_inventory'',
-    ''update_inventory'']
-
-    INFO:root:GitInventoryUpdater.init(): inventory_base_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryj19va3nh
+  backup_files: null
+  changed: true
+  check_mode: false
+  failed: false
+  git.commit: "[main 614a60b] PR-2648 - dettonville.git_inventory.update_inventory:
+    updated inventory\n 1 file changed, 88 insertions(+), 20 deletions(-)\n"
+  git.pull: 'Already up to date.
 
     '
-  msg: 'MODULE FAILURE: No start of json char found
-
-    See stdout/stderr for the exact error'
-  rc: 1
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   01ff44b..614a60b
+    \ main -> main\n"
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryz6yffbew
+  message: Inventory updated successfully
 
 
 ```
