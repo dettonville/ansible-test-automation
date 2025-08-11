@@ -1,14 +1,14 @@
 test_results:
   test_collection_version: 2025.7.30
-  test_component_git_commit_hash: e318f11
+  test_component_git_commit_hash: 0c97ade
   test_components:
     update_inventory:
       properties:
         test_case_id: combined03
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: e318f11
-        test_date: '2025-08-11T13:04:01Z'
+        test_component_git_commit_hash: 0c97ade
+        test_date: '2025-08-11T13:07:18Z'
         test_description: Overwrite groups and hosts
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -74,8 +74,8 @@ test_results:
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: e318f11
-          test_date: '2025-08-11T13:04:01Z'
+          test_component_git_commit_hash: 0c97ade
+          test_date: '2025-08-11T13:07:18Z'
           test_description: Overwrite groups and hosts
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -1470,6 +1470,6 @@ test_results:
             due to missing global group
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/30/)'
-  test_date: '2025-08-11T13:04:01Z'
+  test_date: '2025-08-11T13:07:18Z'
   test_failed: true
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
