@@ -1436,9 +1436,9 @@ test_suites:
           test_description: Overwrite groups and hosts
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: 8e2b890
+          test_component_git_commit_hash: e318f11
           test_failed: true
-          test_date: '2025-08-11T12:53:06Z'
+          test_date: '2025-08-11T13:04:01Z'
           assertions:
             validate_changed:
               failed: true

@@ -7,8 +7,8 @@ test_results:
         test_case_id: combined03
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: 8e2b890
-        test_date: '2025-08-11T12:53:06Z'
+        test_component_git_commit_hash: e318f11
+        test_date: '2025-08-11T13:04:01Z'
         test_description: Overwrite groups and hosts
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -74,8 +74,8 @@ test_results:
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: 8e2b890
-          test_date: '2025-08-11T12:53:06Z'
+          test_component_git_commit_hash: e318f11
+          test_date: '2025-08-11T13:04:01Z'
           test_description: Overwrite groups and hosts
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -1471,7 +1471,7 @@ test_results:
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/30/)'
   test_count: '66'
-  test_date: '2025-08-11T12:53:06Z'
+  test_date: '2025-08-11T13:04:01Z'
   test_failed: true
   test_failed_count: '66'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
