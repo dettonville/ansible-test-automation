@@ -6,8 +6,8 @@ test_results:
         test_case_id: group02
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: 0978117
-        test_date: '2025-08-11T15:38:02Z'
+        test_component_git_commit_hash: faa9dff
+        test_date: '2025-08-11T15:44:08Z'
         test_description: Update groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -24,8 +24,8 @@ test_results:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
           test_case_id: group02
           test_collection_version: 2025.7.30
           test_component_args:
@@ -44,27 +44,27 @@ test_results:
             jira_id: PR-2648
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ykn9x6gb/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_cz6bta9k/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 097811779bd937b4609dc4a7cdc52a7af67cbb3c
-          test_date: '2025-08-11T15:38:02Z'
+          test_component_git_commit_hash: faa9dffa00f22ee07e736d0a91e2671a11c35618
+          test_date: '2025-08-11T15:44:08Z'
           test_description: Update groups
-          test_failed: true
+          test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
-            git.commit: "[main 1cf6bc1] PR-2648 - dettonville.git_inventory.update_inventory:
+            git.commit: "[main 69e56f7] PR-2648 - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 21 insertions(+), 20 deletions(-)\n"
             git.pull: 'Already up to date.
 
               '
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   3964a95..1cf6bc1
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   b00c4a4..69e56f7
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorywj37_a9d
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorynty_9ilr
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -769,6 +769,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
   test_count: '8'
-  test_date: '2025-08-11T15:38:02Z'
+  test_date: '2025-08-11T15:44:08Z'
   test_failed: true
-  test_failed_count: '6'
+  test_failed_count: '5'
