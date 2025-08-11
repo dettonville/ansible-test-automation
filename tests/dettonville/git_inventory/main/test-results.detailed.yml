@@ -3,16 +3,16 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: group01
+        test_case_id: group02
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 7bb1016
-        test_date: '2025-08-11T19:02:24Z'
-        test_description: Add groups
+        test_component_git_commit_hash: a4ee877
+        test_date: '2025-08-11T19:06:41Z'
+        test_description: Update groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
-        group01:
+        group02:
           assertions:
             validate_changed:
               failed: false
@@ -26,91 +26,30 @@ test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: group01
+          test_case_id: group02
           test_collection_version: 2025.8.1
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: PR-2648
             group_list:
-            - group_name: admin_qa_site1
+            - group_name: location_site1
               group_vars:
-                infra_group: DCC
-              parent_groups:
-              - vmware_flavor_large
-              - ntp_server
-              - nfs_server
-              - ldap_server
-            - group_name: webapp01_qa_site1
-              group_vars:
-                app_version: 2023086
-              parent_groups:
-              - vmware_flavor_small
-              - ntp_client
-              - nfs_client
-              - ldap_client
-              - web_server
-            - group_name: webapp02_qa_site1
-              group_vars:
-                app_version: 2023086
-              parent_groups:
-              - vmware_flavor_small
-              - ntp_client
-              - nfs_client
-              - ldap_client
-              - web_server
-            - group_name: ocp_common
-              group_vars:
-                ocp_namespace_configuration:
-                - name1
-                - name2
-            - group_name: ocp_dev_s1
-              group_vars:
-                ocp_environment: dev
-                ocp_site: s1
-              parent_groups:
-              - ocp_common
-            - group_name: ocp_qa_s1
-              group_vars:
-                ocp_environment: qa
-                ocp_site: s1
-              parent_groups:
-              - ocp_common
-            - group_name: ocp_prod_s1
-              group_vars:
-                ocp_environment: prod
-                ocp_site: s1
-              parent_groups:
-              - ocp_common
-            - group_name: ocp_dev_s4
-              group_vars:
-                ocp_environment: dev
-                ocp_site: s4
-              parent_groups:
-              - ocp_common
-            - group_name: ocp_qa_s4
-              group_vars:
-                ocp_environment: qa
-                ocp_site: s4
-              parent_groups:
-              - ocp_common
-            - group_name: ocp_prod_s4
-              group_vars:
-                ocp_environment: prod
-                ocp_site: s4
-              parent_groups:
-              - ocp_common
+                site: site1
+              network_internal:
+                vars:
+                  trace_var: group_vars/network_internal
             inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
             inventory_repo_branch: main
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
+            jira_id: PR-2648
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_cjsvb56w/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs__j0ot4j5/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 7bb101610bdc0ca413ed60f5dcc88545f7b793e0
-          test_date: '2025-08-11T19:02:24Z'
-          test_description: Add groups
+          test_component_git_commit_hash: a4ee877e44cda30eecb635eafa06cd1d4ad4a0be
+          test_date: '2025-08-11T19:06:41Z'
+          test_description: Update groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_result:
@@ -119,13 +58,13 @@ test_results:
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 17b4fb0] PR-2648 - dettonville.git_inventory.update_inventory:
-              updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
+            git.commit: "[main 90f8f6c] PR-2648 - dettonville.git_inventory.update_inventory:
+              updated inventory\n 1 file changed, 21 insertions(+), 20 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   83b884a..17b4fb0
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   80dca35..90f8f6c
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryk_20wghx
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory9fm6d5_c
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -830,6 +769,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.8.1
   test_count: '8'
-  test_date: '2025-08-11T19:02:24Z'
+  test_date: '2025-08-11T19:06:41Z'
   test_failed: true
   test_failed_count: '5'

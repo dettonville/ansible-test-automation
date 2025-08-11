@@ -4,12 +4,12 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: group01
+        test_case_id: group02
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 7bb1016
-        test_date: '2025-08-11T19:02:24Z'
-        test_description: Add groups
+        test_component_git_commit_hash: a4ee877
+        test_date: '2025-08-11T19:06:41Z'
+        test_description: Update groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
@@ -50,10 +50,10 @@ test_results:
               failed: false
               msg: All assertions passed
           test_case_id: group02
-          test_collection_version: 2025.7.30
+          test_collection_version: 2025.8.1
           test_component_git_branch: main
-          test_component_git_commit_hash: faa9dff
-          test_date: '2025-08-11T15:44:08Z'
+          test_component_git_commit_hash: a4ee877
+          test_date: '2025-08-11T19:06:41Z'
           test_description: Update groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -191,7 +191,7 @@ test_results:
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/36/)'
   test_count: '8'
-  test_date: '2025-08-11T19:02:24Z'
+  test_date: '2025-08-11T19:06:41Z'
   test_failed: true
   test_failed_count: '5'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
