@@ -176,7 +176,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_4pgvbn4x/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_h930qkjv/ansible_repo.key
     state: overwrite
     use_vars_files: false
 
@@ -199,14 +199,14 @@ ok: [localhost] =>
   changed: true
   check_mode: false
   failed: false
-  git.commit: "[main 614a60b] PR-2648 - dettonville.git_inventory.update_inventory:
-    updated inventory\n 1 file changed, 88 insertions(+), 20 deletions(-)\n"
+  git.commit: "[main a8af14b] PR-2648 - dettonville.git_inventory.update_inventory:
+    updated inventory\n 1 file changed, 87 insertions(+), 36 deletions(-)\n"
   git.pull: 'Already up to date.
 
     '
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   01ff44b..614a60b
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   d098add..a8af14b
     \ main -> main\n"
-  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryz6yffbew
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryy6x0sqm6
   message: Inventory updated successfully
 
 
