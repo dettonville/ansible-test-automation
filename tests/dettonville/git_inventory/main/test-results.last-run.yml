@@ -2,7 +2,7 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
-        group02:
+        group01:
           assertions:
             validate_changed:
               failed: false
@@ -16,12 +16,12 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: group02
+          test_case_id: group01
           test_collection_version: 2025.8.1
           test_component_git_branch: main
-          test_component_git_commit_hash: a4ee877
-          test_date: '2025-08-11T19:06:41Z'
-          test_description: Update groups
+          test_component_git_commit_hash: 7bb1016
+          test_date: '2025-08-11T19:13:06Z'
+          test_description: Add groups
           test_failed: false
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/46/)'
   test_failed: false
