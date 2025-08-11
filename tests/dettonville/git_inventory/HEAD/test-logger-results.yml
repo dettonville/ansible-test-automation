@@ -1,0 +1,1534 @@
+!TestSuites
+test_suites:
+  update_groups: !TestSuite
+    name: update_groups
+    test_cases:
+      group01: !TestCase
+        name: group01
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group01 skipped
+        allow_multiple_subelements: false
+      group02: !TestCase
+        name: group02
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group02 skipped
+        allow_multiple_subelements: false
+      group03: !TestCase
+        name: group03
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group03 skipped
+        allow_multiple_subelements: false
+      group04: !TestCase
+        name: group04
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group04 skipped
+        allow_multiple_subelements: false
+      group05: !TestCase
+        name: group05
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group05 skipped
+        allow_multiple_subelements: false
+      group06: !TestCase
+        name: group06
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group06 skipped
+        allow_multiple_subelements: false
+      group07: !TestCase
+        name: group07
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group07 skipped
+        allow_multiple_subelements: false
+      group08: !TestCase
+        name: group08
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group08 skipped
+        allow_multiple_subelements: false
+      group09: !TestCase
+        name: group09
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group09 skipped
+        allow_multiple_subelements: false
+      group10: !TestCase
+        name: group10
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group10 skipped
+        allow_multiple_subelements: false
+      group11: !TestCase
+        name: group11
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group11 skipped
+        allow_multiple_subelements: false
+      group12: !TestCase
+        name: group12
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group12 skipped
+        allow_multiple_subelements: false
+      group13: !TestCase
+        name: group13
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group13 skipped
+        allow_multiple_subelements: false
+      group14: !TestCase
+        name: group14
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group14 skipped
+        allow_multiple_subelements: false
+      group15: !TestCase
+        name: group15
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group15 skipped
+        allow_multiple_subelements: false
+      group16: !TestCase
+        name: group16
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group16 skipped
+        allow_multiple_subelements: false
+      group17: !TestCase
+        name: group17
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group17 skipped
+        allow_multiple_subelements: false
+      group18: !TestCase
+        name: group18
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group18 skipped
+        allow_multiple_subelements: false
+      group19: !TestCase
+        name: group19
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group19 skipped
+        allow_multiple_subelements: false
+      group20: !TestCase
+        name: group20
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group20 skipped
+        allow_multiple_subelements: false
+      group21: !TestCase
+        name: group21
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group21 skipped
+        allow_multiple_subelements: false
+      group22: !TestCase
+        name: group22
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group22 skipped
+        allow_multiple_subelements: false
+      group23: !TestCase
+        name: group23
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group23 skipped
+        allow_multiple_subelements: false
+      group24: !TestCase
+        name: group24
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group24 skipped
+        allow_multiple_subelements: false
+      group25: !TestCase
+        name: group25
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group25 skipped
+        allow_multiple_subelements: false
+      group26: !TestCase
+        name: group26
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group26 skipped
+        allow_multiple_subelements: false
+      group27: !TestCase
+        name: group27
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group27 skipped
+        allow_multiple_subelements: false
+      group28: !TestCase
+        name: group28
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group28 skipped
+        allow_multiple_subelements: false
+      group29: !TestCase
+        name: group29
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group29 skipped
+        allow_multiple_subelements: false
+      group30: !TestCase
+        name: group30
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group30 skipped
+        allow_multiple_subelements: false
+      group31: !TestCase
+        name: group31
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group31 skipped
+        allow_multiple_subelements: false
+      group32: !TestCase
+        name: group32
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_groups
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_groups:group32 skipped
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
+  update_hosts: !TestSuite
+    name: update_hosts
+    test_cases:
+      host01: !TestCase
+        name: host01
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host01 skipped
+        allow_multiple_subelements: false
+      host02: !TestCase
+        name: host02
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host02 skipped
+        allow_multiple_subelements: false
+      host03: !TestCase
+        name: host03
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host03 skipped
+        allow_multiple_subelements: false
+      host04: !TestCase
+        name: host04
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host04 skipped
+        allow_multiple_subelements: false
+      host05: !TestCase
+        name: host05
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host05 skipped
+        allow_multiple_subelements: false
+      host06: !TestCase
+        name: host06
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host06 skipped
+        allow_multiple_subelements: false
+      host07: !TestCase
+        name: host07
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host07 skipped
+        allow_multiple_subelements: false
+      host08: !TestCase
+        name: host08
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host08 skipped
+        allow_multiple_subelements: false
+      host09: !TestCase
+        name: host09
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host09 skipped
+        allow_multiple_subelements: false
+      host10: !TestCase
+        name: host10
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host10 skipped
+        allow_multiple_subelements: false
+      host11: !TestCase
+        name: host11
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host11 skipped
+        allow_multiple_subelements: false
+      host12: !TestCase
+        name: host12
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host12 skipped
+        allow_multiple_subelements: false
+      host13: !TestCase
+        name: host13
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host13 skipped
+        allow_multiple_subelements: false
+      host14: !TestCase
+        name: host14
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host14 skipped
+        allow_multiple_subelements: false
+      host15: !TestCase
+        name: host15
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host15 skipped
+        allow_multiple_subelements: false
+      host16: !TestCase
+        name: host16
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host16 skipped
+        allow_multiple_subelements: false
+      host17: !TestCase
+        name: host17
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host17 skipped
+        allow_multiple_subelements: false
+      host18: !TestCase
+        name: host18
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host18 skipped
+        allow_multiple_subelements: false
+      host19: !TestCase
+        name: host19
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host19 skipped
+        allow_multiple_subelements: false
+      host20: !TestCase
+        name: host20
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host20 skipped
+        allow_multiple_subelements: false
+      host21: !TestCase
+        name: host21
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host21 skipped
+        allow_multiple_subelements: false
+      host22: !TestCase
+        name: host22
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host22 skipped
+        allow_multiple_subelements: false
+      host23: !TestCase
+        name: host23
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host23 skipped
+        allow_multiple_subelements: false
+      host24: !TestCase
+        name: host24
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host24 skipped
+        allow_multiple_subelements: false
+      host25: !TestCase
+        name: host25
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host25 skipped
+        allow_multiple_subelements: false
+      host26: !TestCase
+        name: host26
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host26 skipped
+        allow_multiple_subelements: false
+      host27: !TestCase
+        name: host27
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host27 skipped
+        allow_multiple_subelements: false
+      host28: !TestCase
+        name: host28
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host28 skipped
+        allow_multiple_subelements: false
+      host29: !TestCase
+        name: host29
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_hosts
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_hosts:host29 skipped
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
+  update_inventory: !TestSuite
+    name: update_inventory
+    test_cases:
+      combined01: !TestCase
+        name: combined01
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined01 skipped
+        allow_multiple_subelements: false
+      combined02: !TestCase
+        name: combined02
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined02 skipped
+        allow_multiple_subelements: false
+      combined03: !TestCase
+        name: combined03
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined03 skipped
+        allow_multiple_subelements: false
+      combined04: !TestCase
+        name: combined04
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined04 skipped
+        allow_multiple_subelements: false
+      combined05: !TestCase
+        name: combined05
+        assertions:
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url:
+        stdout:
+        stderr:
+        is_enabled: true
+        properties: {}
+        errors: []
+        failures: []
+        skipped:
+        - message:
+          output: test_suite_id:test_case_id=update_inventory:combined05 skipped
+        allow_multiple_subelements: false
+      group01: !TestCase
+        name: group01
+        assertions: 4
+        elapsed_sec:
+        timestamp:
+        classname: update_inventory
+        status:
+        category:
+        file:
+        line:
+        log:
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/61/)'
+        stdout:
+        stderr:
+        is_enabled: true
+        properties:
+          test_case_id: group01
+          test_collection_version: 2025.8.1
+          test_description: Add groups
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/61/)'
+          test_component_git_branch: HEAD
+          test_component_git_commit_hash: 39b2ff2
+          test_failed: false
+          test_date: '2025-08-11T21:44:04Z'
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+        errors: []
+        failures: []
+        skipped: []
+        allow_multiple_subelements: false
+    timestamp:
+    hostname:
+    id:
+    package:
+    file:
+    log:
+    url:
+    stdout:
+    stderr:
+    properties:
