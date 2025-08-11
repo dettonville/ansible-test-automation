@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_uh1j234f/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_7j8gijrr/ansible_repo.key
     use_vars_files: false
 
 
@@ -204,7 +204,7 @@ ok: [localhost] =>
   check_mode: false
   failed: false
   git.add: ''
-  git.commit: "[main 1c0a0bd] PR-2648 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main ac35a8c] PR-2648 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
   git.pull: "Already up to date.\nhint: Pulling without specifying how to reconcile
     divergent branches is\nhint: discouraged. You can squelch this message by running
@@ -216,9 +216,9 @@ ok: [localhost] =>
     --no-rebase,\nhint: or --ff-only on the command line to override the configured
     default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
     * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   7bcc2b9..1c0a0bd
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   dc95808..ac35a8c
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventorym6kuq7iw
+  inventory_base_dir: /tmp/update_inventory4us5xy8k
   message: Inventory updated successfully
 
 

@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.7.30
-  test_component_git_commit_hash: faa9dff
+  test_component_git_commit_hash: 123ccaa
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: faa9dff
-        test_date: '2025-08-11T15:47:56Z'
+        test_component_git_commit_hash: 123ccaa
+        test_date: '2025-08-11T16:03:42Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
       test_cases:
         group01:
           assertions:
@@ -106,21 +106,21 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_uh1j234f/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_7j8gijrr/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: faa9dffa00f22ee07e736d0a91e2671a11c35618
-          test_date: '2025-08-11T15:47:56Z'
+          test_component_git_commit_hash: 123ccaab293f7350efacae884b89cff3566499e1
+          test_date: '2025-08-11T16:03:42Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 1c0a0bd] PR-2648 - dettonville.git_inventory.update_inventory:
+            git.commit: "[main ac35a8c] PR-2648 - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nhint: Pulling without specifying how to
               reconcile divergent branches is\nhint: discouraged. You can squelch
@@ -133,9 +133,9 @@ test_results:
               pass --rebase, --no-rebase,\nhint: or --ff-only on the command line
               to override the configured default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   7bcc2b9..1c0a0bd
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   dc95808..ac35a8c
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventorym6kuq7iw
+            inventory_base_dir: /tmp/update_inventory4us5xy8k
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -144,10 +144,10 @@ test_results:
             ansible_distribution_release: bullseye
             ansible_distribution_version: '11.11'
             ansible_host: 127.0.0.1
-            ansible_hostname: 7a84d8dd0cec
-            ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/
+            ansible_hostname: e17c7c22a7ef
+            ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/
             ansible_limit: []
-            ansible_nodename: 7a84d8dd0cec
+            ansible_nodename: e17c7c22a7ef
             ansible_os_family: Debian
             ansible_python_interpreter: python3
             ansible_python_version: 3.12.11
@@ -344,6 +344,6 @@ test_results:
               version: 3.23.0
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
-  test_date: '2025-08-11T15:47:56Z'
+  test_date: '2025-08-11T16:03:42Z'
   test_failed: true
-  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/)'
+  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
