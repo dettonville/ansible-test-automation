@@ -7,8 +7,8 @@ test_results:
         test_case_id: combined03
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: f41cd5f
-        test_date: '2025-08-11T14:10:21Z'
+        test_component_git_commit_hash: '4120622'
+        test_date: '2025-08-11T14:13:27Z'
         test_description: Overwrite groups and hosts
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -16,22 +16,22 @@ test_results:
         combined03:
           assertions:
             validate_changed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_failed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_message:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_results:
               failed: true
               msg: Difference found between test_results and test_expected!
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_component_git_branch: main
-          test_component_git_commit_hash: f41cd5f
-          test_date: '2025-08-11T14:10:21Z'
+          test_component_git_commit_hash: '4120622'
+          test_date: '2025-08-11T14:13:27Z'
           test_description: Overwrite groups and hosts
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -102,7 +102,7 @@ test_results:
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/31/)'
   test_count: '4'
-  test_date: '2025-08-11T14:10:21Z'
+  test_date: '2025-08-11T14:13:27Z'
   test_failed: true
   test_failed_count: '4'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
