@@ -20,7 +20,7 @@ last_run_test_results:
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 209592b
-          test_date: '2025-08-11T13:27:07Z'
+          test_date: '2025-08-11T13:42:07Z'
           test_description: Overwrite groups and hosts
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets

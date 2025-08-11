@@ -202,7 +202,7 @@
 				<property name="test_collection_version" value="2025.7.30"/>
 				<property name="test_component_git_branch" value="main"/>
 				<property name="test_component_git_commit_hash" value="209592b"/>
-				<property name="test_date" value="2025-08-11T13:27:07Z"/>
+				<property name="test_date" value="2025-08-11T13:42:07Z"/>
 				<property name="test_description" value="Overwrite groups and hosts"/>
 				<property name="test_failed" value="True"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>
