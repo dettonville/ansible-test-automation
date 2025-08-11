@@ -1481,8 +1481,8 @@ test_suites:
         - message:
           output: test_suite_id:test_case_id=update_inventory:combined05 skipped
         allow_multiple_subelements: false
-      group02: !TestCase
-        name: group02
+      group01: !TestCase
+        name: group01
         assertions: 4
         elapsed_sec:
         timestamp:
@@ -1492,19 +1492,19 @@ test_suites:
         file:
         line:
         log:
-        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/)'
         stdout:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: group02
+          test_case_id: group01
           test_collection_version: 2025.7.30
-          test_description: Update groups
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_description: Add groups
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/37/)'
           test_component_git_branch: main
           test_component_git_commit_hash: faa9dff
           test_failed: false
-          test_date: '2025-08-11T15:44:08Z'
+          test_date: '2025-08-11T15:47:56Z'
           assertions:
             validate_changed:
               failed: false

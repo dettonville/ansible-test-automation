@@ -87,12 +87,12 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        jira_id: PR-1101
+        jira_id: INFRA-1101
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
         infra_group: DCC
-        jira_id: PR-1102
+        jira_id: INFRA-1102
       trace_var: host_vars/web02.qa.site1.example.int
 ```
 
@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_563yzur4/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_uh1j234f/ansible_repo.key
     use_vars_files: false
 
 
@@ -204,7 +204,7 @@ ok: [localhost] =>
   check_mode: false
   failed: false
   git.add: ''
-  git.commit: "[main 073b47a] PR-2648 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main 1c0a0bd] PR-2648 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
   git.pull: "Already up to date.\nhint: Pulling without specifying how to reconcile
     divergent branches is\nhint: discouraged. You can squelch this message by running
@@ -216,9 +216,9 @@ ok: [localhost] =>
     --no-rebase,\nhint: or --ff-only on the command line to override the configured
     default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
     * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   b403cf5..073b47a
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   7bcc2b9..1c0a0bd
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventorylrxqpr4v
+  inventory_base_dir: /tmp/update_inventorym6kuq7iw
   message: Inventory updated successfully
 
 
@@ -382,12 +382,12 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        jira_id: PR-1101
+        jira_id: INFRA-1101
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
         infra_group: DCC
-        jira_id: PR-1102
+        jira_id: INFRA-1102
       trace_var: host_vars/web02.qa.site1.example.int
 
 ```
