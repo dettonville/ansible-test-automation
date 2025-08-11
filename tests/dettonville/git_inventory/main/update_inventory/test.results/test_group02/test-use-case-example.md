@@ -87,12 +87,12 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        jira_id: PR-1101
+        jira_id: INFRA-1101
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
         infra_group: DCC
-        jira_id: PR-1102
+        jira_id: INFRA-1102
       trace_var: host_vars/web02.qa.site1.example.int
 ```
 
@@ -120,7 +120,7 @@ all:
     jira_id: PR-2648
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ykn9x6gb/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_cz6bta9k/ansible_repo.key
     use_vars_files: false
 
 
@@ -142,14 +142,14 @@ ok: [localhost] =>
   changed: true
   check_mode: false
   failed: false
-  git.commit: "[main 1cf6bc1] PR-2648 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main 69e56f7] PR-2648 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 21 insertions(+), 20 deletions(-)\n"
   git.pull: 'Already up to date.
 
     '
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   3964a95..1cf6bc1
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   b00c4a4..69e56f7
     \ main -> main\n"
-  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorywj37_a9d
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorynty_9ilr
   message: Inventory updated successfully
 
 
