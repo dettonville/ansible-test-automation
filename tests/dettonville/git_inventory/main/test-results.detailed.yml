@@ -7,7 +7,7 @@ test_results:
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 6cab073
-        test_date: '2025-08-11T16:51:08Z'
+        test_date: '2025-08-11T16:52:32Z'
         test_description: Add groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -105,11 +105,11 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_55nwcg2y/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_e1xg01rp/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
           test_component_git_commit_hash: 6cab073990adb87ee335ef5bf80cc8a59608ca88
-          test_date: '2025-08-11T16:51:08Z'
+          test_date: '2025-08-11T16:52:32Z'
           test_description: Add groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -118,14 +118,14 @@ test_results:
             changed: true
             check_mode: false
             failed: false
-            git.commit: "[main 8c0ceb5] PR-2648 - dettonville.git_inventory.update_inventory:
+            git.commit: "[main 8b27f2c] PR-2648 - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: 'Already up to date.
 
               '
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   ca5f824..8c0ceb5
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   917ad75..8b27f2c
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory_5dy2v5o
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryghigfanh
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -830,6 +830,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
   test_count: '8'
-  test_date: '2025-08-11T16:51:08Z'
+  test_date: '2025-08-11T16:52:32Z'
   test_failed: true
   test_failed_count: '5'
