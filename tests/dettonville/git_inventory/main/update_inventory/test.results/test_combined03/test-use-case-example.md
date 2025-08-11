@@ -176,7 +176,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_l42p0h8f/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_032odbht/ansible_repo.key
     state: overwrite
     use_vars_files: false
 
@@ -196,59 +196,60 @@ TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
   changed: false
-  exception: "Traceback (most recent call last):\n  File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 107, in <module>\n    _ansiballz_main()\n  File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 99, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 47, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
+  exception: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1015, in <module>\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1011, in main\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1000, in run_module\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1015, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1011, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1000, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
     line 324, in update_inventory\nTypeError: not enough arguments for format string\n"
   failed: true
-  module_stderr: "Traceback (most recent call last):\n  File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 107, in <module>\n    _ansiballz_main()\n  File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 99, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
-    \ File \"/root/.ansible/tmp/ansible-tmp-1754589449.0195706-70764-45288041101123/AnsiballZ_update_inventory.py\",
-    line 47, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
+  module_stderr: "Traceback (most recent call last):\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 259, in <module>\n    _ansiballz_main()\n  File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 249, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n
+    \ File \"/Users/ljohnson/.ansible/tmp/ansible-tmp-1754916810.563157-78105-80794887863350/AnsiballZ_update_inventory.py\",
+    line 122, in invoke_module\n    runpy.run_module(mod_name='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     init_globals=dict(_module_fqn='ansible_collections.dettonville.git_inventory.plugins.modules.update_inventory',
     _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n
     \ File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\",
-    line 88, in _run_code\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1015, in <module>\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1011, in main\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
-    line 1000, in run_module\n  File \"/tmp/ansible_dettonville.git_inventory.update_inventory_payload_5urrrwwd/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
+    line 88, in _run_code\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1015, in <module>\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1011, in main\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/modules/update_inventory.py\",
+    line 1000, in run_module\n  File \"/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/ansible_dettonville.git_inventory.update_inventory_payload_vv99h0og/ansible_dettonville.git_inventory.update_inventory_payload.zip/ansible_collections/dettonville/git_inventory/plugins/module_utils/git_inventory_updater.py\",
     line 324, in update_inventory\nTypeError: not enough arguments for format string\n"
   module_stdout: 'INFO:root:GitInventoryUpdater.get_internal_collection_version(): module_parts=[''dettonville.git_inventory'',
     ''update_inventory'']
 
-    INFO:root:GitInventoryUpdater.init(): inventory_base_dir => /tmp/update_inventoryhu0cabqc
+    INFO:root:GitInventoryUpdater.init(): inventory_base_dir => /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorygzwywoqu
 
-    INFO:root:Git.execute_git_command(): Executing git command: /usr/bin/git clone --single-branch
-    --branch main --depth=1 --origin origin git@github.com:dettonville/ansible-test-automation.git
-    /tmp/update_inventoryhu0cabqc with env: {''LANG'': ''C'', ''LC_ALL'': ''C'', ''LC_MESSAGES'':
-    ''C'', ''LC_CTYPE'': ''C'', ''GIT_SSH_COMMAND'': ''ssh -i /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_l42p0h8f/ansible_repo.key
+    INFO:root:Git.execute_git_command(): Executing git command: /usr/local/bin/git clone
+    --single-branch --branch main --depth=1 --origin origin git@github.com:dettonville/ansible-test-automation.git
+    /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorygzwywoqu with env:
+    {''LANG'': ''C'', ''LC_ALL'': ''C'', ''LC_MESSAGES'': ''C'', ''LC_CTYPE'': ''C'',
+    ''GIT_SSH_COMMAND'': ''ssh -i /Users/ljohnson/.ansible/tmp/.test_jobs_032odbht/ansible_repo.key
     -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=no'', ''GIT_AUTHOR_NAME'':
     ''ansible'', ''GIT_COMMITTER_NAME'': ''ansible'', ''GIT_AUTHOR_EMAIL'': ''ansible@example.org'',
-    ''GIT_COMMITTER_EMAIL'': ''ansible@example.org''} in cwd: /tmp/update_inventoryhu0cabqc
+    ''GIT_COMMITTER_EMAIL'': ''ansible@example.org''} in cwd: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorygzwywoqu
 
-    INFO:root:Git.execute_git_command(): Executing git command: /usr/bin/git pull origin
-    main with env: {''LANG'': ''C'', ''LC_ALL'': ''C'', ''LC_MESSAGES'': ''C'', ''LC_CTYPE'':
-    ''C'', ''GIT_SSH_COMMAND'': ''ssh -i /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_l42p0h8f/ansible_repo.key
+    INFO:root:Git.execute_git_command(): Executing git command: /usr/local/bin/git pull
+    origin main with env: {''LANG'': ''C'', ''LC_ALL'': ''C'', ''LC_MESSAGES'': ''C'',
+    ''LC_CTYPE'': ''C'', ''GIT_SSH_COMMAND'': ''ssh -i /Users/ljohnson/.ansible/tmp/.test_jobs_032odbht/ansible_repo.key
     -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=no'', ''GIT_AUTHOR_NAME'':
     ''ansible'', ''GIT_COMMITTER_NAME'': ''ansible'', ''GIT_AUTHOR_EMAIL'': ''ansible@example.org'',
-    ''GIT_COMMITTER_EMAIL'': ''ansible@example.org''} in cwd: /tmp/update_inventoryhu0cabqc
+    ''GIT_COMMITTER_EMAIL'': ''ansible@example.org''} in cwd: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorygzwywoqu
 
     INFO:root:InventoryParser.init(): inventory_file=tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
 
-    INFO:root:InventoryParser.init(): inventory_base_dir=/tmp/update_inventoryhu0cabqc
+    INFO:root:InventoryParser.init(): inventory_base_dir=/var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorygzwywoqu
 
     '
-  msg: 'MODULE FAILURE
+  msg: 'MODULE FAILURE: No start of json char found
 
     See stdout/stderr for the exact error'
   rc: 1
