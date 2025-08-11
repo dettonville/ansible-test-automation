@@ -210,7 +210,7 @@
 				<property name="test_collection_version" value="2025.7.30"/>
 				<property name="test_component_git_branch" value="main"/>
 				<property name="test_component_git_commit_hash" value="6cab073"/>
-				<property name="test_date" value="2025-08-11T16:52:32Z"/>
+				<property name="test_date" value="2025-08-11T16:57:27Z"/>
 				<property name="test_description" value="Add groups"/>
 				<property name="test_failed" value="False"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>

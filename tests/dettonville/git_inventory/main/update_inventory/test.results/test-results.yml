@@ -8,7 +8,7 @@ test_results:
         test_collection_version: 2025.7.30
         test_component_git_branch: main
         test_component_git_commit_hash: 6cab073
-        test_date: '2025-08-11T16:52:32Z'
+        test_date: '2025-08-11T16:57:27Z'
         test_description: Add groups
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -31,7 +31,7 @@ test_results:
           test_collection_version: 2025.7.30
           test_component_git_branch: main
           test_component_git_commit_hash: 6cab073
-          test_date: '2025-08-11T16:52:32Z'
+          test_date: '2025-08-11T16:57:27Z'
           test_description: Add groups
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -190,6 +190,6 @@ test_results:
           test_description: Add groups with children groups
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/36/)'
-  test_date: '2025-08-11T16:52:32Z'
+  test_date: '2025-08-11T16:57:27Z'
   test_failed: true
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
