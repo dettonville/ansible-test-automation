@@ -120,7 +120,7 @@ all:
     jira_id: PR-2648
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_563yzur4/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_ykn9x6gb/ansible_repo.key
     use_vars_files: false
 
 
@@ -142,22 +142,14 @@ ok: [localhost] =>
   changed: true
   check_mode: false
   failed: false
-  git.add: ''
-  git.commit: "[main 4d10ba6] PR-2648 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main 1cf6bc1] PR-2648 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 21 insertions(+), 20 deletions(-)\n"
-  git.pull: "Already up to date.\nhint: Pulling without specifying how to reconcile
-    divergent branches is\nhint: discouraged. You can squelch this message by running
-    one of the following\nhint: commands sometime before your next pull:\nhint: \nhint:
-    \  git config pull.rebase false  # merge (the default strategy)\nhint:   git config
-    pull.rebase true   # rebase\nhint:   git config pull.ff only       # fast-forward
-    only\nhint: \nhint: You can replace \"git config\" with \"git config --global\"
-    to set a default\nhint: preference for all repositories. You can also pass --rebase,
-    --no-rebase,\nhint: or --ff-only on the command line to override the configured
-    default per\nhint: invocation.\nFrom github.com:dettonville/ansible-test-automation\n
-    * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   bc597ca..4d10ba6
+  git.pull: 'Already up to date.
+
+    '
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   3964a95..1cf6bc1
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventoryqrpvqx13
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorywj37_a9d
   message: Inventory updated successfully
 
 
