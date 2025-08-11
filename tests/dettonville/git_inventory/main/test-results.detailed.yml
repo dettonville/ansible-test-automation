@@ -6,8 +6,8 @@ test_results:
         test_case_id: combined03
         test_collection_version: 2025.7.30
         test_component_git_branch: main
-        test_component_git_commit_hash: '4120622'
-        test_date: '2025-08-11T14:13:27Z'
+        test_component_git_commit_hash: 0b2ee22
+        test_date: '2025-08-11T14:23:16Z'
         test_description: Overwrite groups and hosts
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
@@ -24,8 +24,8 @@ test_results:
               failed: false
               msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
           test_case_id: combined03
           test_collection_version: 2025.7.30
           test_component_args:
@@ -100,28 +100,28 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_4pgvbn4x/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_h930qkjv/ansible_repo.key
             state: overwrite
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 41206222fab6484e56b66b90811f19bf6c911b34
-          test_date: '2025-08-11T14:13:27Z'
+          test_component_git_commit_hash: 0b2ee2221f1a29285aedeb2ee9a298fa5b103470
+          test_date: '2025-08-11T14:23:16Z'
           test_description: Overwrite groups and hosts
-          test_failed: true
+          test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
-            git.commit: "[main 614a60b] PR-2648 - dettonville.git_inventory.update_inventory:
-              updated inventory\n 1 file changed, 88 insertions(+), 20 deletions(-)\n"
+            git.commit: "[main a8af14b] PR-2648 - dettonville.git_inventory.update_inventory:
+              updated inventory\n 1 file changed, 87 insertions(+), 36 deletions(-)\n"
             git.pull: 'Already up to date.
 
               '
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   01ff44b..614a60b
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   d098add..a8af14b
               \ main -> main\n"
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryz6yffbew
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryy6x0sqm6
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -826,6 +826,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.30
   test_count: '4'
-  test_date: '2025-08-11T14:13:27Z'
+  test_date: '2025-08-11T14:23:16Z'
   test_failed: true
-  test_failed_count: '4'
+  test_failed_count: '3'
