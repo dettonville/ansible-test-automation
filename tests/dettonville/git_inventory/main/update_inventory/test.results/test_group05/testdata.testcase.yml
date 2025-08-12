@@ -1,0 +1,45 @@
+test_data:
+  git_comment_prefix: JENKINS-68
+  group_list:
+  - group_name: environment_test
+    group_vars:
+      trace_var: group_vars/environment_test
+  - group_name: location_site1
+    group_vars:
+      trace_var: group_vars/location_site1
+  test_description: No change - update group with exact same info as current config
+  test_expected:
+    changed: false
+    failed: false
+    message: No changes required for tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
+  test_start_data:
+  - content: "---\nall:\n  children:\n    ansible_localhost:\n      children:\n        ansible_controller_iam:
+      {}\n        ansible_localhost_iam: {}\n    environment_test:\n      hosts:\n
+      \       admin01.qa.site1.example.int: {}\n        admin02.qa.site1.example.int:
+      {}\n        app01.qa.site1.example.int: {}\n        app02.qa.site1.example.int:
+      {}\n        web01.qa.site1.example.int: {}\n        web02.qa.site1.example.int:
+      {}\n      vars:\n        trace_var: group_vars/environment_test\n    location_site1:\n
+      \     hosts:\n        admin01.qa.site1.example.int: {}\n        admin02.qa.site1.example.int:
+      {}\n        app01.qa.site1.example.int: {}\n        app02.qa.site1.example.int:
+      {}\n        web01.qa.site1.example.int: {}\n        web02.qa.site1.example.int:
+      {}\n      vars:\n        trace_var: group_vars/location_site1\n    network_internal:\n
+      \     hosts:\n        admin01.qa.site1.example.int: {}\n        admin02.qa.site1.example.int:
+      {}\n        app01.qa.site1.example.int: {}\n        app02.qa.site1.example.int:
+      {}\n        web01.qa.site1.example.int: {}\n        web02.qa.site1.example.int:
+      {}\n      vars:\n        trace_var: group_vars/network_internal\n    rhel6:\n
+      \     hosts:\n        admin01.qa.site1.example.int: {}\n      vars:\n        trace_var:
+      group_vars/rhel6\n    rhel7:\n      hosts:\n        admin02.qa.site1.example.int:
+      {}\n        app01.qa.site1.example.int: {}\n        app02.qa.site1.example.int:
+      {}\n        web01.qa.site1.example.int: {}\n        web02.qa.site1.example.int:
+      {}\n      vars:\n        trace_var: group_vars/rhel7\n    ungrouped: {}\n  hosts:\n
+      \   admin01.qa.site1.example.int:\n      trace_var: host_vars/admin01.qa.site1.example.int\n
+      \   admin02.qa.site1.example.int:\n      trace_var: host_vars/admin02.qa.site1.example.int\n
+      \   app01.qa.site1.example.int:\n      trace_var: host_vars/app01.qa.site1.example.int\n
+      \   app02.qa.site1.example.int:\n      trace_var: host_vars/app02.qa.site1.example.int\n
+      \   web01.qa.site1.example.int:\n      provisioning_data:\n        jira_id:
+      INFRA-1101\n      trace_var: host_vars/web01.qa.site1.example.int\n    web02.qa.site1.example.int:\n
+      \     provisioning_data:\n        infra_group: DCC\n        jira_id: INFRA-1102\n
+      \     trace_var: host_vars/web02.qa.site1.example.int\n"
+    file_path: hosts.yml
+    is_raw: true
+  use_vars_files: false
