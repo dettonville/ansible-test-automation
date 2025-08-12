@@ -1,0 +1,23 @@
+test_data:
+  always_add_host_to_root_hosts: true
+  create_empty_hostvars_files: true
+  git_comment_prefix: JENKINS-68
+  host_list:
+  - host_name: vmlnx123.qa.site1.example.int
+    parent_groups:
+    - vmware_flavor_medium
+    - ntp_client
+    - ldap_client
+  - host_name: vmlnx124.qa.site1.example.int
+    parent_groups:
+    - vmware_flavor_medium
+    - ntp_client
+    - nfs_client
+    - ldap_client
+  test_description: Add hosts with empty vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: true
+  validate_yaml_content: false
