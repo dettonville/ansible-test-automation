@@ -1,0 +1,21 @@
+test_data:
+  always_add_child_group_to_root: true
+  git_comment_prefix: JENKINS-68
+  group_list:
+  - group_name: ocp_common
+    group_vars:
+      ocp_namespace_configuration:
+      - name: name1
+        value: something else
+      - name: name2
+        value: raboof
+      site: site1
+  - group_name: location_site1
+    group_vars:
+      site: site1
+  test_description: Add groups with complex dict vars (e.g., dict of list of dicts)
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: false
