@@ -66,3 +66,11 @@
 - [03: multi key sort test](sort_dict_list/test.results/test_03/test-use-case-example.md)
 - [04: empty list sort test](sort_dict_list/test.results/test_04/test-use-case-example.md)
 
+### dettonville.utils.to_markdown Examples
+
+- [01: markdown test](to_markdown/test.results/test_01/test-use-case-example.md)
+- [02: markdown test - empty key value](to_markdown/test.results/test_02/test-use-case-example.md)
+- [03: markdown test - encoded string values](to_markdown/test.results/test_03/test-use-case-example.md)
+- [04: markdown test - export with specified columns](to_markdown/test.results/test_04/test-use-case-example.md)
+- [05: markdown test - export with specified columns where rows are missing values](to_markdown/test.results/test_05/test-use-case-example.md)
+
