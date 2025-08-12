@@ -4,12 +4,12 @@ test_results:
   test_components:
     export_dicts:
       properties:
-        test_case_id: 09
+        test_case_id: '10'
         test_collection_version: 2025.8.1
         test_component_git_branch: main
         test_component_git_commit_hash: 8baf4d7
         test_date: '2025-08-12T13:24:24Z'
-        test_description: csv test - empty export list
+        test_description: non-existing file directory test
         test_failed: false
         test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
       test_cases:
@@ -209,6 +209,25 @@ test_results:
           test_component_git_commit_hash: 8baf4d7
           test_date: '2025-08-12T13:24:24Z'
           test_description: csv test - empty export list
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
+        '10':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_msg:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '10'
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8baf4d7
+          test_date: '2025-08-12T13:24:24Z'
+          test_description: non-existing file directory test
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
   test_date: '2025-08-12T13:24:24Z'
