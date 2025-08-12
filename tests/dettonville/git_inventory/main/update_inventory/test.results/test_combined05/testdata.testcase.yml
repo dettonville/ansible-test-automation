@@ -1,0 +1,36 @@
+test_data:
+  always_add_child_group_to_root: true
+  git_comment_prefix: JENKINS-68
+  group_list:
+  - group_name: admin_qa_site1
+    group_vars:
+      infra_group: DCC
+    parent_groups:
+    - vmware_flavor_large
+    - ntp_server
+    - nfs_server
+    - ldap_server
+  host_list:
+  - host_name: vmlnx123.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: AIM
+    parent_groups:
+    - vmware_flavor_medium
+    - ntp_client
+    - ldap_client
+  - host_name: vmlnx124.qa.site1.example.int
+    host_vars:
+      provisioning_data:
+        infra_group: AIM
+    parent_groups:
+    - vmware_flavor_medium
+    - ntp_client
+    - nfs_client
+    - ldap_client
+  test_description: Add groups and hosts using var files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: true
