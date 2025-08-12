@@ -1,0 +1,34 @@
+test_results:
+  update_inventory:
+    properties:
+      test_case_id: group25
+      test_collection_version: 2025.8.1
+      test_component_git_branch: main
+      test_component_git_commit_hash: 9819be1
+      test_date: '2025-08-12T21:04:44Z'
+      test_description: Add groups with parent inventory_dir specified
+      test_failed: false
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+    test_cases:
+      group25:
+        assertions:
+          validate_changed:
+            failed: false
+            msg: All assertions passed
+          validate_failed:
+            failed: false
+            msg: All assertions passed
+          validate_message:
+            failed: false
+            msg: All assertions passed
+          validate_results:
+            failed: false
+            msg: All assertions passed
+        test_case_id: group25
+        test_collection_version: 2025.8.1
+        test_component_git_branch: main
+        test_component_git_commit_hash: 9819be1
+        test_date: '2025-08-12T21:04:44Z'
+        test_description: Add groups with parent inventory_dir specified
+        test_failed: false
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
