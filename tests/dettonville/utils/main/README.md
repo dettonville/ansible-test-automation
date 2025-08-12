@@ -74,3 +74,10 @@
 - [04: markdown test - export with specified columns](to_markdown/test.results/test_04/test-use-case-example.md)
 - [05: markdown test - export with specified columns where rows are missing values](to_markdown/test.results/test_05/test-use-case-example.md)
 
+### dettonville.utils.test_results_logger Examples
+
+- [01: init test](test_results_logger/test.results/test_01/test-use-case-example.md)
+- [02: update test](test_results_logger/test.results/test_02/test-use-case-example.md)
+- [03: update test cases with junit report](test_results_logger/test.results/test_03/test-use-case-example.md)
+- [04: update nested test cases with junit report](test_results_logger/test.results/test_04/test-use-case-example.md)
+

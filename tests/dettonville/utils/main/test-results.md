@@ -5,4 +5,5 @@
 | 10 | dettonville.utils | 2025.8.1 | remove_dict_keys | 2025-08-12T13:24:24Z | False | [test details](./remove_dict_keys/test.results/test-results.md) |
 | 6 | dettonville.utils | 2025.8.1 | remove_sensitive_keys | 2025-08-12T13:24:24Z | False | [test details](./remove_sensitive_keys/test.results/test-results.md) |
 | 4 | dettonville.utils | 2025.8.1 | sort_dict_list | 2025-08-12T13:24:24Z | False | [test details](./sort_dict_list/test.results/test-results.md) |
+| 4 | dettonville.utils | 2025.8.1 | test_results_logger | 2025-08-12T13:24:24Z | False | [test details](./test_results_logger/test.results/test-results.md) |
 | 5 | dettonville.utils | 2025.8.1 | to_markdown | 2025-08-12T13:24:24Z | False | [test details](./to_markdown/test.results/test-results.md) |
