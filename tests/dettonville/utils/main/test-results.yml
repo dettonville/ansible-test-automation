@@ -167,6 +167,8 @@ test_results:
           test_description: markdown test - encoded string values
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/108/)'
+  test_count: '7'
   test_date: '2025-08-12T13:09:12Z'
   test_failed: false
+  test_failed_count: 0
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/127/)'
