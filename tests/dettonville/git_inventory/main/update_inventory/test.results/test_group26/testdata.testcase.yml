@@ -1,0 +1,19 @@
+test_data:
+  always_add_child_group_to_root: true
+  create_empty_groupvars_files: true
+  git_comment_prefix: JENKINS-68
+  group_list:
+  - group_name: ocp_common
+  test_description: Add group with empty vars files
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      appname: test123
+      env: prod
+      site: site1
+    file_path: group_vars/test123.yml
+  use_vars_files: true
+  validate_yaml_content: false
