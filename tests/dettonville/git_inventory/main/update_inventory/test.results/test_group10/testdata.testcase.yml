@@ -1,0 +1,65 @@
+test_data:
+  always_add_child_group_to_root: true
+  git_comment_prefix: JENKINS-68
+  group_list:
+  - group_name: location_site1
+    group_vars:
+      site: site1
+  - children:
+      ocp_dev_s1: {}
+      ocp_dev_s4: {}
+      ocp_prod_s1: {}
+      ocp_prod_s4: {}
+      ocp_qa_s1: {}
+      ocp_qa_s4: {}
+    group_name: ocp_common
+    group_vars:
+      ocp_cluster_url: https://api.{{ ocp_environment|lower }}{{ ocp_site }}.example.org:6443
+      ocp_namespace_configuration:
+      - name: name1
+        value: something else
+      - name: name2
+        value: raboof
+  - group_name: ocp_dev_s1
+    group_vars:
+      ocp_environment: dev
+      ocp_site: s1
+    parent_groups:
+    - ocp_common
+  - group_name: ocp_qa_s1
+    group_vars:
+      ocp_environment: qa
+      ocp_site: s1
+    parent_groups:
+    - ocp_common
+  - group_name: ocp_prod_s1
+    group_vars:
+      ocp_environment: prod
+      ocp_site: s1
+    parent_groups:
+    - ocp_common
+  - group_name: ocp_dev_s4
+    group_vars:
+      ocp_environment: dev
+      ocp_site: s4
+    parent_groups:
+    - ocp_common
+  - group_name: ocp_qa_s4
+    group_vars:
+      ocp_environment: qa
+      ocp_site: s4
+    parent_groups:
+    - ocp_common
+  - group_name: ocp_prod_s4
+    group_vars:
+      ocp_environment: prod
+      ocp_site: s4
+    parent_groups:
+    - ocp_common
+  test_description: Add groups with variable name references using raw/unsafe directive
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  use_vars_files: false
+  validate_yaml_content: false
