@@ -1,0 +1,14 @@
+test_data:
+  git_comment_prefix: JENKINS-68
+  host_list:
+  - host_name: abc123.dev.site1.example.int
+    parent_groups:
+    - dev_mem
+    - lnx_dev
+    - ''
+  test_description: Add host with empty group
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  validate_yaml_content: false
