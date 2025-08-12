@@ -1,5 +1,0 @@
----
-provisioning_data:
-  infra_group: DCC
-  service_domains:
-    - admin.qa.example.int
