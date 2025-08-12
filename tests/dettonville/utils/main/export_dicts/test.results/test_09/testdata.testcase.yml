@@ -1,0 +1,8 @@
+test_data:
+  export_list: []
+  test_description: csv test - empty export list
+  test_expected:
+    changed: true
+    failed: false
+    message: The csv file has been created successfully at .*/testdata.csv
+  test_file_format: csv
