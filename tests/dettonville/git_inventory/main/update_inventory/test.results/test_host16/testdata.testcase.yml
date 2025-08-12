@@ -1,0 +1,41 @@
+test_data:
+  git_comment_prefix: JENKINS-68
+  host_list:
+  - host_name: test123.qa.site1.example.int
+    host_vars:
+      ocp_namespaces:
+        ocp_qa123:
+          admin_group: OCP123-ADMIN-SG
+          environmentx: qa123
+          project_description: Project 123 XYZ [QA] - bloo blu boo
+          project_size: '16'
+          qa_group: OCP123-QA-SG
+          requester: Another Name
+  test_description: Update nested dict host var
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      ocp_namespaces:
+        ocp_dev123:
+          admin_group: OCP123-ADMIN-SG
+          build_name: '30230118'
+          dev_group: OCP123-DEV-SG
+          environmentx: dev123
+          project_description: Project 123 XYZ [DEV] - blah blah blah
+          project_name: Project 123 [Dev]
+          project_size: '10'
+          requester: Joe Foobar
+        ocp_qa123:
+          admin_group: OCP123-ADMIN-SG
+          build_name: '30230118'
+          dev_group: OCP123-DEV-SG
+          environmentx: qa123
+          project_description: Project 123 XYZ [QA] - blah blah blah
+          project_name: Project 123 [QA]
+          project_size: '10'
+          requester: Mary Baroof
+    file_path: host_vars/test123.qa.site1.example.int.yml
+  use_vars_files: true
