@@ -1,0 +1,27 @@
+last_run_test_results:
+  test_components:
+    export_dicts:
+      test_cases:
+        '01':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: '01'
+          test_collection_version: 2025.8.1
+          test_component_git_branch: ''
+          test_component_git_commit_hash: ''
+          test_date: '2025-08-12T20:23:09Z'
+          test_description: CSV test
+          test_failed: true
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/utils/tests/integration/targets
+  test_failed: true
