@@ -7,11 +7,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 2fbf40f
-        test_date: '2025-08-12T14:12:53Z'
+        test_component_git_commit_hash: a8a5fc0
+        test_date: '2025-08-12T14:34:35Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/63/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/64/)'
       test_cases:
         group01:
           assertions:
@@ -30,11 +30,11 @@ test_results:
           test_case_id: group01
           test_collection_version: 2025.8.1
           test_component_git_branch: main
-          test_component_git_commit_hash: 2fbf40f
-          test_date: '2025-08-12T14:12:53Z'
+          test_component_git_commit_hash: a8a5fc0
+          test_date: '2025-08-12T14:34:35Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/63/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/64/)'
         group02:
           assertions:
             validate_changed:
@@ -191,7 +191,7 @@ test_results:
           test_failed: true
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/36/)'
   test_count: '8'
-  test_date: '2025-08-12T14:12:53Z'
+  test_date: '2025-08-12T14:34:35Z'
   test_failed: true
   test_failed_count: '5'
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
