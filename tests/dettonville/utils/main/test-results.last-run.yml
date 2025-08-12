@@ -1,17 +1,6 @@
-test_results:
-  test_collection_version: 2025.8.1
-  test_component_git_commit_hash: 8baf4d7
+last_run_test_results:
   test_components:
     export_dicts:
-      properties:
-        test_case_id: '12'
-        test_collection_version: 2025.8.1
-        test_component_git_branch: main
-        test_component_git_commit_hash: 8baf4d7
-        test_date: '2025-08-12T13:24:24Z'
-        test_description: implied file format
-        test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
       test_cases:
         '01':
           assertions:
@@ -275,6 +264,4 @@ test_results:
           test_description: implied file format
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-  test_date: '2025-08-12T13:24:24Z'
   test_failed: false
-  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
