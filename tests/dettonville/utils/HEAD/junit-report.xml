@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<testsuites assertions="47" disabled="0" errors="0" failures="0" skipped="35" tests="47" time="0.0">
+	<testsuite assertions="47" disabled="0" errors="0" failures="0" name="export_dicts" skipped="0" tests="12" time="0">
+		<testcase name="01" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="01"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="CSV test"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="02" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="02"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="CSV test - empty key value"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="03" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="03"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="CSV test - encoded string values"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="04" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="04"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="CSV test - export with specified columns"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="05" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="05"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="markdown test"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="06" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="06"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="markdown test - empty key value"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="07" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="07"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="markdown test - encoded string values"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="08" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="08"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="markdown test - export with specified columns"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="09" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="09"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="csv test - empty export list"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="10" assertions="3" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_msg': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="10"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="non-existing file directory test"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="11" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="11"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="markdown test - export with specified columns where rows are missing values"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+		<testcase name="12" assertions="4" classname="export_dicts" url="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)">
+			<properties>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
+				<property name="test_case_id" value="12"/>
+				<property name="test_collection_version" value="2025.8.1"/>
+				<property name="test_component_git_branch" value="HEAD"/>
+				<property name="test_component_git_commit_hash" value="8baf4d7"/>
+				<property name="test_date" value="2025-08-12T12:26:27Z"/>
+				<property name="test_description" value="implied file format"/>
+				<property name="test_failed" value="False"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)"/>
+			</properties>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="git_pacp" skipped="6" tests="6" time="0">
+		<testcase name="01" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:04 skipped</skipped>
+		</testcase>
+		<testcase name="05" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:05 skipped</skipped>
+		</testcase>
+		<testcase name="06" classname="git_pacp">
+			<skipped type="skipped">test_suite_id:test_case_id=git_pacp:06 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="remove_dict_keys" skipped="10" tests="10" time="0">
+		<testcase name="01" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:04 skipped</skipped>
+		</testcase>
+		<testcase name="05" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:05 skipped</skipped>
+		</testcase>
+		<testcase name="06" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:06 skipped</skipped>
+		</testcase>
+		<testcase name="07" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:07 skipped</skipped>
+		</testcase>
+		<testcase name="08" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:08 skipped</skipped>
+		</testcase>
+		<testcase name="09" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:09 skipped</skipped>
+		</testcase>
+		<testcase name="10" classname="remove_dict_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_dict_keys:10 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="remove_sensitive_keys" skipped="6" tests="6" time="0">
+		<testcase name="01" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:04 skipped</skipped>
+		</testcase>
+		<testcase name="05" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:05 skipped</skipped>
+		</testcase>
+		<testcase name="06" classname="remove_sensitive_keys">
+			<skipped type="skipped">test_suite_id:test_case_id=remove_sensitive_keys:06 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="sort_dict_list" skipped="4" tests="4" time="0">
+		<testcase name="01" classname="sort_dict_list">
+			<skipped type="skipped">test_suite_id:test_case_id=sort_dict_list:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="sort_dict_list">
+			<skipped type="skipped">test_suite_id:test_case_id=sort_dict_list:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="sort_dict_list">
+			<skipped type="skipped">test_suite_id:test_case_id=sort_dict_list:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="sort_dict_list">
+			<skipped type="skipped">test_suite_id:test_case_id=sort_dict_list:04 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="test_results_logger" skipped="4" tests="4" time="0">
+		<testcase name="01" classname="test_results_logger">
+			<skipped type="skipped">test_suite_id:test_case_id=test_results_logger:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="test_results_logger">
+			<skipped type="skipped">test_suite_id:test_case_id=test_results_logger:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="test_results_logger">
+			<skipped type="skipped">test_suite_id:test_case_id=test_results_logger:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="test_results_logger">
+			<skipped type="skipped">test_suite_id:test_case_id=test_results_logger:04 skipped</skipped>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="0" errors="0" failures="0" name="to_markdown" skipped="5" tests="5" time="0">
+		<testcase name="01" classname="to_markdown">
+			<skipped type="skipped">test_suite_id:test_case_id=to_markdown:01 skipped</skipped>
+		</testcase>
+		<testcase name="02" classname="to_markdown">
+			<skipped type="skipped">test_suite_id:test_case_id=to_markdown:02 skipped</skipped>
+		</testcase>
+		<testcase name="03" classname="to_markdown">
+			<skipped type="skipped">test_suite_id:test_case_id=to_markdown:03 skipped</skipped>
+		</testcase>
+		<testcase name="04" classname="to_markdown">
+			<skipped type="skipped">test_suite_id:test_case_id=to_markdown:04 skipped</skipped>
+		</testcase>
+		<testcase name="05" classname="to_markdown">
+			<skipped type="skipped">test_suite_id:test_case_id=to_markdown:05 skipped</skipped>
+		</testcase>
+	</testsuite>
+</testsuites>

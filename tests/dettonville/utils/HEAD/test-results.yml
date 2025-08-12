@@ -275,6 +275,8 @@ test_results:
           test_description: implied file format
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)'
+  test_count: '12'
   test_date: '2025-08-12T12:26:27Z'
   test_failed: false
+  test_failed_count: 0
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/126/)'
