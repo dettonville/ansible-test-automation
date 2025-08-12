@@ -1,0 +1,31 @@
+test_data:
+  enforce_global_groups_must_already_exist: true
+  git_comment_prefix: JENKINS-68
+  global_groups_file: xenv_groups.yml
+  host_list:
+  - host_name: test123.prod.site1.example.int
+    parent_groups:
+    - app_abc123_prod
+  - host_name: test123.qa.site2.example.int
+    parent_groups:
+    - app_abc123_qa
+  test_description: Add hosts with global groups enforcement
+  test_expected:
+    changed: true
+    failed: false
+    message: Inventory updated successfully
+  test_start_data:
+  - content:
+      all:
+        children:
+          ansible_localhost:
+            children:
+              ansible_controller_iam: {}
+              ansible_localhost_iam: {}
+          app_abc123:
+            children:
+              app_abc123_dev: {}
+              app_abc123_prod: {}
+              app_abc123_qa: {}
+              app_abc123_sandbox: {}
+    file_path: xenv_groups.yml
