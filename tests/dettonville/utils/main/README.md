@@ -37,3 +37,16 @@
 - [05: SSH - add test file with remote alias defined](git_pacp/test.results/test_05/test-use-case-example.md)
 - [06: SSH - remove test file](git_pacp/test.results/test_06/test-use-case-example.md)
 
+### dettonville.utils.remove_dict_keys Examples
+
+- [01: dict object - single key remove test](remove_dict_keys/test.results/test_01/test-use-case-example.md)
+- [02: dict object - multi key remove test](remove_dict_keys/test.results/test_02/test-use-case-example.md)
+- [03: dict object - multi key remove test using regex](remove_dict_keys/test.results/test_03/test-use-case-example.md)
+- [04: dict object - empty object remove test](remove_dict_keys/test.results/test_04/test-use-case-example.md)
+- [05: list object - single key remove test](remove_dict_keys/test.results/test_05/test-use-case-example.md)
+- [06: list object - multi key remove test](remove_dict_keys/test.results/test_06/test-use-case-example.md)
+- [07: list object - multi key remove test using regex](remove_dict_keys/test.results/test_07/test-use-case-example.md)
+- [08: list object - empty list remove test](remove_dict_keys/test.results/test_08/test-use-case-example.md)
+- [09: dict object - deep key remove test using ansible_facts](remove_dict_keys/test.results/test_09/test-use-case-example.md)
+- [10: dict object - deep key remove test using ansible_facts](remove_dict_keys/test.results/test_10/test-use-case-example.md)
+
