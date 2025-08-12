@@ -59,3 +59,10 @@
 - [05: list object - remove sensitive keys](remove_sensitive_keys/test.results/test_05/test-use-case-example.md)
 - [06: dict object - remove sensitive keys](remove_sensitive_keys/test.results/test_06/test-use-case-example.md)
 
+### dettonville.utils.sort_dict_list Examples
+
+- [01: single key sort test](sort_dict_list/test.results/test_01/test-use-case-example.md)
+- [02: single key sort test using list](sort_dict_list/test.results/test_02/test-use-case-example.md)
+- [03: multi key sort test](sort_dict_list/test.results/test_03/test-use-case-example.md)
+- [04: empty list sort test](sort_dict_list/test.results/test_04/test-use-case-example.md)
+
