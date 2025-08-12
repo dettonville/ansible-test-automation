@@ -134,91 +134,6 @@ last_run_test_results:
           test_description: markdown test - empty key value
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        '07':
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '07'
-          test_collection_version: 2025.8.1
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8baf4d7
-          test_date: '2025-08-12T13:24:24Z'
-          test_description: markdown test - encoded string values
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        08:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: 08
-          test_collection_version: 2025.8.1
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8baf4d7
-          test_date: '2025-08-12T13:24:24Z'
-          test_description: markdown test - export with specified columns
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        09:
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: 09
-          test_collection_version: 2025.8.1
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8baf4d7
-          test_date: '2025-08-12T13:24:24Z'
-          test_description: csv test - empty export list
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        '10':
-          assertions:
-            validate_changed:
-              failed: false
-              msg: All assertions passed
-            validate_failed:
-              failed: false
-              msg: All assertions passed
-            validate_msg:
-              failed: false
-              msg: All assertions passed
-          test_case_id: '10'
-          test_collection_version: 2025.8.1
-          test_component_git_branch: main
-          test_component_git_commit_hash: 8baf4d7
-          test_date: '2025-08-12T13:24:24Z'
-          test_description: non-existing file directory test
-          test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
     git_pacp:
       test_cases:
         '01':
@@ -451,7 +366,9 @@ last_run_test_results:
           test_description: list object - multi key remove test
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        '07':
+    remove_sensitive_keys:
+      test_cases:
+        '01':
           assertions:
             validate_changed:
               failed: false
@@ -462,15 +379,15 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: '07'
+          test_case_id: '01'
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 8baf4d7
           test_date: '2025-08-12T13:24:24Z'
-          test_description: list object - multi key remove test using regex
+          test_description: dict object - remove sensitive keys
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        08:
+        '02':
           assertions:
             validate_changed:
               failed: false
@@ -481,15 +398,16 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: 08
+          test_case_id: '02'
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 8baf4d7
           test_date: '2025-08-12T13:24:24Z'
-          test_description: list object - empty list remove test
+          test_description: dict object - remove additional sensitive keys with additional_key_patterns
+            defined
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        09:
+        '03':
           assertions:
             validate_changed:
               failed: false
@@ -500,15 +418,16 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: 09
+          test_case_id: '03'
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 8baf4d7
           test_date: '2025-08-12T13:24:24Z'
-          test_description: dict object - deep key remove test using ansible_facts
+          test_description: dict object - remove sensitive keys with key_patterns
+            explicitly defined
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
-        '10':
+        '04':
           assertions:
             validate_changed:
               failed: false
@@ -519,12 +438,51 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: '10'
+          test_case_id: '04'
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 8baf4d7
           test_date: '2025-08-12T13:24:24Z'
-          test_description: dict object - deep key remove test using ansible_facts
+          test_description: dict object - remove sensitive keys with both key_patterns
+            and additional_key_patterns defined
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
+        '05':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '05'
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8baf4d7
+          test_date: '2025-08-12T13:24:24Z'
+          test_description: list object - remove sensitive keys
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
+        '06':
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: '06'
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 8baf4d7
+          test_date: '2025-08-12T13:24:24Z'
+          test_description: dict object - remove sensitive keys
           test_failed: false
           test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-utils/job/run-module-tests/job/main/129/)'
   test_failed: false
