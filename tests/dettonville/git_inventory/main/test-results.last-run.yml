@@ -2,6 +2,116 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
+        combined01:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: combined01
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups and hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        combined02:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: combined02
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update groups and hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        combined03:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: combined03
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Overwrite groups and hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        combined04:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: combined04
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove groups and hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        combined05:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: combined05
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups and hosts using var files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
         group01:
           assertions:
             validate_changed:
@@ -20,8 +130,1333 @@ last_run_test_results:
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 9819be1
-          test_date: '2025-08-12T20:50:16Z'
+          test_date: '2025-08-12T21:04:44Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
-  test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group02:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group02
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group03:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group03
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Overwrite groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group04:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group04
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group05:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group05
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: No change - update group with exact same info as current
+            config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group06:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group06
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove group that does not exist
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group07:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group07
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update group with children groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group08:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group08
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with children groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group09:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group09
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with complex dict vars (e.g., dict of list
+            of dicts)
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group10:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group10
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with variable name references using raw/unsafe
+            directive
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group11:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group11
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add group with vars in group_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group12:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group12
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add and update groups with vars in group_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group13:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group13
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update vars in group_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group14:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group14
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Overwrite vars in group_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group15:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group15
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove groups with vars in group_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group16:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group16
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups to hierarchical groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group17:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group17
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add nested dict group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group18:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group18
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update nested dict group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group19:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group19
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite nested dict group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group20:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group20
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update (append/extend) list group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group21:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group21
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite list dict group var using vars_overwrite_depth=1
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group22:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group22
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group23:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group23
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=3
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group24:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group24
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict group var using vars_overwrite_depth=4
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group25:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group25
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with parent inventory_dir specified
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group26:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group26
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add group with empty vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group27:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group27
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with system_name and system_env
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group28:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group28
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with system_name and system_env using groups
+            list format
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group29:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group29
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups with parent inventory_dir specified
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group30:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group30
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups to global groups file
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group31:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group31
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add groups to xenv_groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        group32:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group32
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Set git comment body
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host01:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host01
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host02:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: true
+              msg: Difference found between test_results and test_expected!
+          test_case_id: host02
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update hosts
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host03:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host03
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Overwrite hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host04:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host04
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove Hosts
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host05:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host05
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: No change - update host with exact same info as current
+            config
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host06:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: true
+              msg: Assertion failed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host06
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove Host that does not exist
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host07:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host07
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with complex dict vars (e.g., dict of list of
+            dicts)
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host08:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host08
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with variable name references using raw/unsafe
+            directive
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host09:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host09
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add host with vars in host_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host10:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host10
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add and update hosts with vars in host_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host11:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host11
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update vars in host_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host12:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host12
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Overwrite vars in host_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host13:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host13
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Remove hosts with vars in host_vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host14:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host14
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts to hierarchical groups
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host15:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host15
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add nested dict host var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host16:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host16
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update nested dict host var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host17:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host17
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite nested dict group var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host18:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host18
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update (append/extend) list host var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host19:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host19
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite list dict host var using vars_overwrite_depth=1
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host20:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host20
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict host var
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host21:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host21
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=3
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host22:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host22
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Vars overwrite for deep nested dict host var using vars_overwrite_depth=4
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host23:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host23
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Update existing host variable
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host24:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host24
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with empty vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host25:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host25
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with empty vars files
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host26:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host26
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add host with empty group
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host27:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host27
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts - validate hosts are inserted in sort order
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host28:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_message:
+              failed: false
+              msg: All assertions passed
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: host28
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with global groups enforcement
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+        host29:
+          assertions:
+            validate_changed:
+              failed: false
+              msg: All assertions passed
+            validate_failed:
+              failed: false
+              msg: All assertions passed
+            validate_msg:
+              failed: true
+              msg: Assertion failed
+          test_case_id: host29
+          test_collection_version: 2025.8.1
+          test_component_git_branch: main
+          test_component_git_commit_hash: 9819be1
+          test_date: '2025-08-12T21:04:44Z'
+          test_description: Add hosts with global groups enforcement that should fail
+            due to missing global group
+          test_failed: true
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
+  test_failed: true
