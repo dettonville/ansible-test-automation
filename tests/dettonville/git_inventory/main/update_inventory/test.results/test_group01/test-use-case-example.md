@@ -107,7 +107,7 @@ all:
   dettonville.git_inventory.update_inventory:
     always_add_child_group_to_root: true
     enforce_global_groups_must_already_exist: false
-    git_comment_prefix: JENKINS-68
+    git_comment_prefix: JENKINS-70
     group_list:
     - group_name: admin_qa_site1
       group_vars:
@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_hs_3hk5c/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_dx7ykj13/ansible_repo.key
     use_vars_files: false
 
 
@@ -204,13 +204,13 @@ ok: [localhost] =>
   check_mode: false
   failed: false
   git.add: ''
-  git.commit: "[main cda1d67] JENKINS-68 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main cadaa9a] JENKINS-70 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
   git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
     * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   5bfd2ca..cda1d67
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   a8c7be3..cadaa9a
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventoryzlj141ho
+  inventory_base_dir: /tmp/update_inventoryn7ul87t_
   message: Inventory updated successfully
 
 
