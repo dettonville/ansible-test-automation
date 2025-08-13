@@ -1,5 +1,5 @@
 test_data:
-  git_comment_prefix: JENKINS-68
+  git_comment_prefix: TEST-1001
   group_list:
   - group_name: environment_test
     group_vars:
