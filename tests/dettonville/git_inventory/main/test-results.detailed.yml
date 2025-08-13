@@ -3,17 +3,16 @@ test_results:
   test_components:
     update_inventory:
       properties:
-        test_case_id: group05
+        test_case_id: group06
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 0aa67de
-        test_date: '2025-08-13T12:38:05Z'
-        test_description: No change - update group with exact same info as current
-          config
+        test_component_git_commit_hash: ce1116c
+        test_date: '2025-08-13T12:48:40Z'
+        test_description: Remove group that does not exist
         test_failed: true
         test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
       test_cases:
-        group05:
+        group06:
           assertions:
             validate_changed:
               failed: false
@@ -27,30 +26,25 @@ test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: group05
+          test_case_id: group06
           test_collection_version: 2025.8.1
           test_component_args:
             enforce_global_groups_must_already_exist: false
             git_comment_prefix: TEST-1001
             group_list:
-            - group_name: environment_test
-              group_vars:
-                trace_var: group_vars/environment_test
-            - group_name: location_site1
-              group_vars:
-                trace_var: group_vars/location_site1
+            - group_name: foobar_site1
             inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
             inventory_repo_branch: main
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_6jcknqle/ansible_repo.key
+              key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_i6hjum4f/ansible_repo.key
+            state: absent
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 0aa67de283a427c063f2cf15765f852945cc8091
-          test_date: '2025-08-13T12:38:05Z'
-          test_description: No change - update group with exact same info as current
-            config
+          test_component_git_commit_hash: ce1116c571e6ba9573fc7f8e27b4a03ce853321e
+          test_date: '2025-08-13T12:48:40Z'
+          test_description: Remove group that does not exist
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_result:
@@ -58,7 +52,7 @@ test_results:
             changed: false
             check_mode: false
             failed: false
-            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryzqrzjnx_
+            inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventory86rkec7c
             message: No changes required for tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
           test_runtime_info:
             ansible_connection: local
@@ -763,6 +757,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.8.1
   test_count: '66'
-  test_date: '2025-08-13T12:38:05Z'
+  test_date: '2025-08-13T12:48:40Z'
   test_failed: true
-  test_failed_count: '5'
+  test_failed_count: '4'
