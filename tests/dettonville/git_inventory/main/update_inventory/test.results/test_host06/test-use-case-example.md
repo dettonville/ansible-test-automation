@@ -93,7 +93,7 @@ all:
   register: __test_component__test_result
   dettonville.git_inventory.update_inventory:
     enforce_global_groups_must_already_exist: false
-    git_comment_prefix: JENKINS-68
+    git_comment_prefix: TEST-1001
     host_list:
     - host_name: foobar-internal-s1.example.int
     inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
@@ -101,7 +101,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_hs_3hk5c/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_1ohxmx8w/ansible_repo.key
     state: absent
     use_vars_files: false
 
@@ -124,8 +124,8 @@ ok: [localhost] =>
   changed: false
   check_mode: false
   failed: false
-  inventory_base_dir: /tmp/update_inventory3wyeca_r
-  message: No changes required for inventory
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventoryrf0auati
+  message: No changes required for tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
 
 
 ```
