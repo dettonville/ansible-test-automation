@@ -1,5 +1,5 @@
 test_data:
-  git_comment_prefix: JENKINS-68
+  git_comment_prefix: TEST-1001
   host_list:
   - host_name: admin01.qa.site1.example.int
     host_vars:
