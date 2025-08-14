@@ -1,14 +1,14 @@
 test_results:
   test_collection_version: 2025.8.1
-  test_component_git_commit_hash: a68b604
+  test_component_git_commit_hash: 079d5f3
   test_components:
     update_inventory:
       properties:
         test_case_id: host29
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: a68b604
-        test_date: '2025-08-14T00:46:50Z'
+        test_component_git_commit_hash: 079d5f3
+        test_date: '2025-08-14T00:54:31Z'
         test_description: Add hosts with global groups enforcement that should fail
           due to missing global group
         test_failed: true
@@ -1465,12 +1465,12 @@ test_results:
           test_case_id: host29
           test_collection_version: 2025.8.1
           test_component_git_branch: main
-          test_component_git_commit_hash: a68b604
-          test_date: '2025-08-14T00:46:50Z'
+          test_component_git_commit_hash: 079d5f3
+          test_date: '2025-08-14T00:54:31Z'
           test_description: Add hosts with global groups enforcement that should fail
             due to missing global group
           test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_date: '2025-08-14T00:46:50Z'
+  test_date: '2025-08-14T00:54:31Z'
   test_failed: true
   test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets

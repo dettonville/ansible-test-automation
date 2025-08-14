@@ -1502,9 +1502,9 @@ test_suites:
           test_description: Add hosts with global groups enforcement that should fail due to missing global group
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: a68b604
+          test_component_git_commit_hash: 079d5f3
           test_failed: true
-          test_date: '2025-08-14T00:46:50Z'
+          test_date: '2025-08-14T00:54:31Z'
           assertions:
             validate_changed:
               failed: false

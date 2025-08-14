@@ -210,8 +210,8 @@
 				<property name="test_case_id" value="host29"/>
 				<property name="test_collection_version" value="2025.8.1"/>
 				<property name="test_component_git_branch" value="main"/>
-				<property name="test_component_git_commit_hash" value="a68b604"/>
-				<property name="test_date" value="2025-08-14T00:46:50Z"/>
+				<property name="test_component_git_commit_hash" value="079d5f3"/>
+				<property name="test_date" value="2025-08-14T00:54:31Z"/>
 				<property name="test_description" value="Add hosts with global groups enforcement that should fail due to missing global group"/>
 				<property name="test_failed" value="True"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>
