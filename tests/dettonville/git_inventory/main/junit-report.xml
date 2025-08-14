@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<testsuites assertions="4" disabled="0" errors="0" failures="0" skipped="66" tests="67" time="0.0">
+<testsuites assertions="3" disabled="0" errors="0" failures="1" skipped="66" tests="67" time="0.0">
 	<testsuite disabled="0" errors="0" failures="0" name="update_groups" skipped="32" tests="32" time="0">
 		<testcase name="group01" classname="update_groups">
 			<skipped type="skipped">test_suite_id:test_case_id=update_groups:group01 skipped</skipped>
@@ -187,7 +187,7 @@
 			<skipped type="skipped">test_suite_id:test_case_id=update_hosts:host29 skipped</skipped>
 		</testcase>
 	</testsuite>
-	<testsuite assertions="4" disabled="0" errors="0" failures="0" name="update_inventory" skipped="5" tests="6" time="0">
+	<testsuite assertions="3" disabled="0" errors="0" failures="1" name="update_inventory" skipped="5" tests="6" time="0">
 		<testcase name="combined01" classname="update_inventory">
 			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined01 skipped</skipped>
 		</testcase>
@@ -203,16 +203,17 @@
 		<testcase name="combined05" classname="update_inventory">
 			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined05 skipped</skipped>
 		</testcase>
-		<testcase name="host06" assertions="4" classname="update_inventory" url="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets">
+		<testcase name="host29" assertions="3" classname="update_inventory" url="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets">
+			<failure type="failure">validate_msg: {'failed': True, 'msg': 'Assertion failed'}</failure>
 			<properties>
-				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
-				<property name="test_case_id" value="host06"/>
+				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_msg': {'failed': True, 'msg': 'Assertion failed'}}"/>
+				<property name="test_case_id" value="host29"/>
 				<property name="test_collection_version" value="2025.8.1"/>
 				<property name="test_component_git_branch" value="main"/>
 				<property name="test_component_git_commit_hash" value="a68b604"/>
-				<property name="test_date" value="2025-08-14T00:42:30Z"/>
-				<property name="test_description" value="Remove Host that does not exist"/>
-				<property name="test_failed" value="False"/>
+				<property name="test_date" value="2025-08-14T00:46:50Z"/>
+				<property name="test_description" value="Add hosts with global groups enforcement that should fail due to missing global group"/>
+				<property name="test_failed" value="True"/>
 				<property name="test_job_link" value="ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets"/>
 			</properties>
 		</testcase>

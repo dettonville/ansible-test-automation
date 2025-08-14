@@ -1481,9 +1481,9 @@ test_suites:
         - message:
           output: test_suite_id:test_case_id=update_inventory:combined05 skipped
         allow_multiple_subelements: false
-      host06: !TestCase
-        name: host06
-        assertions: 4
+      host29: !TestCase
+        name: host29
+        assertions: 3
         elapsed_sec:
         timestamp:
         classname: update_inventory
@@ -1497,14 +1497,14 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: host06
+          test_case_id: host29
           test_collection_version: 2025.8.1
-          test_description: Remove Host that does not exist
+          test_description: Add hosts with global groups enforcement that should fail due to missing global group
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
           test_component_git_commit_hash: a68b604
-          test_failed: false
-          test_date: '2025-08-14T00:42:30Z'
+          test_failed: true
+          test_date: '2025-08-14T00:46:50Z'
           assertions:
             validate_changed:
               failed: false
@@ -1512,14 +1512,14 @@ test_suites:
             validate_failed:
               failed: false
               msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
+            validate_msg:
+              failed: true
+              msg: Assertion failed
         errors: []
-        failures: []
+        failures:
+        - message:
+          output: "validate_msg: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
         skipped: []
         allow_multiple_subelements: false
     timestamp:

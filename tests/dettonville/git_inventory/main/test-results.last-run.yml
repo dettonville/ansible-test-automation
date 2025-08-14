@@ -2,7 +2,7 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
-        host06:
+        host29:
           assertions:
             validate_changed:
               failed: false
@@ -10,18 +10,16 @@ last_run_test_results:
             validate_failed:
               failed: false
               msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
-          test_case_id: host06
+            validate_msg:
+              failed: true
+              msg: Assertion failed
+          test_case_id: host29
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: a68b604
-          test_date: '2025-08-14T00:42:30Z'
-          test_description: Remove Host that does not exist
-          test_failed: false
+          test_date: '2025-08-14T00:46:50Z'
+          test_description: Add hosts with global groups enforcement that should fail
+            due to missing global group
+          test_failed: true
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_failed: false
+  test_failed: true
