@@ -1,6 +1,6 @@
 test_data:
   enforce_global_groups_must_already_exist: true
-  git_comment_prefix: JENKINS-68
+  git_comment_prefix: TEST-1001
   global_groups_file: xenv_groups.yml
   host_list:
   - host_name: test123.prod.site1.example.int
