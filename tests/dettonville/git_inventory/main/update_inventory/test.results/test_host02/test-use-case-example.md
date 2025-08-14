@@ -146,10 +146,10 @@ all:
     inventory_file: tests/dettonville/git_inventory/main/update_inventory/testrun/_test_inventory/SANDBOX/hosts.yml
     inventory_repo_branch: main
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
-    jira_id: JENKINS-68
+    jira_id: TEST-1001
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_hs_3hk5c/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_aa155xeh/ansible_repo.key
     use_vars_files: false
 
 
@@ -172,13 +172,13 @@ ok: [localhost] =>
   check_mode: false
   failed: false
   git.add: ''
-  git.commit: "[main 55f7db4] JENKINS-68 - dettonville.git_inventory.update_inventory:
+  git.commit: "[main d50ef2c] TEST-1001 - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 63 insertions(+), 21 deletions(-)\n"
   git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
     * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   898169a..55f7db4
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   66e5388..d50ef2c
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventory55y_fj6h
+  inventory_base_dir: /var/folders/w6/3rcdpp211v5cxml6vg45ww3r0000gn/T/update_inventorykel08s8p
   message: Inventory updated successfully
 
 
@@ -286,7 +286,7 @@ all:
       trace_var: host_vars/app02.qa.site1.example.int
     web01.qa.site1.example.int:
       provisioning_data:
-        infra_group: AIM
+        infra_group: INFRA
         jira_id: INFRA-1101
         service_domains:
         - webapp101.qa.example.int
@@ -294,7 +294,7 @@ all:
       trace_var: host_vars/web01.qa.site1.example.int
     web02.qa.site1.example.int:
       provisioning_data:
-        infra_group: AIM
+        infra_group: INFRA
         jira_id: INFRA-1102
         service_domains:
         - webapp102.qa.example.int

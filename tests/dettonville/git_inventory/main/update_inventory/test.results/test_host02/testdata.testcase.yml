@@ -36,7 +36,7 @@ test_data:
     - nfs_client
     - ldap_client
     - web_server
-  jira_id: JENKINS-68
+  jira_id: TEST-1001
   test_description: Update hosts
   test_expected:
     changed: true
