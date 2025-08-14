@@ -1481,9 +1481,9 @@ test_suites:
         - message:
           output: test_suite_id:test_case_id=update_inventory:combined05 skipped
         allow_multiple_subelements: false
-      group01: !TestCase
-        name: group01
-        assertions: 4
+      host29: !TestCase
+        name: host29
+        assertions: 3
         elapsed_sec:
         timestamp:
         classname: update_inventory
@@ -1492,19 +1492,19 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/72/)'
+        url: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
         stdout:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: group01
+          test_case_id: host29
           test_collection_version: 2025.8.1
-          test_description: Add groups
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/72/)'
+          test_description: Add hosts with global groups enforcement that should fail due to missing global group
+          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
-          test_component_git_commit_hash: 079d5f3
-          test_failed: false
-          test_date: '2025-08-14T00:58:22Z'
+          test_component_git_commit_hash: 0e71bc8
+          test_failed: true
+          test_date: '2025-08-14T01:20:40Z'
           assertions:
             validate_changed:
               failed: false
@@ -1512,14 +1512,14 @@ test_suites:
             validate_failed:
               failed: false
               msg: All assertions passed
-            validate_message:
-              failed: false
-              msg: All assertions passed
-            validate_results:
-              failed: false
-              msg: All assertions passed
+            validate_msg:
+              failed: true
+              msg: Assertion failed
         errors: []
-        failures: []
+        failures:
+        - message:
+          output: "validate_msg: {'failed': True, 'msg': 'Assertion failed'}"
+          type:
         skipped: []
         allow_multiple_subelements: false
     timestamp:
