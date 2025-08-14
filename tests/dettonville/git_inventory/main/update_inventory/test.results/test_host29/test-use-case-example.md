@@ -135,7 +135,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_443qsw1r/ansible_repo.key
+      key_file: /Users/ljohnson/.ansible/tmp/.test_jobs_sohwc92z/ansible_repo.key
 
 
 - name: "Display __test_component__test_result"
