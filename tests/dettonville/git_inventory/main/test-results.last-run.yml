@@ -2,7 +2,7 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
-        host02:
+        host05:
           assertions:
             validate_changed:
               failed: false
@@ -16,12 +16,13 @@ last_run_test_results:
             validate_results:
               failed: false
               msg: All assertions passed
-          test_case_id: host02
+          test_case_id: host05
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: a68b604
-          test_date: '2025-08-14T00:36:36Z'
-          test_description: Update hosts
+          test_date: '2025-08-14T00:39:22Z'
+          test_description: No change - update host with exact same info as current
+            config
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
   test_failed: false

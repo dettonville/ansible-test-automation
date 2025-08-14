@@ -1481,8 +1481,8 @@ test_suites:
         - message:
           output: test_suite_id:test_case_id=update_inventory:combined05 skipped
         allow_multiple_subelements: false
-      host02: !TestCase
-        name: host02
+      host05: !TestCase
+        name: host05
         assertions: 4
         elapsed_sec:
         timestamp:
@@ -1497,14 +1497,14 @@ test_suites:
         stderr:
         is_enabled: true
         properties:
-          test_case_id: host02
+          test_case_id: host05
           test_collection_version: 2025.8.1
-          test_description: Update hosts
+          test_description: No change - update host with exact same info as current config
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
           test_component_git_branch: main
           test_component_git_commit_hash: a68b604
           test_failed: false
-          test_date: '2025-08-14T00:36:36Z'
+          test_date: '2025-08-14T00:39:22Z'
           assertions:
             validate_changed:
               failed: false
