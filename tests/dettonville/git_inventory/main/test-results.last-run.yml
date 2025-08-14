@@ -2,7 +2,7 @@ last_run_test_results:
   test_components:
     update_inventory:
       test_cases:
-        host29:
+        group01:
           assertions:
             validate_changed:
               failed: false
@@ -10,16 +10,18 @@ last_run_test_results:
             validate_failed:
               failed: false
               msg: All assertions passed
-            validate_msg:
+            validate_message:
               failed: false
               msg: All assertions passed
-          test_case_id: host29
+            validate_results:
+              failed: false
+              msg: All assertions passed
+          test_case_id: group01
           test_collection_version: 2025.8.1
           test_component_git_branch: main
           test_component_git_commit_hash: 3f3f53f
-          test_date: '2025-08-14T01:34:10Z'
-          test_description: Add hosts with global groups enforcement that should fail
-            due to missing global group
+          test_date: '2025-08-14T01:45:29Z'
+          test_description: Add groups
           test_failed: false
-          test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/74/)'
   test_failed: false

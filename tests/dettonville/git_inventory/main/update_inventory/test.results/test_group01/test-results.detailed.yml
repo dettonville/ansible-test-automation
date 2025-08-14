@@ -4,11 +4,11 @@ test_results:
       test_case_id: group01
       test_collection_version: 2025.8.1
       test_component_git_branch: main
-      test_component_git_commit_hash: 0e71bc8
-      test_date: '2025-08-14T01:24:25Z'
+      test_component_git_commit_hash: 3f3f53f
+      test_date: '2025-08-14T01:45:29Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/73/)'
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/74/)'
     test_cases:
       group01:
         assertions:
@@ -29,7 +29,7 @@ test_results:
         test_component_args:
           always_add_child_group_to_root: true
           enforce_global_groups_must_already_exist: false
-          git_comment_prefix: JENKINS-73
+          git_comment_prefix: JENKINS-74
           group_list:
           - group_name: admin_qa_site1
             group_vars:
@@ -103,27 +103,27 @@ test_results:
           inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
           ssh_params:
             accept_hostkey: true
-            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_grtmg4zx/ansible_repo.key
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_urlluep3/ansible_repo.key
           use_vars_files: false
         test_component_git_branch: main
-        test_component_git_commit_hash: 0e71bc83fa99ff30973d3e476240a81079ac1999
-        test_date: '2025-08-14T01:24:25Z'
+        test_component_git_commit_hash: 3f3f53f958ab923c3a420a1b21c93560fd907ad9
+        test_date: '2025-08-14T01:45:29Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/73/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/74/)'
         test_result:
           backup_files: null
           changed: true
           check_mode: false
           failed: false
           git.add: ''
-          git.commit: "[main b2a8301] JENKINS-73 - dettonville.git_inventory.update_inventory:
+          git.commit: "[main f11e854] JENKINS-74 - dettonville.git_inventory.update_inventory:
             updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
           git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
             * branch            main       -> FETCH_HEAD\n"
-          git.push: "To github.com:dettonville/ansible-test-automation.git\n   8516702..b2a8301
+          git.push: "To github.com:dettonville/ansible-test-automation.git\n   ce4b2e8..f11e854
             \ main -> main\n"
-          inventory_base_dir: /tmp/update_inventory9v__17zj
+          inventory_base_dir: /tmp/update_inventoryft78oswo
           message: Inventory updated successfully
         test_runtime_info:
           ansible_connection: local
@@ -132,10 +132,10 @@ test_results:
           ansible_distribution_release: bullseye
           ansible_distribution_version: '11.11'
           ansible_host: 127.0.0.1
-          ansible_hostname: 85a75d52c495
-          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/73/
+          ansible_hostname: 0d10a8826216
+          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/74/
           ansible_limit: []
-          ansible_nodename: 85a75d52c495
+          ansible_nodename: 0d10a8826216
           ansible_os_family: Debian
           ansible_python_interpreter: python3
           ansible_python_version: 3.12.11
