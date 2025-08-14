@@ -12,8 +12,8 @@ test_data:
   test_expected:
     changed: false
     failed: true
-    msg: GitInventoryUpdater.validate_global_group_exists.* group_name=.* not found
-      in xenv_groups.yml
+    msg: InventoryUpdater.validate_global_group_exists.* group_name=.* not found in
+      xenv_groups.yml
   test_start_data:
   - content:
       all:
