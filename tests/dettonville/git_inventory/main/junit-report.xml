@@ -203,17 +203,17 @@
 		<testcase name="combined05" classname="update_inventory">
 			<skipped type="skipped">test_suite_id:test_case_id=update_inventory:combined05 skipped</skipped>
 		</testcase>
-		<testcase name="group01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/4/)">
+		<testcase name="group01" assertions="4" classname="update_inventory" url="[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/)">
 			<properties>
 				<property name="assertions" value="{'validate_changed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_failed': {'failed': False, 'msg': 'All assertions passed'}, 'validate_message': {'failed': False, 'msg': 'All assertions passed'}, 'validate_results': {'failed': False, 'msg': 'All assertions passed'}}"/>
 				<property name="test_case_id" value="group01"/>
 				<property name="test_collection_version" value="2025.8.1"/>
 				<property name="test_component_git_branch" value="main"/>
-				<property name="test_component_git_commit_hash" value="2f72c82"/>
-				<property name="test_date" value="2025-09-07T16:26:32Z"/>
+				<property name="test_component_git_commit_hash" value="f0ffc7e"/>
+				<property name="test_date" value="2025-09-07T18:24:07Z"/>
 				<property name="test_description" value="Add groups"/>
 				<property name="test_failed" value="False"/>
-				<property name="test_job_link" value="[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/4/)"/>
+				<property name="test_job_link" value="[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/)"/>
 			</properties>
 		</testcase>
 	</testsuite>
