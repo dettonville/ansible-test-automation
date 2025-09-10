@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.8.1
-  test_component_git_commit_hash: f0ffc7e
+  test_component_git_commit_hash: d051d3e
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: f0ffc7e
-        test_date: '2025-09-07T18:24:07Z'
+        test_component_git_commit_hash: d051d3e
+        test_date: '2025-09-10T18:29:59Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/6/)'
       test_cases:
         group01:
           assertions:
@@ -32,7 +32,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: JENKINS-5
+            git_comment_prefix: JENKINS-6
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -106,27 +106,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_vjxpvxog/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_prplmhvt/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: f0ffc7e516a47a2aa645298883c6552548cf58bf
-          test_date: '2025-09-07T18:24:07Z'
+          test_component_git_commit_hash: d051d3e184097393e37b28914acb3f09d5dc48b7
+          test_date: '2025-09-10T18:29:59Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/6/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 4cebf5c] JENKINS-5 - dettonville.git_inventory.update_inventory:
+            git.commit: "[main 6c0502d] JENKINS-6 - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   76a1a79..4cebf5c
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   e92ccae..6c0502d
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventorydxoo961_
+            inventory_base_dir: /tmp/update_inventoryamnsfh0k
             message: Inventory updated successfully
           test_runtime_info:
             ansible_connection: local
@@ -135,10 +135,10 @@ test_results:
             ansible_distribution_release: bullseye
             ansible_distribution_version: '11.11'
             ansible_host: 127.0.0.1
-            ansible_hostname: 01b3cac1254c
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/
+            ansible_hostname: 93a3326fc537
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/6/
             ansible_limit: []
-            ansible_nodename: 01b3cac1254c
+            ansible_nodename: 93a3326fc537
             ansible_os_family: Debian
             ansible_python_interpreter: python3
             ansible_python_version: 3.13.6
@@ -221,7 +221,7 @@ test_results:
               version: 4.25.1
             - name: jsonschema-specifications
               source: pip3
-              version: 2025.4.1
+              version: 2025.9.1
             - name: MarkupSafe
               source: pip3
               version: 3.0.2
@@ -332,6 +332,6 @@ test_results:
               version: 3.23.0
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.8.1
-  test_date: '2025-09-07T18:24:07Z'
+  test_date: '2025-09-10T18:29:59Z'
   test_failed: false
-  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/5/)'
+  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/6/)'
