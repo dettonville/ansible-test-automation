@@ -7,11 +7,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.9.1
         test_component_git_branch: main
-        test_component_git_commit_hash: f2393ca
-        test_date: '2025-09-19T00:18:26Z'
+        test_component_git_commit_hash: '2281738'
+        test_date: '2025-10-08T15:44:11Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/88/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/97/)'
       test_cases:
         combined01:
           assertions:
@@ -140,11 +140,11 @@ test_results:
           test_case_id: group01
           test_collection_version: 2025.9.1
           test_component_git_branch: main
-          test_component_git_commit_hash: f2393ca
-          test_date: '2025-09-19T00:18:26Z'
+          test_component_git_commit_hash: '2281738'
+          test_date: '2025-10-08T15:44:11Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/88/)'
+          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/97/)'
         group02:
           assertions:
             validate_changed:
@@ -1470,8 +1470,8 @@ test_results:
             due to missing global group
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_count: '66'
-  test_date: '2025-09-19T00:18:26Z'
+  test_count: 66
+  test_date: '2025-10-08T15:44:11Z'
   test_failed: false
   test_failed_count: 0
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
