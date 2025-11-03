@@ -4,11 +4,11 @@ test_results:
       test_case_id: group01
       test_collection_version: 2025.9.1
       test_component_git_branch: main
-      test_component_git_commit_hash: eaa5371
-      test_date: '2025-10-30T20:38:09Z'
+      test_component_git_commit_hash: 70fcefd
+      test_date: '2025-11-03T16:01:07Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/101/)'
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/102/)'
     test_cases:
       group01:
         assertions:
@@ -29,7 +29,7 @@ test_results:
         test_component_args:
           always_add_child_group_to_root: true
           enforce_global_groups_must_already_exist: false
-          git_comment_prefix: 'JENKINS-101 - '
+          git_comment_prefix: 'JENKINS-102 - '
           group_list:
           - group_name: admin_qa_site1
             group_vars:
@@ -103,27 +103,27 @@ test_results:
           inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
           ssh_params:
             accept_hostkey: true
-            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_hgndqb23/ansible_repo.key
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs__3uge_0r/ansible_repo.key
           use_vars_files: false
         test_component_git_branch: main
-        test_component_git_commit_hash: eaa53719bd1e157f7b5f9461a997122d54250e09
-        test_date: '2025-10-30T20:38:09Z'
+        test_component_git_commit_hash: 70fcefdea2a08ac278c570dd3d324b7ff44e8abd
+        test_date: '2025-11-03T16:01:07Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/101/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/102/)'
         test_result:
           backup_files: null
           changed: true
           check_mode: false
           failed: false
           git.add: ''
-          git.commit: "[main b4d3955] JENKINS-101 -  - dettonville.git_inventory.update_inventory:
+          git.commit: "[main b39016d] JENKINS-102 -  - dettonville.git_inventory.update_inventory:
             updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
           git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
             * branch            main       -> FETCH_HEAD\n"
-          git.push: "To github.com:dettonville/ansible-test-automation.git\n   772d8c8..b4d3955
+          git.push: "To github.com:dettonville/ansible-test-automation.git\n   6ea3b43..b39016d
             \ main -> main\n"
-          inventory_base_dir: /tmp/update_inventoryn9zucvdc
+          inventory_base_dir: /tmp/update_inventorylvyactkp
           message: Inventory updated successfully
           warnings:
           - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -133,10 +133,10 @@ test_results:
           ansible_distribution_release: bullseye
           ansible_distribution_version: '11.11'
           ansible_host: 127.0.0.1
-          ansible_hostname: aa8311dd6ad1
-          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/101/
+          ansible_hostname: 22b9857647ce
+          ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/102/
           ansible_limit: []
-          ansible_nodename: aa8311dd6ad1
+          ansible_nodename: 22b9857647ce
           ansible_os_family: Debian
           ansible_python_interpreter: python3
           ansible_python_version: 3.13.6
@@ -252,7 +252,7 @@ test_results:
             version: 1.6.0
           - name: psutil
             source: pip3
-            version: 7.1.2
+            version: 7.1.3
           - name: pycodestyle
             source: pip3
             version: 2.14.0
@@ -315,7 +315,7 @@ test_results:
             version: 0.4.2
           - name: tblib
             source: pip3
-            version: 3.2.0
+            version: 3.2.1
           - name: urllib3
             source: pip3
             version: 2.5.0
