@@ -7,11 +7,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.9.1
         test_component_git_branch: main
-        test_component_git_commit_hash: dec3675
-        test_date: '2026-01-15T13:24:59Z'
+        test_component_git_commit_hash: 28cefe1
+        test_date: '2026-01-15T14:58:20Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/108/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/11/)'
       test_cases:
         combined01:
           assertions:
@@ -140,11 +140,11 @@ test_results:
           test_case_id: group01
           test_collection_version: 2025.9.1
           test_component_git_branch: main
-          test_component_git_commit_hash: dec3675
-          test_date: '2026-01-15T13:24:59Z'
+          test_component_git_commit_hash: 28cefe1
+          test_date: '2026-01-15T14:58:20Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/108/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/11/)'
         group02:
           assertions:
             validate_changed:
@@ -1471,7 +1471,7 @@ test_results:
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
   test_count: 66
-  test_date: '2026-01-15T13:24:59Z'
+  test_date: '2026-01-15T14:58:20Z'
   test_failed: false
   test_failed_count: 0
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'

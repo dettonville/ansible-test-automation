@@ -1,6 +1,6 @@
 test_data:
   always_add_child_group_to_root: true
-  git_comment_prefix: 'JENKINS-108 - '
+  git_comment_prefix: 'JENKINS-11 - '
   group_list:
   - group_name: admin_qa_site1
     group_vars:
