@@ -5,10 +5,10 @@ test_results:
       test_collection_version: 2025.9.1
       test_component_git_branch: main
       test_component_git_commit_hash: dec3675
-      test_date: '2026-01-15T13:14:12Z'
+      test_date: '2026-01-15T13:24:59Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/10/)'
+      test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/108/)'
     test_cases:
       group01:
         assertions:
@@ -28,7 +28,7 @@ test_results:
         test_collection_version: 2025.9.1
         test_component_git_branch: main
         test_component_git_commit_hash: dec3675
-        test_date: '2026-01-15T13:14:12Z'
+        test_date: '2026-01-15T13:24:59Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/10/)'
+        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/108/)'
