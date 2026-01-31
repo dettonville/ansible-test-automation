@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.9.1
-  test_component_git_commit_hash: 6230f15
+  test_component_git_commit_hash: 964ad5b
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.9.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 6230f15
-        test_date: '2026-01-27T20:29:55Z'
+        test_component_git_commit_hash: 964ad5b
+        test_date: '2026-01-31T16:24:16Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/14/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/15/)'
       test_cases:
         group01:
           assertions:
@@ -32,7 +32,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-14 - '
+            git_comment_prefix: 'JENKINS-15 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -106,27 +106,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_t4t3qej2/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_34762ywr/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 6230f159ffd446fdf562a84fbe958d77791ac4dc
-          test_date: '2026-01-27T20:29:55Z'
+          test_component_git_commit_hash: 964ad5bc9605cd6a8e6160ef7fd240a92991bbe8
+          test_date: '2026-01-31T16:24:16Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/14/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/15/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main a05c6bf] JENKINS-14 -  - dettonville.git_inventory.update_inventory:
+            git.commit: "[main bb04bfb] JENKINS-15 -  - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   5bebd46..a05c6bf
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   34abbf5..bb04bfb
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventory8sdnhpp0
+            inventory_base_dir: /tmp/update_inventorygmawcj0i
             message: Inventory updated successfully
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -136,10 +136,10 @@ test_results:
             ansible_distribution_release: bullseye
             ansible_distribution_version: '11.11'
             ansible_host: 127.0.0.1
-            ansible_hostname: 56b7371f8b4a
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/14/
+            ansible_hostname: 75f73d43567c
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/15/
             ansible_limit: []
-            ansible_nodename: 56b7371f8b4a
+            ansible_nodename: 75f73d43567c
             ansible_os_family: Debian
             ansible_python_interpreter: python3
             ansible_python_version: 3.13.6
@@ -147,11 +147,11 @@ test_results:
             - update_inventory
             ansible_user: ''
             ansible_version:
-              full: 2.20.1
+              full: 2.20.2
               major: 2
               minor: 20
-              revision: 1
-              string: 2.20.1
+              revision: 2
+              string: 2.20.2
             discovered_interpreter_python: ''
             pip3_package_info:
             - name: ansible-compat
@@ -159,7 +159,7 @@ test_results:
               version: 25.12.0
             - name: ansible-core
               source: pip3
-              version: 2.20.1
+              version: 2.20.2
             - name: ansible-lint
               source: pip3
               version: 25.12.2
@@ -171,7 +171,7 @@ test_results:
               version: 25.4.0
             - name: black
               source: pip3
-              version: 25.12.0
+              version: 26.1.0
             - name: bracex
               source: pip3
               version: '2.6'
@@ -192,7 +192,7 @@ test_results:
               version: 0.9.4
             - name: cryptography
               source: pip3
-              version: 46.0.3
+              version: 46.0.4
             - name: defusedxml
               source: pip3
               version: 0.7.1
@@ -213,7 +213,7 @@ test_results:
               version: '0.10'
             - name: edgegrid-python
               source: pip3
-              version: 2.0.4
+              version: 2.0.5
             - name: enrich
               source: pip3
               version: 1.2.7
@@ -237,7 +237,7 @@ test_results:
               version: 3.1.6
             - name: jmespath
               source: pip3
-              version: 1.0.1
+              version: 1.1.0
             - name: jsonschema
               source: pip3
               version: 4.26.0
@@ -279,16 +279,16 @@ test_results:
               version: 3.3.1
             - name: packaging
               source: pip3
-              version: '25.0'
+              version: '26.0'
             - name: passlib
               source: pip3
               version: 1.7.4
             - name: pathspec
               source: pip3
-              version: 1.0.3
+              version: 1.0.4
             - name: pip
               source: pip3
-              version: '25.3'
+              version: '26.0'
             - name: platformdirs
               source: pip3
               version: 4.5.1
@@ -300,7 +300,7 @@ test_results:
               version: 3.0.52
             - name: psutil
               source: pip3
-              version: 7.2.1
+              version: 7.2.2
             - name: py
               source: pip3
               version: 1.11.0
@@ -315,7 +315,7 @@ test_results:
               version: 2.14.0
             - name: pycparser
               source: pip3
-              version: '2.23'
+              version: '3.0'
             - name: pycurl
               source: pip3
               version: 7.45.7
@@ -360,7 +360,7 @@ test_results:
               version: 3.4.5
             - name: pytokens
               source: pip3
-              version: 0.3.0
+              version: 0.4.1
             - name: pytz
               source: pip3
               version: '2025.2'
@@ -402,7 +402,7 @@ test_results:
               version: 1.2.1
             - name: rich
               source: pip3
-              version: 14.2.0
+              version: 14.3.1
             - name: rpds-py
               source: pip3
               version: 0.30.0
@@ -432,7 +432,7 @@ test_results:
               version: '10.1'
             - name: wcwidth
               source: pip3
-              version: 0.2.14
+              version: 0.5.3
             - name: websocket-client
               source: pip3
               version: 1.9.0
@@ -447,6 +447,6 @@ test_results:
               version: 1.38.0
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.9.1
-  test_date: '2026-01-27T20:29:55Z'
+  test_date: '2026-01-31T16:24:16Z'
   test_failed: false
-  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/14/)'
+  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/15/)'
