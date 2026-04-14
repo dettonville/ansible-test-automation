@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.9.1
-  test_component_git_commit_hash: 233978b
+  test_component_git_commit_hash: eea5d36
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.9.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 233978b
-        test_date: '2026-02-22T14:21:48Z'
+        test_component_git_commit_hash: eea5d36
+        test_date: '2026-04-14T19:22:37Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/114/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
       test_cases:
         group01:
           assertions:
@@ -32,7 +32,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-114 - '
+            git_comment_prefix: 'JENKINS-17 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -106,27 +106,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_005e7arx/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_f84tqg25/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 233978be0f508b1dc80c8c815f318156986c6498
-          test_date: '2026-02-22T14:21:48Z'
+          test_component_git_commit_hash: eea5d36e37db419f39724cd7fd368dacd157d196
+          test_date: '2026-04-14T19:22:37Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/114/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 0d7aaca] JENKINS-114 -  - dettonville.git_inventory.update_inventory:
+            git.commit: "[main 3efa974] JENKINS-17 -  - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   ca109c4..0d7aaca
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   66dac1e..3efa974
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventory1vycozkb
+            inventory_base_dir: /tmp/update_inventoryfhcznx0t
             message: Inventory updated successfully
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -136,10 +136,10 @@ test_results:
             ansible_distribution_release: bullseye
             ansible_distribution_version: '11.11'
             ansible_host: 127.0.0.1
-            ansible_hostname: 286a6f12be9e
-            ansible_job_url: https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/114/
+            ansible_hostname: 9f4cd8b353ee
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/
             ansible_limit: []
-            ansible_nodename: 286a6f12be9e
+            ansible_nodename: 9f4cd8b353ee
             ansible_os_family: Debian
             ansible_python_interpreter: python3
             ansible_python_version: 3.13.6
@@ -147,52 +147,55 @@ test_results:
             - update_inventory
             ansible_user: ''
             ansible_version:
-              full: 2.20.2
+              full: 2.20.4
               major: 2
               minor: 20
-              revision: 2
-              string: 2.20.2
+              revision: 4
+              string: 2.20.4
             discovered_interpreter_python: ''
             pip3_package_info:
+            - name: annotated-doc
+              source: pip3
+              version: 0.0.4
             - name: ansible-compat
               source: pip3
-              version: 25.12.0
+              version: 26.3.0
             - name: ansible-core
               source: pip3
-              version: 2.20.2
+              version: 2.20.4
             - name: ansible-lint
               source: pip3
               version: 25.12.2
             - name: ansible-lint-junit
               source: pip3
               version: 0.17.8
+            - name: anyio
+              source: pip3
+              version: 4.13.0
             - name: attrs
               source: pip3
-              version: 25.4.0
+              version: 26.1.0
             - name: black
               source: pip3
-              version: 26.1.0
+              version: 26.3.1
             - name: bracex
               source: pip3
               version: '2.6'
             - name: certifi
               source: pip3
-              version: 2026.1.4
+              version: 2026.2.25
             - name: cffi
               source: pip3
               version: 2.0.0
             - name: charset-normalizer
               source: pip3
-              version: 3.4.4
+              version: 3.4.7
             - name: click
               source: pip3
-              version: 8.3.1
-            - name: click-help-colors
-              source: pip3
-              version: 0.9.4
+              version: 8.3.2
             - name: cryptography
               source: pip3
-              version: 46.0.4
+              version: 46.0.6
             - name: defusedxml
               source: pip3
               version: 0.7.1
@@ -219,10 +222,28 @@ test_results:
               version: 1.2.7
             - name: filelock
               source: pip3
-              version: 3.20.3
+              version: 3.25.2
             - name: flake8
               source: pip3
               version: 7.3.0
+            - name: fsspec
+              source: pip3
+              version: 2026.3.0
+            - name: h11
+              source: pip3
+              version: 0.16.0
+            - name: hf-xet
+              source: pip3
+              version: 1.4.3
+            - name: httpcore
+              source: pip3
+              version: 1.0.9
+            - name: httpx
+              source: pip3
+              version: 0.28.1
+            - name: huggingface_hub
+              source: pip3
+              version: 1.9.1
             - name: hvac
               source: pip3
               version: 2.4.0
@@ -264,7 +285,7 @@ test_results:
               version: 0.1.2
             - name: molecule
               source: pip3
-              version: 25.12.0
+              version: 26.4.0
             - name: molecule-plugins
               source: pip3
               version: 25.8.12
@@ -291,7 +312,7 @@ test_results:
               version: 26.0.1
             - name: platformdirs
               source: pip3
-              version: 4.5.1
+              version: 4.9.4
             - name: pluggy
               source: pip3
               version: 1.6.0
@@ -306,7 +327,7 @@ test_results:
               version: 1.11.0
             - name: pyasn1
               source: pip3
-              version: 0.6.2
+              version: 0.6.3
             - name: pyasn1_modules
               source: pip3
               version: 0.4.2
@@ -324,16 +345,16 @@ test_results:
               version: 3.4.0
             - name: Pygments
               source: pip3
-              version: 2.19.2
+              version: 2.20.0
             - name: pyOpenSSL
               source: pip3
-              version: 25.3.0
+              version: 26.0.0
             - name: pyspnego
               source: pip3
-              version: 0.12.0
+              version: 0.12.1
             - name: pytest
               source: pip3
-              version: 9.0.2
+              version: 9.0.3
             - name: pytest-helpers-namespace
               source: pip3
               version: 2021.12.29
@@ -354,7 +375,7 @@ test_results:
               version: 2.9.0.post0
             - name: python-hcl2
               source: pip3
-              version: 7.3.1
+              version: 8.1.1
             - name: python-ldap
               source: pip3
               version: 3.4.5
@@ -363,7 +384,7 @@ test_results:
               version: 0.4.1
             - name: pytz
               source: pip3
-              version: '2025.2'
+              version: 2026.1.post1
             - name: pyvim
               source: pip3
               version: 3.0.3
@@ -381,10 +402,10 @@ test_results:
               version: 0.37.0
             - name: regex
               source: pip3
-              version: 2026.1.15
+              version: 2026.4.4
             - name: requests
               source: pip3
-              version: 2.32.5
+              version: 2.33.1
             - name: requests-credssp
               source: pip3
               version: 2.0.0
@@ -402,7 +423,7 @@ test_results:
               version: 1.2.1
             - name: rich
               source: pip3
-              version: 14.3.2
+              version: 14.3.3
             - name: rpds-py
               source: pip3
               version: 0.30.0
@@ -415,6 +436,9 @@ test_results:
             - name: selinux
               source: pip3
               version: 0.3.0
+            - name: shellingham
+              source: pip3
+              version: 1.5.4
             - name: six
               source: pip3
               version: 1.17.0
@@ -424,6 +448,15 @@ test_results:
             - name: tblib
               source: pip3
               version: 3.2.2
+            - name: tqdm
+              source: pip3
+              version: 4.67.3
+            - name: typer
+              source: pip3
+              version: 0.24.1
+            - name: typing_extensions
+              source: pip3
+              version: 4.15.0
             - name: urllib3
               source: pip3
               version: 2.6.3
@@ -432,13 +465,13 @@ test_results:
               version: '10.1'
             - name: wcwidth
               source: pip3
-              version: 0.5.3
+              version: 0.6.0
             - name: websocket-client
               source: pip3
               version: 1.9.0
             - name: xmltodict
               source: pip3
-              version: 1.0.2
+              version: 1.0.4
             - name: yaml-lint-to-junit-xml
               source: pip3
               version: 0.1.1
@@ -447,6 +480,6 @@ test_results:
               version: 1.38.0
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.9.1
-  test_date: '2026-02-22T14:21:48Z'
+  test_date: '2026-04-14T19:22:37Z'
   test_failed: false
-  test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/114/)'
+  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/17/)'
