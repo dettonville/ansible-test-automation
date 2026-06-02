@@ -1492,7 +1492,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/34/)'
+        url: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/35/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1500,11 +1500,11 @@ test_suites:
           test_case_id: group01
           test_collection_version: 2025.9.1
           test_description: Add groups
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/34/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/35/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 505e9b1
+          test_component_git_commit_hash: 79f55a5
           test_failed: false
-          test_date: '2026-06-02T19:56:42Z'
+          test_date: '2026-06-02T19:58:29Z'
           assertions:
             validate_changed:
               failed: false
