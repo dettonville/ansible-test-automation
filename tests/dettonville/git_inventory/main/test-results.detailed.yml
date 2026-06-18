@@ -6,11 +6,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.9.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 01b7a44
-        test_date: '2026-06-02T20:09:01Z'
+        test_component_git_commit_hash: 28af350
+        test_date: '2026-06-18T21:53:30Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
       test_cases:
         group01:
           assertions:
@@ -31,7 +31,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-38 - '
+            git_comment_prefix: 'JENKINS-39 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -105,27 +105,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_gbo59biw/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_msz06x9r/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 01b7a449a575ef790f74ddfc3db25c04a5278efa
-          test_date: '2026-06-02T20:09:01Z'
+          test_component_git_commit_hash: 28af3509073bfa59f105da282a3b9e6aeff087e2
+          test_date: '2026-06-18T21:53:30Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 087d7e0] JENKINS-38 -  - dettonville.git_inventory.update_inventory:
+            git.commit: "[main c26f1f4] JENKINS-39 -  - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   52c1ef1..087d7e0
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   84d0876..c26f1f4
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventorygsa22ayj
+            inventory_base_dir: /tmp/update_inventoryn1rthg9c
             message: Inventory updated successfully
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -136,7 +136,7 @@ test_results:
             ansible_distribution_version: '12.14'
             ansible_host: 127.0.0.1
             ansible_hostname: control02
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/38/
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/39/
             ansible_limit: []
             ansible_nodename: control02
             ansible_os_family: Debian
@@ -176,7 +176,7 @@ test_results:
               version: '2.6'
             - name: certifi
               source: pip3
-              version: 2026.5.20
+              version: 2026.6.17
             - name: cffi
               source: pip3
               version: 2.0.0
@@ -197,7 +197,7 @@ test_results:
               version: 1.9.0
             - name: filelock
               source: pip3
-              version: 3.29.0
+              version: 3.29.4
             - name: flake8
               source: pip3
               version: 7.3.0
@@ -330,6 +330,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.9.1
   test_count: 66
-  test_date: '2026-06-02T20:09:01Z'
+  test_date: '2026-06-18T21:53:30Z'
   test_failed: false
   test_failed_count: 0
