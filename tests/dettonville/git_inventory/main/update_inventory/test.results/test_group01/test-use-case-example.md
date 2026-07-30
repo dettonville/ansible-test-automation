@@ -107,7 +107,7 @@ all:
   dettonville.git_inventory.update_inventory:
     always_add_child_group_to_root: true
     enforce_global_groups_must_already_exist: false
-    git_comment_prefix: 'JENKINS-51 - '
+    git_comment_prefix: 'JENKINS-52 - '
     group_list:
     - group_name: admin_qa_site1
       group_vars:
@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_um7cpd4h/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_cxvgo62f/ansible_repo.key
     use_vars_files: false
 
 
@@ -204,13 +204,13 @@ ok: [localhost] =>
   check_mode: false
   failed: false
   git.add: ''
-  git.commit: "[main 1dd5d8c] JENKINS-51 -  - dettonville.git_inventory.update_inventory:
+  git.commit: "[main 69ef4ef] JENKINS-52 -  - dettonville.git_inventory.update_inventory:
     updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
   git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
     * branch            main       -> FETCH_HEAD\n"
-  git.push: "To github.com:dettonville/ansible-test-automation.git\n   5a217d3..1dd5d8c
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   f660510..69ef4ef
     \ main -> main\n"
-  inventory_base_dir: /tmp/update_inventorymquzvkah
+  inventory_base_dir: /tmp/update_inventoryhpyhhu5u
   message: Inventory updated successfully
   warnings:
   - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
