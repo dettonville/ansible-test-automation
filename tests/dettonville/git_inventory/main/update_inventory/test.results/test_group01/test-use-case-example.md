@@ -107,7 +107,7 @@ all:
   dettonville.git_inventory.update_inventory:
     always_add_child_group_to_root: true
     enforce_global_groups_must_already_exist: false
-    git_comment_prefix: 'JENKINS-67 - '
+    git_comment_prefix: 'JENKINS-68 - '
     group_list:
     - group_name: admin_qa_site1
       group_vars:
@@ -181,7 +181,7 @@ all:
     inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
     ssh_params:
       accept_hostkey: true
-      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_nggsq9e1/ansible_repo.key
+      key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_82c99y9t/ansible_repo.key
     use_vars_files: false
 
 
@@ -199,12 +199,19 @@ The run Result
 TASK [Run test on dettonville.git_inventory.update_inventory]
 TASK [Display __test_component__test_result]
 ok: [localhost] =>
-  changed: false
-  exception: (traceback unavailable)
-  failed: true
-  msg: 'Task failed: Module failed: InventoryParser.update_yaml_file(hosts.yml): write
-    temporary file at /tmp/tmpse62zfl_ results in error => RuamelYamlParser.dump() takes
-    2 positional arguments but 3 were given'
+  backup_files: null
+  changed: true
+  check_mode: false
+  failed: false
+  git.add: ''
+  git.commit: "[main 6841a10] JENKINS-68 -  - dettonville.git_inventory.update_inventory:
+    updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
+  git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
+    * branch            main       -> FETCH_HEAD\n"
+  git.push: "To github.com:dettonville/ansible-test-automation.git\n   0e96c71..6841a10
+    \ main -> main\n"
+  inventory_base_dir: /tmp/update_inventoryih1_5iwo
+  message: Inventory updated successfully
   warnings:
   - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
 

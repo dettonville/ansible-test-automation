@@ -1492,7 +1492,7 @@ test_suites:
         file:
         line:
         log:
-        url: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+        url: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
         stdout:
         stderr:
         is_enabled: true
@@ -1500,29 +1500,26 @@ test_suites:
           test_case_id: group01
           test_collection_version: 2025.7.1
           test_description: Add groups
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
           test_component_git_branch: main
-          test_component_git_commit_hash: 569b68d
-          test_failed: true
-          test_date: '2026-08-03T12:49:17Z'
+          test_component_git_commit_hash: '135e096'
+          test_failed: false
+          test_date: '2026-08-03T13:11:16Z'
           assertions:
             validate_changed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_failed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_message:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
         errors: []
-        failures:
-        - message:
-          output: "validate_results: {'failed': True, 'msg': 'Difference found between test_results and test_expected!'}"
-          type:
+        failures: []
         skipped: []
         allow_multiple_subelements: false
     timestamp:

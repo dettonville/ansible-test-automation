@@ -4,32 +4,32 @@ test_results:
       test_case_id: group01
       test_collection_version: 2025.7.1
       test_component_git_branch: main
-      test_component_git_commit_hash: 569b68d
-      test_date: '2026-08-03T12:49:17Z'
+      test_component_git_commit_hash: 135e096
+      test_date: '2026-08-03T13:11:16Z'
       test_description: Add groups
-      test_failed: true
-      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+      test_failed: false
+      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
     test_cases:
       group01:
         assertions:
           validate_changed:
-            failed: true
-            msg: Assertion failed
+            failed: false
+            msg: All assertions passed
           validate_failed:
-            failed: true
-            msg: Assertion failed
+            failed: false
+            msg: All assertions passed
           validate_message:
-            failed: true
-            msg: Assertion failed
+            failed: false
+            msg: All assertions passed
           validate_results:
-            failed: true
-            msg: Difference found between test_results and test_expected!
+            failed: false
+            msg: All assertions passed
         test_case_id: group01
         test_collection_version: 2025.7.1
         test_component_args:
           always_add_child_group_to_root: true
           enforce_global_groups_must_already_exist: false
-          git_comment_prefix: 'JENKINS-67 - '
+          git_comment_prefix: 'JENKINS-68 - '
           group_list:
           - group_name: admin_qa_site1
             group_vars:
@@ -103,21 +103,28 @@ test_results:
           inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
           ssh_params:
             accept_hostkey: true
-            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_nggsq9e1/ansible_repo.key
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_82c99y9t/ansible_repo.key
           use_vars_files: false
         test_component_git_branch: main
-        test_component_git_commit_hash: 569b68d1325608e440197c06c3b2ae049881ddb9
-        test_date: '2026-08-03T12:49:17Z'
+        test_component_git_commit_hash: 135e0962fac34127503eabc0fbab7216503cf376
+        test_date: '2026-08-03T13:11:16Z'
         test_description: Add groups
-        test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+        test_failed: false
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
         test_result:
-          changed: false
-          exception: (traceback unavailable)
-          failed: true
-          msg: 'Task failed: Module failed: InventoryParser.update_yaml_file(hosts.yml):
-            write temporary file at /tmp/tmpse62zfl_ results in error => RuamelYamlParser.dump()
-            takes 2 positional arguments but 3 were given'
+          backup_files: null
+          changed: true
+          check_mode: false
+          failed: false
+          git.add: ''
+          git.commit: "[main 6841a10] JENKINS-68 -  - dettonville.git_inventory.update_inventory:
+            updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
+          git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
+            * branch            main       -> FETCH_HEAD\n"
+          git.push: "To github.com:dettonville/ansible-test-automation.git\n   0e96c71..6841a10
+            \ main -> main\n"
+          inventory_base_dir: /tmp/update_inventoryih1_5iwo
+          message: Inventory updated successfully
           warnings:
           - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
         test_runtime_info:
@@ -127,7 +134,7 @@ test_results:
           ansible_distribution_version: '12.14'
           ansible_host: 127.0.0.1
           ansible_hostname: control02
-          ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/
+          ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/
           ansible_limit: []
           ansible_nodename: control02
           ansible_os_family: Debian

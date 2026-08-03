@@ -7,11 +7,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2025.7.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 569b68d
-        test_date: '2026-08-03T12:49:17Z'
+        test_component_git_commit_hash: 135e096
+        test_date: '2026-08-03T13:11:16Z'
         test_description: Add groups
-        test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+        test_failed: false
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
       test_cases:
         combined01:
           assertions:
@@ -126,25 +126,25 @@ test_results:
         group01:
           assertions:
             validate_changed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_failed:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_message:
-              failed: true
-              msg: Assertion failed
+              failed: false
+              msg: All assertions passed
             validate_results:
-              failed: true
-              msg: Difference found between test_results and test_expected!
+              failed: false
+              msg: All assertions passed
           test_case_id: group01
           test_collection_version: 2025.7.1
           test_component_git_branch: main
-          test_component_git_commit_hash: 569b68d
-          test_date: '2026-08-03T12:49:17Z'
+          test_component_git_commit_hash: 135e096
+          test_date: '2026-08-03T13:11:16Z'
           test_description: Add groups
-          test_failed: true
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
+          test_failed: false
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/68/)'
         group02:
           assertions:
             validate_changed:
@@ -1471,7 +1471,7 @@ test_results:
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
   test_count: 66
-  test_date: '2026-08-03T12:49:17Z'
-  test_failed: true
-  test_failed_count: 1
+  test_date: '2026-08-03T13:11:16Z'
+  test_failed: false
+  test_failed_count: 0
   test_job_link: '[test job link](https://jenkins.admin.dettonville.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/23/)'
