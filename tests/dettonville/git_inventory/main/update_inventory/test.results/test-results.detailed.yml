@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2025.7.1
-  test_component_git_commit_hash: 6e1116a
+  test_component_git_commit_hash: 569b68d
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2025.7.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 6e1116a
-        test_date: '2026-08-03T12:48:05Z'
+        test_component_git_commit_hash: 569b68d
+        test_date: '2026-08-03T12:49:17Z'
         test_description: Add groups
         test_failed: true
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/66/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
       test_cases:
         group01:
           assertions:
@@ -32,7 +32,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-66 - '
+            git_comment_prefix: 'JENKINS-67 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -106,20 +106,20 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_op5f1jqb/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_nggsq9e1/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 6e1116ad027d0ecee69cd18d7f1a2e8aa1863014
-          test_date: '2026-08-03T12:48:05Z'
+          test_component_git_commit_hash: 569b68d1325608e440197c06c3b2ae049881ddb9
+          test_date: '2026-08-03T12:49:17Z'
           test_description: Add groups
           test_failed: true
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/66/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
           test_result:
             changed: false
             exception: (traceback unavailable)
             failed: true
             msg: 'Task failed: Module failed: InventoryParser.update_yaml_file(hosts.yml):
-              write temporary file at /tmp/tmprgh0in1g results in error => RuamelYamlParser.dump()
+              write temporary file at /tmp/tmpse62zfl_ results in error => RuamelYamlParser.dump()
               takes 2 positional arguments but 3 were given'
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -130,7 +130,7 @@ test_results:
             ansible_distribution_version: '12.14'
             ansible_host: 127.0.0.1
             ansible_hostname: control02
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/66/
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/
             ansible_limit: []
             ansible_nodename: control02
             ansible_os_family: Debian
@@ -323,6 +323,6 @@ test_results:
               version: 1.38.0
             test_collection: dettonville.git_inventory
             test_collection_version: 2025.7.1
-  test_date: '2026-08-03T12:48:05Z'
+  test_date: '2026-08-03T12:49:17Z'
   test_failed: true
-  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/66/)'
+  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/67/)'
