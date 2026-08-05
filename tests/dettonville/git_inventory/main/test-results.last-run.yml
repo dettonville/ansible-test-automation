@@ -19,9 +19,9 @@ last_run_test_results:
           test_case_id: group01
           test_collection_version: 2026.7.1
           test_component_git_branch: main
-          test_component_git_commit_hash: 3a9772f
-          test_date: '2026-08-05T12:58:44Z'
+          test_component_git_commit_hash: 41da65d
+          test_date: '2026-08-05T12:59:57Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/90/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/91/)'
   test_failed: false
