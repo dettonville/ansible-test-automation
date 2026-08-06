@@ -4,11 +4,11 @@ test_results:
       test_case_id: group01
       test_collection_version: 2026.7.1
       test_component_git_branch: main
-      test_component_git_commit_hash: 60f8e2a
-      test_date: '2026-08-05T22:10:28Z'
+      test_component_git_commit_hash: 742f3f0
+      test_date: '2026-08-06T17:44:29Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/103/)'
+      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/104/)'
     test_cases:
       group01:
         assertions:
@@ -27,8 +27,8 @@ test_results:
         test_case_id: group01
         test_collection_version: 2026.7.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 60f8e2a
-        test_date: '2026-08-05T22:10:28Z'
+        test_component_git_commit_hash: 742f3f0
+        test_date: '2026-08-06T17:44:29Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/103/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/104/)'
