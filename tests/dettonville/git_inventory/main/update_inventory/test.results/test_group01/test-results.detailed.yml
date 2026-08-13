@@ -4,11 +4,11 @@ test_results:
       test_case_id: group01
       test_collection_version: 2026.7.1
       test_component_git_branch: main
-      test_component_git_commit_hash: 742f3f0
-      test_date: '2026-08-06T17:44:29Z'
+      test_component_git_commit_hash: ff3c3c9
+      test_date: '2026-08-13T18:51:32Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/104/)'
+      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/)'
     test_cases:
       group01:
         assertions:
@@ -29,7 +29,7 @@ test_results:
         test_component_args:
           always_add_child_group_to_root: true
           enforce_global_groups_must_already_exist: false
-          git_comment_prefix: 'JENKINS-104 - '
+          git_comment_prefix: 'JENKINS-105 - '
           group_list:
           - group_name: admin_qa_site1
             group_vars:
@@ -103,27 +103,27 @@ test_results:
           inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
           ssh_params:
             accept_hostkey: true
-            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_kkj5s990/ansible_repo.key
+            key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_h9kdh1ng/ansible_repo.key
           use_vars_files: false
         test_component_git_branch: main
-        test_component_git_commit_hash: 742f3f08c9c0b94dc656e44e2f8e709dd2e593e0
-        test_date: '2026-08-06T17:44:29Z'
+        test_component_git_commit_hash: ff3c3c95c14ed6f214d5bca0791fc8b04bcae187
+        test_date: '2026-08-13T18:51:32Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/104/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/)'
         test_result:
           backup_files: null
           changed: true
           check_mode: false
           failed: false
           git.add: ''
-          git.commit: "[main f652fc0] JENKINS-104 -  - dettonville.git_inventory.update_inventory:
+          git.commit: "[main 57e4d9f] JENKINS-105 -  - dettonville.git_inventory.update_inventory:
             updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
           git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
             * branch            main       -> FETCH_HEAD\n"
-          git.push: "To github.com:dettonville/ansible-test-automation.git\n   59da36a..f652fc0
+          git.push: "To github.com:dettonville/ansible-test-automation.git\n   45647de..57e4d9f
             \ main -> main\n"
-          inventory_base_dir: /tmp/update_inventoryhfm9gxqf
+          inventory_base_dir: /tmp/update_inventoryl8klvni4
           message: Inventory updated successfully
           warnings:
           - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -134,7 +134,7 @@ test_results:
           ansible_distribution_version: '12.14'
           ansible_host: 127.0.0.1
           ansible_hostname: control02
-          ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/104/
+          ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/
           ansible_limit: []
           ansible_nodename: control02
           ansible_os_family: Debian
@@ -153,13 +153,13 @@ test_results:
           pip3_package_info:
           - name: ansible-compat
             source: pip3
-            version: 26.6.0
+            version: 26.8.0
           - name: ansible-core
             source: pip3
             version: 2.20.6
           - name: ansible-lint
             source: pip3
-            version: 26.6.0
+            version: 26.8.0
           - name: ansible-lint-junit
             source: pip3
             version: 0.17.8
@@ -180,7 +180,7 @@ test_results:
             version: 2.0.0
           - name: charset-normalizer
             source: pip3
-            version: 3.4.9
+            version: 3.5.0
           - name: click
             source: pip3
             version: 8.4.2
@@ -195,7 +195,7 @@ test_results:
             version: 1.9.0
           - name: filelock
             source: pip3
-            version: 3.32.2
+            version: 3.32.3
           - name: flake8
             source: pip3
             version: 7.3.0
@@ -243,7 +243,7 @@ test_results:
             version: 26.1.2
           - name: platformdirs
             source: pip3
-            version: 4.11.0
+            version: 4.11.2
           - name: pluggy
             source: pip3
             version: 1.6.0
