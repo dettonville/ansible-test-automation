@@ -1,17 +1,17 @@
 test_results:
   test_collection_version: 2026.7.1
-  test_component_git_commit_hash: ff3c3c9
+  test_component_git_commit_hash: cb57cb3
   test_components:
     update_inventory:
       properties:
         test_case_id: group01
         test_collection_version: 2026.7.1
         test_component_git_branch: main
-        test_component_git_commit_hash: ff3c3c9
-        test_date: '2026-08-13T18:51:32Z'
+        test_component_git_commit_hash: cb57cb3
+        test_date: '2026-08-13T18:57:20Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/106/)'
       test_cases:
         combined01:
           assertions:
@@ -140,11 +140,11 @@ test_results:
           test_case_id: group01
           test_collection_version: 2026.7.1
           test_component_git_branch: main
-          test_component_git_commit_hash: ff3c3c9
-          test_date: '2026-08-13T18:51:32Z'
+          test_component_git_commit_hash: cb57cb3
+          test_date: '2026-08-13T18:57:20Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/106/)'
         group02:
           assertions:
             validate_changed:
@@ -1470,6 +1470,6 @@ test_results:
             due to missing global group
           test_failed: false
           test_job_link: ljohnson:/Users/ljohnson/repos/ansible/ansible_collections/dettonville/git_inventory/tests/integration/targets
-  test_date: '2026-08-13T18:51:32Z'
+  test_date: '2026-08-13T18:57:20Z'
   test_failed: false
-  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/105/)'
+  test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/106/)'
