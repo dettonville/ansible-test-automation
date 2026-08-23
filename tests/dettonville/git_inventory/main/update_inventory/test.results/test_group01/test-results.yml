@@ -2,13 +2,13 @@ test_results:
   update_inventory:
     properties:
       test_case_id: group01
-      test_collection_version: 2026.7.1
+      test_collection_version: 2026.8.1
       test_component_git_branch: main
-      test_component_git_commit_hash: 0b7090d
-      test_date: '2026-08-23T13:26:57Z'
+      test_component_git_commit_hash: c51b530
+      test_date: '2026-08-23T19:06:13Z'
       test_description: Add groups
       test_failed: false
-      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/116/)'
+      test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/117/)'
     test_cases:
       group01:
         assertions:
@@ -25,10 +25,10 @@ test_results:
             failed: false
             msg: All assertions passed
         test_case_id: group01
-        test_collection_version: 2026.7.1
+        test_collection_version: 2026.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 0b7090d
-        test_date: '2026-08-23T13:26:57Z'
+        test_component_git_commit_hash: c51b530
+        test_date: '2026-08-23T19:06:13Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/116/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/117/)'
