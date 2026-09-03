@@ -1,3 +1,3 @@
 | test_case_count | test_collection | test_collection_version | test_component | test_date | test_failed | test_details_link |
 | --- | --- | --- | --- | --- | --- | --- |
-| 66 | dettonville.git_inventory | 2026.8.1 | update_inventory | 2026-08-24T13:27:59Z | False | [test details](./update_inventory/test.results/test-results.md) |
+| 66 | dettonville.git_inventory | 2026.8.1 | update_inventory | 2026-09-03T17:17:30Z | False | [test details](./update_inventory/test.results/test-results.md) |
