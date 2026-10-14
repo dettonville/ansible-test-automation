@@ -6,11 +6,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2026.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 241cf61
-        test_date: '2026-09-03T17:17:30Z'
+        test_component_git_commit_hash: 3ec0bf6
+        test_date: '2026-10-14T02:40:46Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/123/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/124/)'
       test_cases:
         group01:
           assertions:
@@ -31,7 +31,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-123 - '
+            git_comment_prefix: 'JENKINS-124 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -105,27 +105,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/_inventory_run-module-tests_main@tmp/.ansible/tmp/.test_jobs_qw8l16fq/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/nventory_run-module-tests_main_2@tmp/.ansible/tmp/.test_jobs_z2ii5m3w/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 241cf61b4500c1f9b59851b63f1f2d237f877746
-          test_date: '2026-09-03T17:17:30Z'
+          test_component_git_commit_hash: 3ec0bf6ad7311937a0913ee3469cf144074b85d6
+          test_date: '2026-10-14T02:40:46Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/123/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/124/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main 25ec977] JENKINS-123 -  - dettonville.git_inventory.update_inventory:
+            git.commit: "[main ddbf9ea] JENKINS-124 -  - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   43f6b85..25ec977
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   7612ead..ddbf9ea
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventorybg7f_tvd
+            inventory_base_dir: /tmp/update_inventoryfeq7_o4x
             message: Inventory updated successfully
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -136,32 +136,32 @@ test_results:
             ansible_distribution_version: '12.14'
             ansible_host: 127.0.0.1
             ansible_hostname: control02
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-test-automation/job/ansible-git-inventory/job/run-module-tests/job/main/123/
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/124/
             ansible_limit: []
             ansible_nodename: control02
             ansible_os_family: Debian
             ansible_python_interpreter: python3
-            ansible_python_version: 3.13.13
+            ansible_python_version: 3.13.14
             ansible_run_tags:
             - update_inventory
             ansible_user: ''
             ansible_version:
-              full: 2.20.6
+              full: 2.21.1
               major: 2
-              minor: 20
-              revision: 6
-              string: 2.20.6
+              minor: 21
+              revision: 1
+              string: 2.21.1
             discovered_interpreter_python: ''
             pip3_package_info:
             - name: ansible-compat
               source: pip3
-              version: 26.8.0
+              version: 26.10.0
             - name: ansible-core
               source: pip3
-              version: 2.20.6
+              version: 2.21.1
             - name: ansible-lint
               source: pip3
-              version: 26.8.0
+              version: 26.10.1
             - name: ansible-lint-junit
               source: pip3
               version: 0.17.8
@@ -170,10 +170,10 @@ test_results:
               version: 26.1.0
             - name: black
               source: pip3
-              version: 26.5.1
+              version: 26.10.1
             - name: bracex
               source: pip3
-              version: 3.0.1
+              version: '3.1'
             - name: certifi
               source: pip3
               version: 2026.7.22
@@ -182,13 +182,13 @@ test_results:
               version: 2.0.0
             - name: charset-normalizer
               source: pip3
-              version: 3.5.1
+              version: 3.5.2
             - name: click
               source: pip3
               version: 8.5.0
             - name: cryptography
               source: pip3
-              version: 48.0.0
+              version: 49.0.0
             - name: defusedxml
               source: pip3
               version: 0.7.1
@@ -197,13 +197,13 @@ test_results:
               version: 1.9.0
             - name: filelock
               source: pip3
-              version: 3.32.5
+              version: 4.1.1
             - name: flake8
               source: pip3
               version: 7.3.0
             - name: idna
               source: pip3
-              version: '3.19'
+              version: '3.20'
             - name: iniconfig
               source: pip3
               version: 2.3.0
@@ -245,7 +245,7 @@ test_results:
               version: 26.1.2
             - name: platformdirs
               source: pip3
-              version: 4.11.7
+              version: 4.13.0
             - name: pluggy
               source: pip3
               version: 1.6.0
@@ -266,7 +266,7 @@ test_results:
               version: 2.20.0
             - name: pytest
               source: pip3
-              version: 9.0.3
+              version: 9.1.1
             - name: pytest-helpers-namespace
               source: pip3
               version: 2021.12.29
@@ -299,13 +299,10 @@ test_results:
               version: 1.2.1
             - name: rpds-py
               source: pip3
-              version: 2026.6.3
+              version: 2026.9.1
             - name: ruamel.yaml
               source: pip3
               version: 0.19.1
-            - name: ruamel.yaml.clib
-              source: pip3
-              version: 0.2.15
             - name: six
               source: pip3
               version: 1.17.0
@@ -317,10 +314,10 @@ test_results:
               version: 3.2.2
             - name: urllib3
               source: pip3
-              version: 2.7.0
+              version: 2.8.0
             - name: wcmatch
               source: pip3
-              version: 11.0.1
+              version: '11.1'
             - name: yaml-lint-to-junit-xml
               source: pip3
               version: 0.1.1
@@ -330,6 +327,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2026.8.1
   test_count: 66
-  test_date: '2026-09-03T17:17:30Z'
+  test_date: '2026-10-14T02:40:46Z'
   test_failed: false
   test_failed_count: 0
