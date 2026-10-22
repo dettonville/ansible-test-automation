@@ -6,11 +6,11 @@ test_results:
         test_case_id: group01
         test_collection_version: 2026.8.1
         test_component_git_branch: main
-        test_component_git_commit_hash: 3eb3060
-        test_date: '2026-10-16T19:39:05Z'
+        test_component_git_commit_hash: b052af3
+        test_date: '2026-10-22T02:48:24Z'
         test_description: Add groups
         test_failed: false
-        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/126/)'
+        test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/127/)'
       test_cases:
         group01:
           assertions:
@@ -31,7 +31,7 @@ test_results:
           test_component_args:
             always_add_child_group_to_root: true
             enforce_global_groups_must_already_exist: false
-            git_comment_prefix: 'JENKINS-126 - '
+            git_comment_prefix: 'JENKINS-127 - '
             group_list:
             - group_name: admin_qa_site1
               group_vars:
@@ -105,27 +105,27 @@ test_results:
             inventory_repo_url: git@github.com:dettonville/ansible-test-automation.git
             ssh_params:
               accept_hostkey: true
-              key_file: /home/jenkins/agent/workspace/nventory_run-module-tests_main_2@tmp/.ansible/tmp/.test_jobs_t7j4bj4f/ansible_repo.key
+              key_file: /home/jenkins/agent/workspace/nventory_run-module-tests_main_2@tmp/.ansible/tmp/.test_jobs_07jblht6/ansible_repo.key
             use_vars_files: false
           test_component_git_branch: main
-          test_component_git_commit_hash: 3eb3060935849af439d5c0b6a4f57a89904a7a11
-          test_date: '2026-10-16T19:39:05Z'
+          test_component_git_commit_hash: b052af3eccfdfa1250d61abfeec9309be64b344c
+          test_date: '2026-10-22T02:48:24Z'
           test_description: Add groups
           test_failed: false
-          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/126/)'
+          test_job_link: '[test job link](https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/127/)'
           test_result:
             backup_files: null
             changed: true
             check_mode: false
             failed: false
             git.add: ''
-            git.commit: "[main cef123e] JENKINS-126 -  - dettonville.git_inventory.update_inventory:
+            git.commit: "[main f94a000] JENKINS-127 -  - dettonville.git_inventory.update_inventory:
               updated inventory\n 1 file changed, 96 insertions(+), 19 deletions(-)\n"
             git.pull: "Already up to date.\nFrom github.com:dettonville/ansible-test-automation\n
               * branch            main       -> FETCH_HEAD\n"
-            git.push: "To github.com:dettonville/ansible-test-automation.git\n   7047289..cef123e
+            git.push: "To github.com:dettonville/ansible-test-automation.git\n   8ab5f36..f94a000
               \ main -> main\n"
-            inventory_base_dir: /tmp/update_inventorylw_4e76h
+            inventory_base_dir: /tmp/update_inventorywdwuekqu
             message: Inventory updated successfully
             warnings:
             - Using a template for task args is unsafe in some situations (see https://docs.ansible.com/ansible/devel/reference_appendices/faq.html#argsplat-unsafe).
@@ -136,7 +136,7 @@ test_results:
             ansible_distribution_version: '12.14'
             ansible_host: 127.0.0.1
             ansible_hostname: control02
-            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/126/
+            ansible_job_url: https://jenkins.admin.johnson.int/job/INFRA/job/repo-automation/job/ansible-git-inventory/job/run-module-tests/job/main/127/
             ansible_limit: []
             ansible_nodename: control02
             ansible_os_family: Debian
@@ -173,10 +173,10 @@ test_results:
               version: 26.10.1
             - name: bracex
               source: pip3
-              version: '3.1'
+              version: '3.2'
             - name: certifi
               source: pip3
-              version: 2026.7.22
+              version: 2026.10.19
             - name: cffi
               source: pip3
               version: 2.0.0
@@ -197,7 +197,7 @@ test_results:
               version: 1.9.0
             - name: filelock
               source: pip3
-              version: 4.2.0
+              version: 4.2.4
             - name: flake8
               source: pip3
               version: 7.3.0
@@ -245,7 +245,7 @@ test_results:
               version: 26.1.2
             - name: platformdirs
               source: pip3
-              version: 4.13.3
+              version: 4.13.5
             - name: pluggy
               source: pip3
               version: 1.6.0
@@ -281,7 +281,7 @@ test_results:
               version: 1.5.2
             - name: python-dateutil
               source: pip3
-              version: 2.9.0.post0
+              version: 3.0.0
             - name: pytokens
               source: pip3
               version: 0.4.1
@@ -312,12 +312,15 @@ test_results:
             - name: tblib
               source: pip3
               version: 3.2.2
+            - name: tzdata
+              source: pip3
+              version: '2026.5'
             - name: urllib3
               source: pip3
               version: 2.8.0
             - name: wcmatch
               source: pip3
-              version: '11.1'
+              version: '11.2'
             - name: yaml-lint-to-junit-xml
               source: pip3
               version: 0.1.1
@@ -327,6 +330,6 @@ test_results:
             test_collection: dettonville.git_inventory
             test_collection_version: 2026.8.1
   test_count: 66
-  test_date: '2026-10-16T19:39:05Z'
+  test_date: '2026-10-22T02:48:24Z'
   test_failed: false
   test_failed_count: 0
